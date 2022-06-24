@@ -42,7 +42,7 @@
 
 
         <div class="parallax2" style="margin-left:0; left:0; ">
-            <div class="parallax__layer parallax__layer__0" style="height: 100vh; width:100vw; margin-left:0; left:0; background-image:url(https://www.pngall.com/wp-content/uploads/2016/07/Space-PNG-Pic.png);">
+            <div class="parallax__layer parallax__layer__0" style="height: 100vh; width:100vw; margin-left:0; left:0; background-image:url(https://i.pinimg.com/originals/c8/4c/0a/c84c0aeedf27fb4191b427f1bd9d9f3c.jpg); background-size:cover;">
 
             </div>
             <div class="parallax__layer parallax__layer__6">
@@ -63,7 +63,7 @@
             <div class="parallax__layer parallax__layer__0">
                 <img src="{{ asset('images/hi_r/jupiter.png') }}" style="margin-left:-10vw; height: 65vw; bottom: -30vh; filter:brightness(1.3); z-index:4;"/>
             </div>
-            <div class="parallax__cover" style="background:#000000d9; top:95%; color:white; backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);">
+            <div class="parallax__cover" style="background:#000000d9; top:99%; color:white; backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);">
 
                 <div style="display: flex; flex-direction:column; justify-content: center; align-items: center; z-index:10; text-align:center;">
                     </br></br></br></br></br></br></br>
@@ -75,18 +75,20 @@
                     <div style="background-color:#000000d9; color:white; display:flex; width:100vw; flex-direction:row; flex-wrap:wrap; justify-content:center;">
 
                         <div class="home_page_box">
+                            <h1>CORPORATE IDENTITY & GRAFICA</h1>
+                            <h6 class="home_page_box_spiega">
+                                Curiamo la grafica di tutti gli elementi con i quali ti presenti al pubblico, dal biglietto da visita al sito Internet. Ti aiutiamo a trasmettere fiducia, il tuo carattere ed i tuoi valori con il vestito giusto.
+                            </h6>
+                            <i class="material-icons-round box_icon">rocket_launch</i>
+                        </div>
+
+                        <div class="home_page_box">
                             <h1>COPYWRITING</h1>
                             <h6 class="home_page_box_spiega">
                                 Ti aiutiamo a scegliere le parole giuste per dire al tuo lettore tre cose importanti:
                                 ha trovato quello che cercava, si può fidare di te e tu hai le competenze giuste.
                             </h6>
-                        </div>
-
-                        <div class="home_page_box">
-                            <h1>CORPORATE IDENTITY & GRAFICA</h1>
-                            <h6 class="home_page_box_spiega">
-                                Curiamo la grafica di tutti gli elementi con i quali ti presenti al pubblico, dal biglietto da visita al sito Internet. Ti aiutiamo a trasmettere fiducia, il tuo carattere ed i tuoi valori con il vestito giusto.
-                            </h6>
+                            <i class="material-icons-round box_icon">history_edu</i>
                         </div>
 
                         <div class="home_page_box">
@@ -94,6 +96,7 @@
                             <h6 class="home_page_box_spiega">
                                 Facciamo per te le foto che fanno la differenza. David Ogilvy, famoso pubblicitario, ha scoperto che, per ogni tuo contenuto, su 100 persone, 5 leggono il testo, 80 il titolo ma tutte e 100 guardano l’immagine!
                             </h6>
+                            <i class="material-icons-round box_icon">camera</i>
                         </div>
 
                         <div class="home_page_box">
@@ -102,6 +105,7 @@
                                 Quante volte hai chiuso un sito perché era troppo lento, poco chiaro o scarso nelle informazioni?
                                 Noi facciamo in modo che ai tuoi visitatori del sito tutto questo non capiti mai!
                             </h6>
+                            <i class="material-icons-round box_icon">devices</i>
                         </div>
 
                         <div class="home_page_box">
@@ -109,6 +113,7 @@
                             <h6 class="home_page_box_spiega">
                                 Quando cerchi un prodotto o la soluzione ad un problema, vai sui motori di ricerca o sui social media? Il 93% delle esperienze online inizia con una ricerca su Google, Bing o Yahoo. Noi ti mettiamo ai primi posti.
                             </h6>
+                            <i class="material-icons-round box_icon">trending_up</i>
                         </div>
 
                         <div class="home_page_box">
@@ -116,13 +121,7 @@
                             <h6 class="home_page_box_spiega">
                                 Attraverso i social media interagisci con i tuoi clienti e mantieni con loro un rapporto di fiducia? Non basta. Devi anche farti conoscere, riconoscere e trovare nuovi potenziali clienti. Noi ti creiamo la giusta strategia.
                             </h6>
-                        </div>
-
-                        <div class="home_page_box">
-                            <h1>FORMAZIONE</h1>
-                            <h6 class="home_page_box_spiega">
-                            Se vuoi fare alcune delle attività in autonomia devi sapere come riuscirci. Con i nostri video corsi puoi formare h24 e da dove vuoi te stesso o i tuoi collaboratori per acquisire le competenze necessarie.
-                            </h6>
+                            <i class="material-icons-round box_icon">bar_chart</i>
                         </div>
 
                         <div class="home_page_box">
@@ -130,6 +129,7 @@
                             <h6 class="home_page_box_spiega">
                                 Se vuoi avere una visione dello stato attuale della tua situazione online, possiamo offrire una analisi approfondita che ti permetterà di ottimizzare le aree che necessitano di intervento e ti proponiamo soluzioni.
                             </h6>
+                            <i class="material-icons-round box_icon">handshake</i>
                         </div>
 
 
