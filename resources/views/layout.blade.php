@@ -4,7 +4,7 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
             <meta name="csrf-token" content="{{ csrf_token() }}">
-            <title>My Website</title>
+            <title>JIANT</title>
             <meta name="description" content="LeytonNightingale">
             <meta name="author" content="LeytonNightingale">
             @yield('meta')
