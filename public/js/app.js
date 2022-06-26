@@ -195,6 +195,7 @@ setTimeout(typeWriter, speed);
         var rX = map(y, 0, $(this).height(), -17, 17);
 
         $(this).children(".image").css("transform", "rotateY(" + rY + "deg)" + " " + "rotateX(" + -rX + "deg)");
+        //$(this).children(".text").css("color", "black");
     });
 
     card.on('mouseenter', function () {

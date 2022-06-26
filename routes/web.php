@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LanguageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+
+Route::get('lang/{lang}', [App\Http\Controllers\LanguageController::class, 'swap'])->name('lang.swap');
+//Route::get('lang/{lang}', [LanguageController::class, 'swap']);

@@ -5,9 +5,18 @@ body{
     padding:0;
     margin:0;
     color:white;
-    background-color:black;
+    background-color:black!important;
     font-family:sans-serif;
     //background: linear-gradient(to bottom, #f6f7fc 0%,#d5e1e8 40%);
+}
+
+a{
+    color:white!important;
+}
+a:hover{
+    color:#008aff!important;
+    filter:brightness(1.3)!important;
+    text-decoration:none!important;
 }
 
 img {
@@ -15,7 +24,7 @@ img {
     height: auto;
 }
 
-.nav{
+.nav-custom{
     top: 0;
     position: fixed;
     width: 100vw;
@@ -410,7 +419,7 @@ section h1 {
   }
 
   .box_icon{
-    font-size:150px!important;
+    font-size:100px!important;
   }
 
   .box_icon:hover{
@@ -448,6 +457,9 @@ section h1 {
     perspective: 1000px;
     position: relative;
     margin:1vw;
+    background-color:transparent!important;
+    border:none!important;
+    color:white;
   }
 
   .image{
@@ -468,17 +480,17 @@ section h1 {
   .screen{
     //background-color: rgba(0, 0, 0, 0.22);
     width: 100%;
-    height: 100%;
+    height: 20%;
     transform: translateZ(30px) scale(0.940);
   }
 
   .text{
-    position: absolute;
+    //position: absolute;
     //bottom: 25px;
     //left: 30px;
-    bottom: 37%;
-    left: 37%;
-    color: white;
+    //bottom: 37%;
+    //left: 37%;
+    //color: white;
     transform: translateZ(30px) scale(0.940);
     font-family: 'Quicksand', sans-serif;
   }
@@ -497,6 +509,51 @@ section h1 {
   .text p:last-of-type{
       font-size: 1em;
       font-weight: 400;
+  }
+  .carousel-holster{
+    display: flex;
+    //background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+    .carousel-inner{
+        width: 96vw!important;
+    }
+    .carousel-item{
+    height: 30vw;
+    width: 96vw;
+    border-radius: 15px;
+    background-position:center;
+    background-size:cover;
+    }
+    .inner-item-layout{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .info-image{
+        height:10vw;
+    }
+  .caro-image{
+    //height: 30vw;
+    //width: 96vw;
+    //border-radius: 15px;
+  }
+  .carousel-indicators{
+    bottom:-50px!important;
+    color:black!important;
+  }
+  .carousel-indicators li{
+        height:15px!important;
+        width:15px!important;
+        border-radius:100%!important;
+        color:black!important;
   }
 
 @media screen and (max-width: 768px) {
