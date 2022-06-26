@@ -397,8 +397,8 @@ section h1 {
     align-items: center;
     justify-content: center;
     width:100vw;
-    height:30vw;
-    background-color:black;
+    //height:30vw;
+    //background-color:black;
     color:white;
     margin: 15px;
 
@@ -417,6 +417,86 @@ section h1 {
     background-image: radial-gradient(circle farthest-corner at 35% 90%, #82e1ff, #0000 50%), radial-gradient(circle farthest-corner at 0 140%, #ff90fe, #0000 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #ffadeb, #0000 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #fcd4d4, #0000 50%), radial-gradient(ellipse farthest-corner at 100% 0, #ffd6b7, #0000 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #ffffa9, #0000 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #ffffa9, #0000), linear-gradient(#ffd6b7, #fcd4d4 30%, #ffadeb 50%, #ff90fe 70%, #82e1ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transform:scale(1.1);
+  }
+
+
+
+  .pub_img{
+    height:80px;
+    width:100px;
+  }
+
+
+  #mainWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //height: 350px;
+  }
+
+  #cardsWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    width: 30vw;
+    height: 30vw;
+    perspective: 1000px;
+    position: relative;
+    margin:1vw;
+  }
+
+  .image{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    //transform: rotateX(30deg) rotateY(30deg);
+  }
+
+  .image.first{
+    //background-image: url("{{ asset('images/hi_r/callisto.png') }}");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+  }
+
+  .screen{
+    //background-color: rgba(0, 0, 0, 0.22);
+    width: 100%;
+    height: 100%;
+    transform: translateZ(30px) scale(0.940);
+  }
+
+  .text{
+    position: absolute;
+    //bottom: 25px;
+    //left: 30px;
+    bottom: 37%;
+    left: 37%;
+    color: white;
+    transform: translateZ(30px) scale(0.940);
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .text p{
+      cursor: default;
+      padding: 0;
+      margin: 0;
+  }
+
+  .text p:first-of-type{
+      font-size: 2em;
+      margin-bottom: 5px;
+      font-weight: 500;
+  }
+  .text p:last-of-type{
+      font-size: 1em;
+      font-weight: 400;
   }
 
 @media screen and (max-width: 768px) {
