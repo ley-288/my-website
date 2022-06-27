@@ -452,8 +452,8 @@ section h1 {
   }
 
   .card{
-    width: 30vw;
-    height: 30vw;
+    //width: 30vw;
+    //height: 30vw;
     perspective: 1000px;
     position: relative;
     margin:1vw;
@@ -556,10 +556,27 @@ section h1 {
         color:black!important;
   }
 
+  .icon-font-layout{
+    display:flex;
+    align-items:center;
+  }
+
+  .arrow_upward{
+    background-image: linear-gradient(#15ff15, #088a08);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
 @media screen and (max-width: 768px) {
     .ItemCard__title {
         font-size: 24px;
     }
+
+    .card{
+        width: 96vw;
+        height: 96vw;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -568,5 +585,10 @@ section h1 {
     }
     .parallax h1 {
         font-size: 4rem;
+    }
+
+    .card{
+        width: 30vw;
+        height: 30vw;
     }
 }

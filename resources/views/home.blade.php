@@ -134,42 +134,44 @@
                                         <div class="image first" style="background-image: url({{ asset('images/bg/jup9.jpeg') }});">
                                             <div class="screen"></div>
                                             <div class="text">
-                                                <i class="material-icons-round box_icon">bar_chart</i>
-                                                <h3>@lang('applicazione.headline_7')</h3>
-                                                <p>@lang('applicazione.description_7')</p>
+                                                <i class="material-icons-round box_icon">work</i>
+                                                <h3>@lang('applicazione.headline_9')</h3>
+                                                <p>@lang('applicazione.description_9')</p>
                                             </div>
                                         </div>
                                     </div>
-                                    {{--<div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup3.jpeg') }});">
-                                            <div class="screen"></div>
-                                            <div class="text">
-                                            <img src="{{ asset('images/logos/jiant2.png') }}" style=" height: 4vw;"/>
-                                                <h1>Jupiter</h1>
-                                                <p>description</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup2.jpeg') }});">
-                                            <div class="screen"></div>
-                                            <div class="text">
-                                            <img src="{{ asset('images/logos/jiant2.png') }}" style=" height: 4vw;"/>
-                                                <h1>Jupiter</h1>
-                                                <p>description</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup1.png') }});">
-                                            <div class="screen"></div>
-                                            <div class="text">
-                                            <img src="{{ asset('images/logos/jiant2.png') }}" style=" height: 4vw;"/>
-                                                <h1>Jupiter</h1>
-                                                <p>description</p>
-                                            </div>
-                                        </div>
-                                    </div>--}}
+                                </div>
+                            </div>
+                        </div>
+                        </br></br>
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <div style="margin-top: 30vh; display: flex;">
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.brand_awareness')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.brand_reputation')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.social_engagement')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.follower')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.visibility')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.traffic')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.conversions')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.clients')
+                                </div>
+                                <div class="icon-font-layout">
+                                    <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.revenue')
                                 </div>
                             </div>
                         </div>
@@ -220,16 +222,46 @@
                                 </a>
                             </div>
                         </div>
-                        <div style="display: flex;height: 100vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
+                        <div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
                             <div>
-                                <h3 style="width:90vw;">
-                                    At JIANT we only want to build your websites and apps! We want to enjoy working with you on your projects, and we want you to enjoy our end results!
-                                </h3>
+                                <h3>@lang('applicazione.built_by')</h3><h1 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h1>
+                                </br></br>
+                                <div>
+                                    <a href="https://www.spidergain.com"><img src="{{ asset('images/logos/spidergain.png') }}" style="width:20vw;"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
+                            <div>
+                                <h3>@lang('applicazione.contact_us_today')</h3>
+                                </br></br>
+                                <div style="display: flex; justify-content: space-evenly;">
+                                    <div>
+                                        <a href="mailto:team@jiant.io">
+                                            <div>
+                                                <img src="{{ asset('images/misc/email.png') }}" style="height: 12vw; z-index:4;"/>
+                                            </div>
+                                            <div>
+                                                team@jiant.io
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://api.whatsapp.com/send?phone=393755499384">
+                                            <div>
+                                                <img src="{{ asset('images/misc/whatsapp.png') }}" style="height: 12vw; z-index:4;"/>
+                                            </div>
+                                            <div>
+                                                Whatsapp
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div style="display: flex;align-items: center;justify-content: space-between;width: 96vw;">
+                    <div style="display: flex;align-items: flex-start;justify-content: space-between;width: 96vw;">
                         <div>
                             <div style="display: flex;flex-direction: column;align-items: flex-start;">
                                 <div>
@@ -244,17 +276,19 @@
                                     <img src="{{ asset('images/social/tiktok.png') }}" class="social_link_icon">
                                     <img src="{{ asset('images/social/reddit.png') }}" class="social_link_icon">
                                 </div>
+                                </br></br>
+                                <div>
+                                    <h1 style="color:white; font-size:1rem;">2022, All Rights Reserved</h1>
+                                </div>
                             </div>
                         </div>
-
                         <div style="display: flex;justify-content: flex-end;">
                             <div>
-                                <a href="mailto:team@jiant.io"><img src="{{ asset('images/misc/email.png') }}" style="height: 6vw; z-index:4;"/></a>
+                                <a href="mailto:team@jiant.io"><img src="{{ asset('images/misc/email.png') }}" style="height: 5vw; z-index:4;"/></a>
                             </div>
                             <div>
-                                <a href="https://api.whatsapp.com/send?phone=+393755499384"> <img src="{{ asset('images/misc/whatsapp.png') }}" style="height: 6vw; z-index:4;"/></a>
+                                <a href="https://api.whatsapp.com/send?phone=393755499384"> <img src="{{ asset('images/misc/whatsapp.png') }}" style="height: 5vw; z-index:4;"/></a>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -265,3 +299,7 @@
 
 
 @endsection
+
+
+
+
