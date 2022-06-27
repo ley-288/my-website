@@ -31,7 +31,7 @@
             <div class="parallax__cover" style="background:#000000d9; top:99%; color:white; backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);">
                 <div style="display: flex; flex-direction:column; justify-content: center; align-items: center; z-index:10; text-align:center;">
                     </br></br></br></br></br></br></br>
-                    <img src="{{ asset('images/logos/jiant3.png') }}" style="height: 8vw; z-index:4;"/>
+                    <img src="{{ asset('images/logos/jiant2.png') }}" style="height: 8vw; z-index:4;"/>
                     </br>
 
                     {{--<div>
@@ -43,7 +43,7 @@
                     </div>--}}
 
                     <h1 style="color:white; font-family:phosphate-solid; font-size:4rem;">J I A N T</h1><h2>WEB AGENCY ROMA, ITALIA</h2></br>
-                    <h6>WEB DEVELOPERS | SEO | MARKETING | SOCIAL | GRAPHICS</h6>
+                    <h6>WEB DEVELOPMENT | SEO | MARKETING | SOCIAL | GRAPHICS</h6>
                     </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
                     <div style="color:white; display:flex; width:100vw; flex-direction:row; flex-wrap:wrap; justify-content:center;">
                     </br></br></br></br>
@@ -205,7 +205,7 @@
                                     </div>
                                     <div class="carousel-item" style="">
                                         <div class="inner-item-layout">
-                                            <img src="{{ asset('images/logos/jiant3.png') }}" class="info-image">
+                                            <img src="{{ asset('images/logos/jiant2.png') }}" class="info-image">
                                             </br>
                                             <h3 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h3><h3>2022</h3>
                                         </div>
