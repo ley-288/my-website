@@ -45,8 +45,7 @@
                     <h1 style="color:white; font-family:phosphate-solid; font-size:4rem;">J I A N T</h1><h2>WEB AGENCY ROMA, ITALIA</h2></br>
                     <h6>WEB DEVELOPMENT | SEO | MARKETING | SOCIAL | GRAPHICS</h6>
                     </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-                    <div style="color:white; display:flex; width:100vw; flex-direction:row; flex-wrap:wrap; justify-content:center;">
-                    </br></br></br></br>
+                    <div style="color:white; display:flex; width:100vw; flex-direction:row; flex-wrap:wrap; justify-content:center; margin-top:-100px;">
                         <div style="display: flex;width: 100vw;justify-content: center;align-content: center;align-items: center;">
                             <div id="mainWrapper">
                                 <div id="cardsWrapper">
@@ -192,7 +191,7 @@
                                                 <img src="{{ asset('images/misc/nasa.png') }}" class="info-image">
                                                 <img src="{{ asset('images/misc/juno.png') }}" class="info-image" style="height:8.5vw;">
                                                 </br>
-                                                <h3>Images Courtesy of NASA, Juno mission 2021</h3>
+                                                <h3>Images Courtesy of NASA, Juno mission</h3>
                                             </a>
                                         </div>
                                     </div>
@@ -209,7 +208,7 @@
                                         <div class="inner-item-layout">
                                             <img src="{{ asset('images/logos/jiant2.png') }}" class="info-image">
                                             </br>
-                                            <h3 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h3><h3>2022</h3>
+                                            <h3 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -222,7 +221,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
+                        {{--<div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
                             <div>
                                 <h3>@lang('applicazione.built_by')</h3><h1 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h1>
                                 </br></br>
@@ -230,7 +229,7 @@
                                     <a href="https://www.spidergain.com"><img src="{{ asset('images/logos/spidergain.png') }}" style="width:20vw;"></a>
                                 </div>
                             </div>
-                        </div>
+                        </div>--}}
                         <div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
                             <div>
                                 <h3>@lang('applicazione.contact_us_today')</h3>
