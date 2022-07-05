@@ -14,36 +14,30 @@
                 <canvas id="canvas" style="filter:brightness(1.1);"></canvas>
             </div>
             <div class="parallax__layer parallax__layer__2">
-                <img src="{{ asset('images/hi_r/io.png') }}" style="margin-left:53vw; height: 3vw; bottom: 12vh; filter: brightness(0.7); z-index:0;"/>
+                <img src="{{ asset('images/hi_r/io.png') }}" id="io-image"/>
             </div>
             <div class="parallax__layer parallax__layer__3">
-                <img src="{{ asset('images/hi_r/europa.png') }}" style="margin-left:61vw; height: 2vw; bottom: 19vh; filter:brightness(0.9); z-index:1;"/>
+                <img src="{{ asset('images/hi_r/europa.png') }}" id="europa-image"/>
             </div>
             <div class="parallax__layer parallax__layer__4">
-                <img src="{{ asset('images/hi_r/ganymede.png') }}" style="margin-left:68vw; height: 3vw; bottom: 27vh; filter:brightness(1.1); z-index:2;"/>
+                <img src="{{ asset('images/hi_r/ganymede.png') }}" id="ganymede-image"/>
             </div>
             <div class="parallax__layer parallax__layer__5">
-                <img src="{{ asset('images/hi_r/callisto.png') }}" style="margin-left:80vw; height: 4vw; bottom: 57vh; filter:brightness(1.3); z-index:3;"/>
+                <img src="{{ asset('images/hi_r/callisto.png') }}" id="callisto-image"/>
             </div>
             <div class="parallax__layer parallax__layer__0">
-                <img src="{{ asset('images/hi_r/jupiter.png') }}" style="margin-left:-10vw; height: 65vw; bottom: -30vh; filter:brightness(1.3); z-index:4;"/>
+                <img src="{{ asset('images/hi_r/jupiter.png') }}" id="jupiter-image"/>
             </div>
             <div class="parallax__cover" style="background:#000000d9; top:99%; color:white; backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);">
                 <div style="display: flex; flex-direction:column; justify-content: center; align-items: center; z-index:10; text-align:center;">
                     </br></br></br></br></br></br></br>
-                    <img src="{{ asset('images/logos/jiant2.png') }}" style="height: 8vw; z-index:4;"/>
+                    <img src="{{ asset('images/logos/jiant2.png') }}" id="jiant-image"/>
                     </br>
 
-                    {{--<div>
-                        @foreach(array_keys(config('locale.languages')) as $lang)
-                            @if($lang != app()->getLocale())
-                                <small><a href="{{ '/lang/'.$lang }}" class="dropdown-item">@lang($lang)</a></small>
-                            @endif
-                        @endforeach
-                    </div>--}}
+
 
                     <h1 style="color:white; font-family:phosphate-solid; font-size:4rem;">J I A N T</h1><h2>WEB AGENCY ROMA, ITALIA</h2></br>
-                    <h6>WEB DEVELOPMENT | SEO | MARKETING | SOCIAL | GRAPHICS</h6>
+                    <h6 style="padding:10px;">WEB DEVELOPMENT | SEO | MARKETING | SOCIAL | GRAPHICS</h6>
                     </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
                     <div style="color:white; display:flex; width:100vw; flex-direction:row; flex-wrap:wrap; justify-content:center; margin-top:-100px;">
                         <div style="display: flex;width: 100vw;justify-content: center;align-content: center;align-items: center;">
@@ -144,7 +138,7 @@
                         </div>
                         </br></br>
                         <div style="display: flex; justify-content: center; align-items: center;">
-                            <div style="margin-top: 30vh; display: flex;">
+                            <div style="margin-top: 30vh; display: flex;" class="column-display">
                                 <div class="icon-font-layout">
                                     <i class="material-icons-round arrow_upward">arrow_upward</i>@lang('applicazione.brand_awareness')
                                 </div>
@@ -189,9 +183,9 @@
                                         <div class="inner-item-layout">
                                             <a href="https://photojournal.jpl.nasa.gov/beta/#q=*%3A*">
                                                 <img src="{{ asset('images/misc/nasa.png') }}" class="info-image">
-                                                <img src="{{ asset('images/misc/juno.png') }}" class="info-image" style="height:8.5vw;">
+                                                <img src="{{ asset('images/misc/juno.png') }}" class="info-image juno">
                                                 </br>
-                                                <h3>Images Courtesy of NASA, Juno mission</h3>
+                                                <h3 class="caro-text">Images Courtesy of NASA, Juno mission</h3>
                                             </a>
                                         </div>
                                     </div>
@@ -200,7 +194,7 @@
                                             <a href="https://www.laravel.com">
                                                 <img src="{{ asset('images/misc/laravel.png') }}" class="info-image">
                                                 </br>
-                                                <h3>Website built with Laravel</h3>
+                                                <h3 class="caro-text">Website built with Laravel</h3>
                                             </a>
                                         </div>
                                     </div>
@@ -238,7 +232,7 @@
                                     <div>
                                         <a href="mailto:team@jiant.io">
                                             <div>
-                                                <img src="{{ asset('images/misc/email.png') }}" style="height: 12vw; z-index:4;"/>
+                                                <img src="{{ asset('images/misc/email.png') }}" class="contact-icon"/>
                                             </div>
                                             <div>
                                                 team@jiant.io
@@ -248,7 +242,7 @@
                                     <div>
                                         <a href="https://api.whatsapp.com/send?phone=393755499384">
                                             <div>
-                                                <img src="{{ asset('images/misc/whatsapp.png') }}" style="height: 12vw; z-index:4;"/>
+                                                <img src="{{ asset('images/misc/whatsapp.png') }}" class="contact-icon"/>
                                             </div>
                                             <div>
                                                 Whatsapp
@@ -260,9 +254,9 @@
                         </div>
                     </div>
 
-                    <div style="display: flex;align-items: flex-start;justify-content: space-between;width: 96vw;">
+                    <div class="jiant-footer">
                         <div>
-                            <div style="display: flex;flex-direction: column;align-items: flex-start;">
+                            <div class="jiant-footer-details">
                                 <div>
                                     <h1 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h1>
                                 </div>
@@ -281,12 +275,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div style="display: flex;justify-content: flex-end;">
+
+
+
+                            <div style="display: flex;justify-content: flex-end;">
                             <div>
-                                <a href="mailto:team@jiant.io"><img src="{{ asset('images/misc/email.png') }}" style="height: 5vw; z-index:4;"/></a>
+                                <a href="#" data-toggle="modal" data-target="#langModal"><img src="{{ asset('images/misc/translate.png') }}" class="footer-app-icon"/></a>
                             </div>
                             <div>
-                                <a href="https://api.whatsapp.com/send?phone=393755499384"> <img src="{{ asset('images/misc/whatsapp.png') }}" style="height: 5vw; z-index:4;"/></a>
+                                <a href="mailto:team@jiant.io"><img src="{{ asset('images/misc/email.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
+                            </div>
+                            <div>
+                                <a href="https://api.whatsapp.com/send?phone=393755499384"> <img src="{{ asset('images/misc/whatsapp.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
                             </div>
                         </div>
                     </div>
@@ -295,6 +295,42 @@
         </div>
     </div>
 
+    <!-- Modal -->
+<div class="modal fade" id="langModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Language</h5>
+      </div>
+      <div class="modal-body">
+        @if(Lang::locale() == 'it')
+        <a href="{{ '/lang/en' }}" class="dropdown-item" style="color:black!important;">
+            <div class="flag-holster">
+                <div>
+                    <img src="{{ asset('images/misc/uk.png') }}" class="flag-icon">
+                </div>
+                <div>
+                    EN
+                </div>
+            </div>
+        </a>
+        @endif
+        @if(Lang::locale() == 'en')
+        <a href="{{ '/lang/it' }}" class="dropdown-item" style="color:black!important;">
+            <div class="flag-holster">
+                <div>
+                    <img src="{{ asset('images/misc/italy.png') }}" class="flag-icon">
+                </div>
+                <div>
+                    IT
+                </div>
+            </div>
+        </a>
+        @endif
+      </div>
+    </div>
+  </div>
+</div>
 
 
 @endsection

@@ -10,6 +10,27 @@ body{
     //background: linear-gradient(to bottom, #f6f7fc 0%,#d5e1e8 40%);
 }
 
+
+.modal-header{
+    border-bottom:none!important;
+    justify-content: center!important;
+}
+
+.modal-content{
+    border-radius: 25px!important;
+}
+
+.flag-holster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flag-icon{
+    height:80px;
+    width:80px;
+}
+
 a{
     color:white!important;
 }
@@ -576,7 +597,83 @@ section h1 {
         width: 96vw;
         height: 96vw;
     }
+    #io-image{
+        margin-left:50vw; height: 8vw; bottom: 40vh; filter: brightness(0.7); z-index:0;
+    }
 
+    #europa-image{
+        margin-left:70vw; height: 7vw; bottom: 50vh; filter:brightness(0.9); z-index:1;
+    }
+
+    #ganymede-image{
+        margin-left:80vw; height: 9vw; bottom: 60vh; filter:brightness(1.1); z-index:2;
+    }
+
+    #callisto-image{
+        margin-left:90vw; height: 10vw; bottom: 80vh; filter:brightness(1.3); z-index:3;
+    }
+
+    #jupiter-image{
+        margin-left:-10vw; height: 100vw; filter:brightness(1.3); z-index:4;
+    }
+
+    #jiant-image{
+        height: 20vw; z-index:4;
+    }
+
+    .column-display{
+        flex-direction: column;
+    }
+
+    .icon-font-layout{
+        display: flex;
+        align-items: center;
+        margin: 15px;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-between;
+        width: 90vw;
+    }
+
+    .caro-text{
+        font-size:14px;
+    }
+
+    .info-image{
+        height:12vw;
+    }
+
+    .juno{
+        height:10.5vw;
+    }
+
+    .contact-icon{
+        height:40vw;
+    }
+
+    .jiant-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 96vw;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .jiant-footer-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .footer-app-icon{
+        height: 10vw; z-index:4;
+    }
+
+    #hidden-icon{
+        display:none;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -586,9 +683,55 @@ section h1 {
     .parallax h1 {
         font-size: 4rem;
     }
-
     .card{
         width: 30vw;
         height: 30vw;
+    }
+    #io-image{
+        margin-left:53vw; height: 3vw; bottom: 12vh; filter: brightness(0.7); z-index:0;
+    }
+
+    #europa-image{
+        margin-left:61vw; height: 2vw; bottom: 19vh; filter:brightness(0.9); z-index:1;
+    }
+
+    #ganymede-image{
+        margin-left:68vw; height: 3vw; bottom: 27vh; filter:brightness(1.1); z-index:2;
+    }
+
+    #callisto-image{
+        margin-left:80vw; height: 4vw; bottom: 57vh; filter:brightness(1.3); z-index:3;
+    }
+
+    #jupiter-image{
+        margin-left:-10vw; height: 65vw; bottom: -30vh; filter:brightness(1.3); z-index:4;
+    }
+
+    #jiant-image{
+        height: 8vw; z-index:4;
+    }
+
+    .info-image{
+        height:10vw;
+    }
+
+    .juno{
+        height:8.5vw;
+    }
+
+    .contact-icon{
+        height:12vw;
+    }
+
+    .jiant-footer{
+        display: flex;align-items: flex-start;justify-content: space-between;width: 96vw;
+    }
+
+    .jiant-footer-details{
+        display: flex;flex-direction: column;align-items: flex-start;
+    }
+
+    .footer-app-icon{
+        height: 5vw; z-index:4;
     }
 }

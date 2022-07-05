@@ -1,4 +1,4 @@
-// function for your card parallax
+// function for card parallax
 
 (function() {
     $( document )
@@ -226,3 +226,5 @@ window.addEventListener('scroll', () => {
     document.getElementById('test').style.width = 100 + scrollTop / 5 + '%';
   });
 });
+
+
