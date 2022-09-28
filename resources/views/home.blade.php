@@ -7,36 +7,33 @@
         <div class="parallax2" style="margin-left:0; left:0; ">
             <div class="parallax__layer parallax__layer__0" style="height: 100vh; width:100vw; margin-left:0; left:0; background-image:url(https://i.pinimg.com/originals/c8/4c/0a/c84c0aeedf27fb4191b427f1bd9d9f3c.jpg); background-size:cover;">
             </div>
-            <div class="parallax__layer parallax__layer__7" style="height: 100vh; width:100vw;display: flex;align-items: flex-end;justify-content: center;z-index: 2;">
+            <div class="parallax__layer parallax__layer__7" style="height: 95vh; width:100vw;display: flex;align-items: flex-end;justify-content: center;z-index: 2;">
                <i class="material-icons-round" style="font-size:100px; color:white;">keyboard_double_arrow_down</i>
             </div>
-            <div class="parallax__layer parallax__layer__6">
+            <div class="parallax__layer parallax__layer__6" style="    z-index: 100!important;">
                 <canvas id="canvas" style="filter:brightness(1.1);"></canvas>
             </div>
             <div class="parallax__layer parallax__layer__2">
-                <img src="{{ asset('images/hi_r/io.png') }}" id="io-image"/>
+                <img src="{{ asset('images/hi_r/io.png?v=1.1') }}" id="io-image"/>
             </div>
             <div class="parallax__layer parallax__layer__3">
-                <img src="{{ asset('images/hi_r/europa.png') }}" id="europa-image"/>
+                <img src="{{ asset('images/hi_r/europa.png?v=1.1') }}" id="europa-image"/>
             </div>
             <div class="parallax__layer parallax__layer__4">
-                <img src="{{ asset('images/hi_r/ganymede.png') }}" id="ganymede-image"/>
+                <img src="{{ asset('images/hi_r/ganymede.png?v=1.1') }}" id="ganymede-image"/>
             </div>
             <div class="parallax__layer parallax__layer__5">
-                <img src="{{ asset('images/hi_r/callisto.png') }}" id="callisto-image"/>
+                <img src="{{ asset('images/hi_r/callisto.png?v=1.1') }}" id="callisto-image"/>
             </div>
             <div class="parallax__layer parallax__layer__0">
-                <img src="{{ asset('images/hi_r/jupiter.png') }}" id="jupiter-image"/>
-            </div>
-            <div class="parallax__cover" style="background:#000000d9; top:99%; color:white; backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);">
+                <img src="{{ asset('images/hi_r/jupiter.png?v=1.1') }}" id="jupiter-image"/>
+            </div>  {{--#000000d9--}}
+            <div class="parallax__cover" style="background:transparent; top:99%; color:white; backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);">
                 <div style="display: flex; flex-direction:column; justify-content: center; align-items: center; z-index:10; text-align:center;">
                     </br></br></br></br></br></br></br>
                     <img src="{{ asset('images/logos/jiant2.png') }}" id="jiant-image"/>
-                    </br>
-
-
-
-                    <h1 style="color:white; font-family:phosphate-solid; font-size:4rem;">J I A N T</h1><h2>WEB AGENCY ROMA, ITALIA</h2></br>
+                  </br>
+                  <h1 style="color:white; font-size:4rem;">J I A N T</h1><h2>WEB AGENCY ROMA, ITALIA</h2></br>
                     <h6 style="padding:10px;">WEB DEVELOPMENT | SEO | MARKETING | SOCIAL | GRAPHICS</h6>
                     </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
                     <div style="color:white; display:flex; width:100vw; flex-direction:row; flex-wrap:wrap; justify-content:center; margin-top:-100px;">
@@ -44,7 +41,7 @@
                             <div id="mainWrapper">
                                 <div id="cardsWrapper">
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup1.png') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup1.png?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">rocket_launch</i>
@@ -54,7 +51,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup2.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup2.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                             <i class="material-icons-round box_icon">history_edu</i>
@@ -64,7 +61,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup3.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup3.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">camera</i>
@@ -74,7 +71,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup4.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup4.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">devices</i>
@@ -84,7 +81,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup5.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup5.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">trending_up</i>
@@ -94,7 +91,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup6.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup6.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">extension</i>
@@ -104,7 +101,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup7.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup7.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">bar_chart</i>
@@ -114,7 +111,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup8.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup8.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">handshake</i>
@@ -124,7 +121,7 @@
                                         </div>
                                     </div>
                                     <div class="card">
-                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup9.jpeg') }});">
+                                        <div class="image first" style="background-image: url({{ asset('images/bg/jup9.jpeg?v=1.1') }});">
                                             <div class="screen"></div>
                                             <div class="text">
                                                 <i class="material-icons-round box_icon">work</i>
@@ -185,7 +182,7 @@
                                                 <img src="{{ asset('images/misc/nasa.png') }}" class="info-image">
                                                 <img src="{{ asset('images/misc/juno.png') }}" class="info-image juno">
                                                 </br>
-                                                <h3 class="caro-text">Images Courtesy of NASA, Juno mission</h3>
+                                                <h3 class="caro-text">Images Courtesy of NASA, mission Juno</h3>
                                             </a>
                                         </div>
                                     </div>
@@ -194,7 +191,7 @@
                                             <a href="https://www.laravel.com">
                                                 <img src="{{ asset('images/misc/laravel.png') }}" class="info-image">
                                                 </br>
-                                                <h3 class="caro-text">Website built with Laravel</h3>
+                                                <h3 class="caro-text">J I A N T </br> built with Laravel</h3>
                                             </a>
                                         </div>
                                     </div>
@@ -202,7 +199,7 @@
                                         <div class="inner-item-layout">
                                             <img src="{{ asset('images/logos/jiant2.png') }}" class="info-image">
                                             </br>
-                                            <h3 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h3>
+                                            <h3 style="color:white; font-size:2rem;">J I A N T</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -215,15 +212,25 @@
                                 </a>
                             </div>
                         </div>
-                        {{--<div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
+
+                        {{--
+                        <div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
                             <div>
-                                <h3>@lang('applicazione.built_by')</h3><h1 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h1>
+                                <h3>@lang('applicazione.experience_with')</h3>
                                 </br></br>
                                 <div>
-                                    <a href="https://www.spidergain.com"><img src="{{ asset('images/logos/spidergain.png') }}" style="width:20vw;"></a>
+                                    <a href="#"><img src="{{ asset('images/misc/shopify.png?v=1.3') }}" style="width:20vw;"></a>
+                                    <a href="#"><img src="{{ asset('images/misc/wordpress.png?v=1.3') }}" style="width:5vw;"></a>
+                                    <a href="#"><img src="{{ asset('images/misc/wix.png?v=1.3') }}" style="width:10vw;"></a>
+                                    <a href="#"><img src="{{ asset('images/misc/weebly.png?v=1.3') }}" style="width:16vw;"></a>
+                                    <a href="#"><img src="{{ asset('images/misc/squarespace.jpeg?v=1.3') }}" style="width:20vw;"></a>
                                 </div>
                             </div>
-                        </div>--}}
+                        </div>
+                        --}}
+
+
+
                         <div style="display: flex;height: 80vh;width: 100vw;justify-content: center;align-content: center;align-items: center;">
                             <div>
                                 <h3>@lang('applicazione.contact_us_today')</h3>
@@ -232,7 +239,7 @@
                                     <div>
                                         <a href="mailto:team@jiant.io">
                                             <div>
-                                                <img src="{{ asset('images/misc/email.png') }}" class="contact-icon"/>
+                                                <img src="{{ asset('images/misc/macm.png?v=1.1') }}" class="contact-icon"/>
                                             </div>
                                             <div>
                                                 team@jiant.io
@@ -242,7 +249,7 @@
                                     <div>
                                         <a href="https://api.whatsapp.com/send?phone=393755499384">
                                             <div>
-                                                <img src="{{ asset('images/misc/whatsapp.png') }}" class="contact-icon"/>
+                                                <img src="{{ asset('images/misc/what.png') }}" class="contact-icon"/>
                                             </div>
                                             <div>
                                                 Whatsapp
@@ -253,42 +260,44 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="jiant-footer">
-                        <div>
                             <div class="jiant-footer-details">
                                 <div>
-                                    <h1 style="color:white; font-family:phosphate-solid; font-size:2rem;">J I A N T</h1>
-                                </div>
-                                <div>
-                                    <img src="{{ asset('images/social/facebook.png') }}" class="social_link_icon">
-                                    <img src="{{ asset('images/social/instagram.png') }}" class="social_link_icon">
-                                    <img src="{{ asset('images/social/youtube.png') }}" class="social_link_icon">
-                                    <img src="{{ asset('images/social/linkedin.png') }}" class="social_link_icon">
-                                    <img src="{{ asset('images/social/twitter.png') }}" class="social_link_icon">
-                                    <img src="{{ asset('images/social/tiktok.png') }}" class="social_link_icon">
-                                    <img src="{{ asset('images/social/reddit.png') }}" class="social_link_icon">
-                                </div>
-                                </br></br>
-                                <div>
-                                    <h1 style="color:white; font-size:1rem;">2022, All Rights Reserved</h1>
+                                    <h1 style="color:white; font-size:5rem;">J I A N T</h1>
                                 </div>
                             </div>
-                        </div>
-
-
-
                             <div style="display: flex;justify-content: flex-end;">
+                            {{--<div>
+                                <a href="#" data-toggle="modal" data-target="#langModal"><img src="{{ asset('images/misc/trans.png') }}" class="footer-app-icon"/></a>
+                            </div>--}}
+
                             <div>
-                                <a href="#" data-toggle="modal" data-target="#langModal"><img src="{{ asset('images/misc/translate.png') }}" class="footer-app-icon"/></a>
+                                <a href="https://www.facebook.com/jiant.web.agency/"> <img src="{{ asset('images/misc/facebook.png?v=1.1') }}" class="footer-app-icon" id="hidden-icon"/></a>
                             </div>
                             <div>
-                                <a href="mailto:team@jiant.io"><img src="{{ asset('images/misc/email.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
+                                <a href="#"> <img src="{{ asset('images/misc/instagram.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
                             </div>
                             <div>
-                                <a href="https://api.whatsapp.com/send?phone=393755499384"> <img src="{{ asset('images/misc/whatsapp.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
+                                <a href="https://twitter.com/jiant_io"> <img src="{{ asset('images/misc/twit.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
+                            </div>
+                            <div>
+                                <a href="https://www.youtube.com/channel/UCRS5ZvTJi7vpU7L4D6BlypQ"> <img src="{{ asset('images/misc/yout.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
+                            </div>
+                            <div>
+                                <a href="https://www.tiktok.com/@jiant_io"> <img src="{{ asset('images/misc/tiktok.png?v=1.1') }}" class="footer-app-icon" id="hidden-icon"/></a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/company/jiant-io"> <img src="{{ asset('images/misc/link.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
+                            </div>
+                            <div>
+                                <a href="https://www.reddit.com/user/jiant_io"> <img src="{{ asset('images/misc/red.png') }}" class="footer-app-icon" id="hidden-icon"/></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="privacy-cookies">
+                        <div style="margin-right: 10px;">2022</div>
+                        <div style="margin-right: 10px;"><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></div>
+                        <div><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></div>
                     </div>
                 </div>
             </div>
@@ -304,7 +313,7 @@
       </div>
       <div class="modal-body">
         @if(Lang::locale() == 'it')
-        <a href="{{ '/lang/en' }}" class="dropdown-item" style="color:black!important;">
+        <a href="{{ '/language/en' }}" class="dropdown-item" style="color:black!important;">
             <div class="flag-holster">
                 <div>
                     <img src="{{ asset('images/misc/uk.png') }}" class="flag-icon">
@@ -316,7 +325,7 @@
         </a>
         @endif
         @if(Lang::locale() == 'en')
-        <a href="{{ '/lang/it' }}" class="dropdown-item" style="color:black!important;">
+        <a href="{{ '/language/it' }}" class="dropdown-item" style="color:black!important;">
             <div class="flag-holster">
                 <div>
                     <img src="{{ asset('images/misc/italy.png') }}" class="flag-icon">

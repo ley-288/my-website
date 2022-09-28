@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://jiant.io'),
 
     'asset_url' => env('ASSET_URL'),
 
@@ -210,6 +210,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
+        'Lang' => Illuminate\Support\Facades\Lang::class,
     ])->toArray(),
 
 ];

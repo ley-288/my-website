@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
 
 /*
@@ -14,10 +15,31 @@ use App\Http\Controllers\LanguageController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home.new');
+
+Route::get('/test', function () {
+    return view('new');
 });
 
 
-Route::get('lang/{lang}', [App\Http\Controllers\LanguageController::class, 'swap'])->name('lang.swap');
-//Route::get('lang/{lang}', [LanguageController::class, 'swap']);
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});
+
+Route::get('/cookie-policy', function () {
+    return view('cookie-policy');
+});
+
+Route::get('/clear', function() {
+    Artisan::call('cache:clear');
+	Artisan::call('view:clear');
+    Artisan::call('config:cache');
+    Artisan::call('config:clear');
+    Artisan::call('optimize:clear');
+    Artisan::call('view:clear');
+    return "All Clear!";
+});
+
+Route::get('/language/{lang}', [App\Http\Controllers\LanguageController::class, 'swap'])->name('lang.swap');
+
