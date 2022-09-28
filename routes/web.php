@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\CustomAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +17,14 @@ use App\Http\Controllers\LanguageController;
 */
 
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home.new');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('login', [CustomAuthController::class, 'index'])->name('login');
+Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
+Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
+Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
+Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 
 Route::get('/test', function () {
     return view('new');
