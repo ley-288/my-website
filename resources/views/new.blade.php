@@ -378,7 +378,14 @@
                         <div style="margin-right: 10px;">2022</div>
                         <div style="margin-right: 10px;"><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></div>
                         <div><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></div>
+
+                        <div class="language-block">
+        <a href="{{url('/')}}/language/it" @if(Lang::locale() == 'it') class="text-muted" style="pointer-events:none;" @endif><h6> IT </h6></a>
+        <a href="{{url('/')}}/language/en" @if(Lang::locale() == 'en') class="text-muted" style="pointer-events:none;" @endif><h6> EN </h6></a>
+    </div>
                     </div>
+
+
 
             </div>
     </div>

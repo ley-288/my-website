@@ -1,5 +1,13 @@
 // function for your card parallax
 
+//Buttons
+const registerBtn = document.querySelector("#register-btn");
+const loginBtn = document.querySelector("#login-btn");
+
+//Forms
+const registerForm = document.querySelector("#register-form");
+const loginForm = document.querySelector("#login-form");
+
 (function () {
     $(document)
         .on("mousemove", ".ItemCard", function (event) {
@@ -344,3 +352,15 @@ window.addEventListener('scroll', () => {
     document.getElementById('test').style.width = 100 + scrollTop / 5 + '%';
   });
 });*/
+
+document.querySelector(".nav--login").addEventListener("click", function (e) {
+    e.preventDefault();
+    const superToggle = function (element, class0, class1) {
+        element.classList.toggle(class0);
+        element.classList.toggle(class1);
+    };
+    loginForm.classList.toggle("opaque");
+    registerForm.classList.toggle("opaque");
+    superToggle(loginBtn, "disabled", "text-muted");
+    superToggle(registerBtn, "disabled", "text-muted");
+});
