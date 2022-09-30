@@ -1,25 +1,24 @@
-// function for your card parallax
+"use strict";
 
 //Buttons
-const registerBtn = document.querySelector("#register-btn");
-const loginBtn = document.querySelector("#login-btn");
+const registerBtn = document.querySelector("#register-next-btn");
+const loginBtn = document.querySelector("#login-prev-btn");
 
 //Forms
 const registerForm = document.querySelector("#register-form");
 const loginForm = document.querySelector("#login-form");
+
+//Card parallax
 
 (function () {
     $(document)
         .on("mousemove", ".ItemCard", function (event) {
             var halfW = this.clientWidth / 2;
             var halfH = this.clientHeight / 2;
-
             var coorX = halfW - (event.pageX - this.offsetLeft);
             var coorY = halfH - (event.pageY - this.offsetTop);
-
             var degX = (coorY / halfH) * 10 + "deg"; // max. degree = 10
             var degY = (coorX / halfW) * -10 + "deg"; // max. degree = 10
-
             $(this)
                 .css("transform", function () {
                     return (
@@ -50,30 +49,9 @@ const loginForm = document.querySelector("#login-form");
 })();
 
 /*
-$(document).ready(function () {
-    typeWriter();
-});
-
-var i = 0;
-var txt = 'Hello!';
-var speed = 150;
-
-function typeWriter() {
-if (i < txt.length) {
-document.getElementById("demo").innerHTML += txt.charAt(i);
-i++;
-setTimeout(typeWriter, speed);
-}
-}
-*/
-
-// lens flare
-
+//Lens flare
 (function () {
-    "use strict";
-
     var cvs, ctx, mousePos;
-
     function init() {
         cvs = document.getElementById("canvas");
         ctx = cvs.getContext("2d");
@@ -86,14 +64,12 @@ setTimeout(typeWriter, speed);
             fire.update(mousePos);
         });
     }
-
     function Flare() {
         this.discs = [];
         this.discNum = 9;
         this.t = 0;
         this.draw = function (obj) {
             ctx.globalCompositeOperation = "screen";
-
             var dist =
                 1 -
                 Math.sqrt(
@@ -104,7 +80,6 @@ setTimeout(typeWriter, speed);
                         Math.pow(cvs.width / 2, 2) + Math.pow(cvs.height / 2, 2)
                     );
             console.log(dist);
-
             for (var i = 0; i < this.discs.length; i++) {
                 ctx.beginPath();
                 var hue = this.discs[i].hue;
@@ -254,7 +229,6 @@ setTimeout(typeWriter, speed);
                 }
             }
         };
-
         this.update = function (obj) {
             ctx.clearRect(0, 0, cvs.width, cvs.height);
             for (var i = 0; i <= this.discNum; i++) {
@@ -282,7 +256,6 @@ setTimeout(typeWriter, speed);
             this.draw(obj);
         };
     }
-
     function getMousePos(cvs, evt) {
         var rect = cvs.getBoundingClientRect();
         return {
@@ -290,21 +263,19 @@ setTimeout(typeWriter, speed);
             y: evt.clientY - rect.top,
         };
     }
-
     document.addEventListener("DOMContentLoaded", init, false);
 })();
 
-// JUPITER CARDS
+*/
 
+// JUPITER CARDS
 $(function () {
     var card = $(".card");
     card.on("mousemove", function (e) {
         var x = e.clientX - $(this).offset().left + $(window).scrollLeft();
         var y = e.clientY - $(this).offset().top + $(window).scrollTop();
-
         var rY = map(x, 0, $(this).width(), -17, 17);
         var rX = map(y, 0, $(this).height(), -17, 17);
-
         $(this)
             .children(".image")
             .css(
@@ -313,7 +284,6 @@ $(function () {
             );
         //$(this).children(".text").css("color", "black");
     });
-
     card.on("mouseenter", function () {
         $(this)
             .children(".image")
@@ -321,7 +291,6 @@ $(function () {
                 transition: "all " + 0.05 + "s" + " linear",
             });
     });
-
     card.on("mouseleave", function () {
         $(this)
             .children(".image")
@@ -336,7 +305,6 @@ $(function () {
                 "rotateY(" + 0 + "deg)" + " " + "rotateX(" + 0 + "deg)"
             );
     });
-
     function map(x, in_min, in_max, out_min, out_max) {
         return (
             ((x - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
@@ -344,23 +312,18 @@ $(function () {
     }
 });
 
-// HERO IMAGE
-/*$(document).ready(function () {
-window.addEventListener('scroll', () => {
-    let scrollTop = document.documentElement.scrollTop;
-    console.log(scrollTop);
-    document.getElementById('test').style.width = 100 + scrollTop / 5 + '%';
-  });
-});*/
-
-document.querySelector(".nav--login").addEventListener("click", function (e) {
+loginBtn.addEventListener("click", function (e) {
     e.preventDefault();
-    const superToggle = function (element, class0, class1) {
-        element.classList.toggle(class0);
-        element.classList.toggle(class1);
-    };
-    loginForm.classList.toggle("opaque");
-    registerForm.classList.toggle("opaque");
-    superToggle(loginBtn, "disabled", "text-muted");
-    superToggle(registerBtn, "disabled", "text-muted");
+    registerBtn.classList.toggle("hide");
+    loginBtn.classList.toggle("hide");
+    loginForm.classList.toggle("blur");
+    registerForm.classList.toggle("blur");
+});
+
+registerBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    loginBtn.classList.toggle("hide");
+    registerBtn.classList.toggle("hide");
+    loginForm.classList.toggle("blur");
+    registerForm.classList.toggle("blur");
 });

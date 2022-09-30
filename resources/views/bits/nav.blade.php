@@ -6,12 +6,7 @@
     <div class="nav--login">
         <ul class="nav--login">
             @guest
-                <li class="nav-item">
-                    <a class="nav-link text-muted disabled" id="login-btn" href="{{ route('login') }}">Login</a>
-                </li>
-                <li class="nav-item" style="margin-left: 20px;">
-                    <a class="nav-link" id="register-btn" href="{{ route('register-user') }}">Register</a>
-                </li>
+
             @else
                 <li class="nav-item">
                     <a class="nav-link" id="logoutBtn" href="{{ route('signout') }}">Logout</a>
