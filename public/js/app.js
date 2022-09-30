@@ -3,10 +3,19 @@
 //Buttons
 const registerBtn = document.querySelector("#register-next-btn");
 const loginBtn = document.querySelector("#login-prev-btn");
+const signUp = document.querySelector("#sign-up-btn");
+const signIn = document.querySelector("#sign-in-btn");
 
 //Forms
 const registerForm = document.querySelector("#register-form");
 const loginForm = document.querySelector("#login-form");
+
+//Inputs
+const emailLog = document.querySelector("#email"); // login email
+const emailReg = document.querySelector("#email_address"); // register email
+const passwordLog = document.querySelector("#pword"); // login password
+const passwordReg = document.querySelector("#password"); // register password
+const nameReg = document.querySelector("#name");
 
 //Card parallax
 
@@ -326,4 +335,57 @@ registerBtn.addEventListener("click", function (e) {
     registerBtn.classList.toggle("hide");
     loginForm.classList.toggle("blur");
     registerForm.classList.toggle("blur");
+});
+
+signUp.addEventListener("click", function () {
+    var email = emailReg.value;
+    var name = nameReg.value;
+    var password = passwordReg.value;
+    $.ajaxSetup({
+        headers: {
+            "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+        },
+    });
+    $.ajax({
+        url: "/jiant-registration",
+        type: "POST",
+        data: {
+            email: email,
+            name: name,
+            password: password,
+        },
+        success: function (response) {
+            console.log("registered");
+            emailReg.value = "";
+            nameReg.value = "";
+            passwordReg.value = "";
+            loginForm.classList.add("opaque");
+            registerForm.classList.add("opaque");
+        },
+    });
+});
+
+signIn.addEventListener("click", function () {
+    var email = emailLog.value;
+    var password = passwordLog.value;
+    $.ajaxSetup({
+        headers: {
+            "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+        },
+    });
+    $.ajax({
+        url: "/jiant-login",
+        type: "POST",
+        data: {
+            email: email,
+            password: password,
+        },
+        success: function (response) {
+            console.log("login");
+            emailLog.value = "";
+            passwordLog.value = "";
+            loginForm.classList.add("opaque");
+            registerForm.classList.add("opaque");
+        },
+    });
 });

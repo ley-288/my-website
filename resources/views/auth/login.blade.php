@@ -7,8 +7,8 @@
                         <div class="card" id="login-form">
                             <h3 class="card-header text-center">Login</h3>
                             <div class="card-body">
-                                <form method="POST" action="{{ route('login.custom') }}">
-                                    @csrf
+                                {{--<form method="POST" action="{{ route('login.custom') }}">
+                                    @csrf--}}
                                     <div class="form-group mb-3">
                                         <input type="text" placeholder="Email" id="email" class="form-control" name="email" required
                                         autofocus>
@@ -17,7 +17,7 @@
                                         @endif
                                     </div>
                                     <div class="form-group mb-3">
-                                        <input type="password" placeholder="Password" id="password" class="form-control" name="password" required>
+                                        <input type="password" placeholder="Password" id="pword" class="form-control" name="pword" required>
                                         @if ($errors->has('password'))
                                             <span class="text-danger-custom">{{ $errors->first('password') }}</span>
                                         @endif
@@ -30,9 +30,9 @@
                                         </div>
                                     </div>
                                     <div class="d-grid mx-auto">
-                                        <button type="submit" class="btn btn-dark btn-block">Signin</button>
+                                        <button type="submit" class="btn btn-dark btn-block" id="sign-in-btn">Signin</button>
                                     </div>
-                                </form>
+                                {{--</form>--}}
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@
                         <div class="card blur" id="register-form">
                             <h3 class="card-header text-center">Register</h3>
                             <div class="card-body">
-                                <form action="{{ route('register.custom') }}" method="POST">
-                                    @csrf
+                                {{--<form action="{{ route('register.custom') }}" method="POST">
+                                    @csrf--}}
                                     <div class="form-group mb-3">
                                         <input type="text" placeholder="Name" id="name" class="form-control" name="name"
                                         required autofocus>
@@ -71,9 +71,9 @@
                                         </div>
                                     </div>
                                     <div class="d-grid mx-auto">
-                                        <button type="submit" class="btn btn-dark btn-block">Sign up</button>
+                                        <button type="submit" class="btn btn-dark btn-block" id="sign-up-btn">Sign up</button>
                                     </div>
-                                </form>
+                                {{--</form>--}}
                             </div>
                         </div>
                     </div>
