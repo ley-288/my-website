@@ -52,6 +52,12 @@ body {
     display: none;
 }
 
+.opaque {
+    animation-duration: 0.9s;
+    animation-name: opcityAnimation;
+    animation-fill-mode: forwards;
+}
+
 .blur {
     animation-duration: 0.9s;
     animation-name: scaleBlurAnimation;
@@ -72,6 +78,15 @@ body {
     }
     100% {
         filter: blur(5px);
+    }
+}
+
+@keyframes opacityAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
