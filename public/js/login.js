@@ -10,10 +10,6 @@ const noEmailMessage = document.querySelector("#no-email-message");
 const noValidEmailMessage = document.querySelector("#no-valid-message");
 const noPinMessage = document.querySelector("#no-pin-message");
 
-//Textareas
-const textarea = document.getElementById("password");
-const pinBar = document.querySelector(".pin-input");
-
 //Buttons
 const registerBtn = document.querySelector("#register-next-btn");
 const loginBtn = document.querySelector("#login-prev-btn");
@@ -34,6 +30,7 @@ const emailReg = document.querySelector("#email_address"); // register email
 const passwordLog = document.querySelector("#pword"); // login password
 const passwordReg = document.querySelector("#password"); // register password
 const nameReg = document.querySelector("#name");
+const pinBar = document.querySelector(".pin-input");
 
 //Included Blades
 const formIncluded = document.querySelector("#included-form");
@@ -47,6 +44,9 @@ const helloSection = document.querySelector("#hello");
 
 loginBtn.addEventListener("click", function (e) {
     e.preventDefault();
+    $(passwordReg).val("");
+    $(passwordLog).val("");
+    $(pinBar).val("");
     registerBtn.classList.toggle("hide");
     loginBtn.classList.toggle("hide");
     loginForm.classList.toggle("blur");
@@ -55,6 +55,9 @@ loginBtn.addEventListener("click", function (e) {
 
 registerBtn.addEventListener("click", function (e) {
     e.preventDefault();
+    $(passwordReg).val("");
+    $(passwordLog).val("");
+    $(pinBar).val("");
     loginBtn.classList.toggle("hide");
     registerBtn.classList.toggle("hide");
     loginForm.classList.toggle("blur");
@@ -204,12 +207,13 @@ document.querySelector(".keypad-num").addEventListener("click", function (e) {
     if (e.target.classList.contains("num-put")) {
         flashKey(e.target);
         const id = e.target.getAttribute("data-val");
-        textarea.value = textarea.value + id;
+        passwordReg.value = passwordReg.value + id;
+        passwordLog.value = passwordLog.value + id;
         pinBar.value = pinBar.value + id;
     }
 
     // IF LENGTH = 5
-    if (textarea.value.length > 4) {
+    if (passwordReg.value.length > 4) {
         // need to cancel clickable buttons
         dismissRegModal.textContent = "Save";
         dismissRegModal.classList.add("pin-okay");
@@ -225,29 +229,52 @@ document.querySelector(".keypad-num").addEventListener("click", function (e) {
     }
 });
 
-$(cancelInputKeypad).click(function () {
+/*
+function textAreaDelete(textarea) {
     var inputString = $(textarea).val();
     var shortenedString = inputString.substr(0, inputString.length - 1);
     $(textarea).val(shortenedString);
-
     var inputStringPin = $(pinBar).val();
     var shortenedStringPin = inputStringPin.substr(
         0,
         inputStringPin.length - 1
     );
     $(pinBar).val(shortenedStringPin);
+}
+*/
+
+$(cancelInputKeypad).click(function () {
+    //textAreaDelete(passwordReg);
+    //textAreaDelete(passwordLog);
+    var inputString = $(passwordReg).val();
+    var inputStringLog = $(passwordLog).val();
+    var shortenedString = inputString.substr(0, inputString.length - 1);
+    var shortenedStringLog = inputStringLog.substr(
+        0,
+        inputStringLog.length - 1
+    );
+    $(passwordReg).val(shortenedString);
+    $(passwordLog).val(shortenedStringLog);
+
+    //pinBar delete
+    var inputStringPin = $(pinBar).val();
+    var shortenedString = inputStringPin.substr(0, inputStringPin.length - 1);
+    $(pinBar).val(shortenedStringPin);
+
     flashKey(cancelInputKeypad);
 });
 
 $(cancelAllKeypad).click(function () {
-    $(textarea).val("");
+    $(passwordReg).val("");
+    $(passwordLog).val("");
     $(pinBar).val("");
     flashKey(cancelAllKeypad);
 });
 
 $(dismissRegModal).click(function () {
     if (dismissRegModal.textContent === "Cancel") {
-        $(textarea).val("");
+        $(passwordReg).val("");
+        $(passwordLog).val("");
         $(pinBar).val("");
     } else {
     }

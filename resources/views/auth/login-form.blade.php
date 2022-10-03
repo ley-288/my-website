@@ -52,13 +52,10 @@
                                 <span class="text-danger-custom">{{ $errors->first('password') }}</span>
                             @endif
                         </div>
-                        {{--<div class="form-group mb-3">
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" name="remember"> Remember Me
-                                </label>
-                            </div>
-                        </div>--}}
+                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#registerPinModal" style="display: flex;justify-content: space-between;">
+                            Enter pin
+                            <i class="material-icons-round">dialpad</i>
+                        </button>
                         <div class="d-grid mx-auto">
                             <button type="submit" class="btn btn-dark btn-block" id="sign-in-btn">Signin</button>
                         </div>
