@@ -49,12 +49,21 @@ body {
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
-.opaque {
-    animation-duration: 0.9s;
-    animation-name: opcityAnimation;
+.fade-in {
+    //animation-delay: 2.5s;
+    animation-duration: 1s;
+    animation-name: opacityAnimationFade;
+    animation-fill-mode: forwards;
+    display: flex !important;
+}
+
+.fade-out {
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+    animation-name: opacityAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -69,14 +78,10 @@ body {
 @keyframes scaleBlurAnimation {
     0% {
         transform: scale(1);
-    }
-    100% {
-        transform: scale(0.9);
-    }
-    0% {
         filter: blur(0px);
     }
     100% {
+        transform: scale(0.9);
         filter: blur(5px);
     }
 }
@@ -84,10 +89,97 @@ body {
 @keyframes opacityAnimation {
     0% {
         opacity: 1;
+        filter: blur(0px);
+        margin-top: 0;
     }
     100% {
         opacity: 0;
+        filter: blur(5px);
+        margin-top: -30px;
     }
+}
+
+@keyframes opacityAnimationFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dropIn {
+    0% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dropOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        margin-top: -20px;
+        display: none;
+    }
+}
+
+.slide-out {
+    animation-duration: 0.9s;
+    animation-name: dropOut !important;
+    animation-fill-mode: forwards;
+}
+
+#included-form {
+    display: flex;
+    justify-content: center;
+}
+
+.hello {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: 0;
+}
+
+.alert-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 15px;
+    margin-bottom: 0px;
+    padding: 15px;
+    width: 100%;
+}
+
+.alert-notif {
+    animation-duration: 0.9s;
+    animation-name: dropIn;
+    animation-fill-mode: forwards;
+}
+
+.alert-red {
+    margin: 5px;
+    background-image: linear-gradient(to bottom right, #ff206d, #ff0050);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .form-control {
@@ -130,6 +222,7 @@ body {
 
 .carousel-item {
     height: auto !important;
+    overflow-x: hidden !important;
 }
 
 .carousel-inner {
@@ -1202,4 +1295,103 @@ section h1 {
     100% {
         background-position: 3000px 0px;
     }
+}
+.animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s;
+}
+
+.registerPinModal {
+    height: 100vh;
+}
+
+.dismiss-modal {
+    display: flex;
+    justify-content: center;
+}
+
+.dismiss-modal-btn {
+    width: 5rem;
+    background-color: #d3d3d32e;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes touchKey {
+    0% {
+        background-color: #d3d3d32e;
+    }
+
+    50% {
+        background-color: #86dff742;
+    }
+
+    100% {
+        background-color: #d3d3d32e;
+    }
+}
+
+.key-touch {
+    animation: touchKey 0.4s;
+}
+
+.disable-key {
+    pointer-events: none !important;
+}
+
+.pin-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.pin-input {
+    letter-spacing: 5px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    pointer-events: none;
+}
+
+.keypad-num {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.keypad-num-key {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #d3d3d32e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin: 12px;
+}
+
+.pin-okay {
+    background-color: green;
 }

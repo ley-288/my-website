@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use DB;
 use Hash;
 use Session;
 use App\Models\User;
@@ -21,11 +22,14 @@ class CustomAuthController extends Controller
 
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
+            //logged in
             //return redirect()->intended('/')
-            //            ->withSuccess('Signed in');
-        }
+            //         ->withSuccess('Signed in');
 
-        return redirect("login")->withSuccess('Login details are not valid');
+        } else {
+            //do something if credentials wrong
+            return response()->json(['error' => 'Error msg'], 404);
+        }
     }
 
     public function registration()
@@ -38,7 +42,7 @@ class CustomAuthController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email|unique:users',
-            'password' => 'required|min:6',
+            'password' => 'required|min:5|max:5',
         ]);
 
         $data = $request->all();
