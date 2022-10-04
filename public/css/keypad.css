@@ -1,0 +1,178 @@
+.animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s;
+}
+
+.registerPinModal {
+    height: 100vh;
+}
+
+.dismiss-modal {
+    display: flex;
+    justify-content: center;
+}
+
+.dismiss-modal-btn {
+    width: 5rem;
+    background-color: #d3d3d32e;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes touchKey {
+    0% {
+        background-color: #d3d3d32e;
+        transform: scale(1);
+    }
+
+    50% {
+        background-color: #86dff742;
+        transform: scale(1.2);
+    }
+
+    100% {
+        background-color: #d3d3d32e;
+        transform: scale(1);
+    }
+}
+
+.key-touch {
+    animation: touchKey 0.4s;
+}
+
+.disable-key {
+    pointer-events: none !important;
+}
+
+.pin-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.pin-input {
+    letter-spacing: 5px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    pointer-events: none;
+}
+
+.pin-okay {
+    background-color: #008aff;
+    filter: brightness(1.3);
+}
+
+.pin-btn {
+    background-color: #008aff !important;
+    filter: brightness(1.3);
+}
+
+.keypad-num {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.keyPadModal {
+    margin-top: 37vh;
+    background-color: #000;
+    height: 100vh;
+}
+
+.keypad-num-key {
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #d3d3d32e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin: 12px;
+}
+
+.keypad-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+.keypad-text-key {
+    width: 2.1rem;
+    height: 2.8rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #d3d3d32e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.key-win {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.key-line {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#key-bottom-row {
+    margin-top: 50px;
+}
+
+.key-bottom-row-line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.bl-bottom {
+    width: 20%;
+    font-size: 12px;
+}
+
+.key-bottom {
+    width: 2.5rem;
+}
+.space-key {
+    width: 10rem;
+}
+.return-key {
+    width: 5rem;
+}

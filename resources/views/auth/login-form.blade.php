@@ -14,7 +14,7 @@
 
     {{--NO EMAIL ALERT--}}
     <div id="no-email-message" class="hide alert-red">
-        <h6>You cant sign up without an email address!</h6>
+        <h6>You cant sign up without a valid email address!</h6>
         <i class="material-icons-round">error</i>
     </div>
 
@@ -29,6 +29,12 @@
         <h6>Please enter a 5 digit pin!</h6>
         <i class="material-icons-round">error</i>
     </div>
+
+    {{--EMAIL ALREADY USED--}}
+    <div id="used-email-message" class="hide alert-red">
+        <h6>Email Address already registered!</h6>
+        <i class="material-icons-round">error</i>
+    </div>
 </div>
 
 {{--LOGIN AND REGISTER FORMS--}}
@@ -41,23 +47,23 @@
                     <div class="card-body">
                         <div class="form-group mb-3">
                             <input type="text" placeholder="Email" id="email" class="form-control" name="email" required
-                                        autofocus>
+                                         >
                             @if ($errors->has('email'))
                                 <span class="text-danger-custom">{{ $errors->first('email') }}</span>
                             @endif
                         </div>
+                        <button type="button" class="btn btn-dark btn-block pin-btn" data-toggle="modal" data-target="#registerPinModal" style="display: flex;justify-content: space-between;">
+                            Enter pin
+                            <i class="material-icons-round">dialpad</i>
+                        </button>
                         <div class="form-group mb-3">
-                            <input type="password" placeholder="Password" id="pword" class="form-control" name="pword" required>
+                            <input type="hidden" placeholder="Password" id="pword" class="form-control" name="pword" required>
                             @if ($errors->has('password'))
                                 <span class="text-danger-custom">{{ $errors->first('password') }}</span>
                             @endif
                         </div>
-                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#registerPinModal" style="display: flex;justify-content: space-between;">
-                            Enter pin
-                            <i class="material-icons-round">dialpad</i>
-                        </button>
                         <div class="d-grid mx-auto">
-                            <button type="submit" class="btn btn-dark btn-block" id="sign-in-btn">Signin</button>
+                            <button type="submit" class="btn btn-dark btn-block" id="sign-in-btn" >Signin</button>
                         </div>
                     </div>
                 </div>
@@ -70,24 +76,22 @@
                     <div class="card-body">
                         <div class="form-group mb-3">
                             <input type="text" placeholder="Name" id="name" class="form-control" name="name"
-                                        required autofocus>
+                                        required>
                             @if ($errors->has('name'))
                                 <span class="text-danger-custom">{{ $errors->first('name') }}</span>
                             @endif
                         </div>
                         <div class="form-group mb-3">
                             <input type="text" placeholder="Email" id="email_address" class="form-control"
-                                        name="email" required autofocus>
+                                        name="email" required>
                             @if ($errors->has('email'))
                                 <span class="text-danger-custom">{{ $errors->first('email') }}</span>
                             @endif
                         </div>
-
-                        <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#registerPinModal" style="display: flex;justify-content: space-between;">
+                        <button type="button" class="btn btn-dark btn-block pin-btn" data-toggle="modal" data-target="#registerPinModal" style="display: flex;justify-content: space-between;">
                             Create a pin
                             <i class="material-icons-round">dialpad</i>
                         </button>
-
                         <div class="form-group mb-3">
                             <input type="hidden" placeholder="Password" id="password" class="form-control"
                                         name="password" required maxlength="5">
@@ -95,9 +99,8 @@
                                 <span class="text-danger-custom">{{ $errors->first('password') }}</span>
                             @endif
                         </div>
-
                         <div class="d-grid mx-auto">
-                            <button type="submit" class="btn btn-dark btn-block" id="sign-up-btn">Sign up</button>
+                            <button type="submit" class="btn btn-dark btn-block" id="sign-up-btn" >Sign up</button>
                         </div>
                     </div>
                 </div>
@@ -116,7 +119,7 @@
 {{--LOGIN / REGISTER SWITCH BUTTONS--}}
 <div class="carousel-ctrl-block" style="margin-bottom:125px;">
     <a href="#carouselExampleControls" role="button" data-slide="prev" id="login-prev-btn" class="hide">
-        <h6>Already have an account? ..Login</h6>
+        <h6>Already have an account?.. Login</h6>
     </a>
     <a href="#carouselExampleControls" role="button" data-slide="next" id="register-next-btn" >
         <h6>I'm new to JIANT.. Register</h6>
@@ -130,41 +133,5 @@
     </div>
     <div style="margin-left:20px;">
         <a href="{{url('/')}}/language/en" @if(Lang::locale() == 'en') class="text-muted" style="pointer-events:none;" @endif><h6> EN </h6></a>
-    </div>
-</div>
-
-
-{{--PIN MODALS--}}
-
-<!-- Modal -->
-<div class="modal fade animate" id="registerPinModal" tabindex="-1" role="dialog" aria-labelledby="registerPinModal" aria-hidden="true" style="overflow-y: hidden;">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content animate-bottom" style="background-color:transparent!important;">
-            <div class="modal-body registerPinModal">
-                <div class="pin-wrapper">
-                    <input type="number" data-role="pin" maxlength="5" class="pin-input" placeholder="● ● ● ● ●">
-                </div>
-                </br>
-                </br>
-                <div class="keypad-num">
-                    <div class="keypad-num-key num-put" data-val="1">1</div>
-                    <div class="keypad-num-key num-put" data-val="2">2</div>
-                    <div class="keypad-num-key num-put" data-val="3">3</div>
-                    <div class="keypad-num-key num-put" data-val="4">4</div>
-                    <div class="keypad-num-key num-put" data-val="5">5</div>
-                    <div class="keypad-num-key num-put" data-val="6">6</div>
-                    <div class="keypad-num-key num-put" data-val="7">7</div>
-                    <div class="keypad-num-key num-put" data-val="8">8</div>
-                    <div class="keypad-num-key num-put" data-val="9">9</div>
-                    <div class="keypad-num-key cancel-all"><i class="material-icons-round">delete</i></div>
-                    <div class="keypad-num-key num-put" data-val="0">0</div>
-                    <div class="keypad-num-key cancel"><i class="material-icons-round">backspace</i></div>
-                </div>
-                </br>
-                <div class="dismiss-modal">
-                    <button class="dismiss-modal-btn" data-dismiss="modal">Cancel</button>
-                </div>
-            </div>
-        </div>
     </div>
 </div>

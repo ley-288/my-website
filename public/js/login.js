@@ -7,8 +7,8 @@ const noLoginMessage = document.querySelector("#no-login-message");
 const noLoginDismiss = document.querySelector("#alert-dismiss-login");
 const noNameMessage = document.querySelector("#no-name-message");
 const noEmailMessage = document.querySelector("#no-email-message");
-const noValidEmailMessage = document.querySelector("#no-valid-message");
 const noPinMessage = document.querySelector("#no-pin-message");
+const usedEmailMessage = document.querySelector("#used-email-message");
 
 //Buttons
 const registerBtn = document.querySelector("#register-next-btn");
@@ -18,7 +18,7 @@ const signIn = document.querySelector("#sign-in-btn");
 const cancelInputKeypad = document.querySelector(".cancel");
 const cancelAllKeypad = document.querySelector(".cancel-all");
 const keyPut = document.querySelectorAll(".num-put");
-const dismissRegModal = document.querySelector(".dismiss-modal-btn");
+const dismissRegModal = document.querySelector(".dismiss-numpad-btn");
 
 //Forms
 const registerForm = document.querySelector("#register-form");
@@ -41,31 +41,35 @@ const helloSection = document.querySelector("#hello");
 ///////////////////////////////////////////////////////////////
 
 // FUNCTIONS
-
-loginBtn.addEventListener("click", function (e) {
-    e.preventDefault();
+function clearForm() {
     $(passwordReg).val("");
     $(passwordLog).val("");
+    $(emailLog).val("");
+    $(emailReg).val("");
+    $(nameReg).val("");
     $(pinBar).val("");
+}
+
+function blurForm() {
     registerBtn.classList.toggle("hide");
     loginBtn.classList.toggle("hide");
     loginForm.classList.toggle("blur");
     registerForm.classList.toggle("blur");
+}
+
+loginBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    blurForm();
+    clearForm();
 });
 
 registerBtn.addEventListener("click", function (e) {
     e.preventDefault();
-    $(passwordReg).val("");
-    $(passwordLog).val("");
-    $(pinBar).val("");
-    loginBtn.classList.toggle("hide");
-    registerBtn.classList.toggle("hide");
-    loginForm.classList.toggle("blur");
-    registerForm.classList.toggle("blur");
+    blurForm();
+    clearForm();
 });
 
 // ALERTS
-
 function alertDisappear(alert) {
     setTimeout(function () {
         alert.classList.remove("hide");
@@ -91,11 +95,11 @@ function noNameAlert() {
 function noEmailAlert() {
     alertDisappear(noEmailMessage);
 }
-function noValidEmailAlert() {
-    alertDisappear(noValidEmailMessage);
-}
 function noPinAlert() {
     alertDisappear(noPinMessage);
+}
+function usedEmailAlert() {
+    alertDisappear(usedEmailMessage);
 }
 
 // MANUAL DISMISS
@@ -109,14 +113,9 @@ noLoginDismiss.addEventListener("click", function () {
 });
 
 // AUTHENTICATION
-
 function authenticatedUser() {
     setTimeout(function () {
-        emailReg.value = "";
-        nameReg.value = "";
-        emailLog.value = "";
-        passwordLog.value = "";
-        passwordReg.value = "";
+        clearForm();
     }, 2000);
     formIncluded.classList.add("fade-out");
     // LOAD IN WEB PAGE
@@ -125,18 +124,26 @@ function authenticatedUser() {
     }, 4000);
 }
 
+function capitalizeFirstLetter(str) {
+    str.toLowerCase();
+    const splitStr = str.toLowerCase().split(" ");
+    for (let i = 0; i < splitStr.length; i++) {
+        splitStr[i] =
+            splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+    }
+    return splitStr.join(" ");
+}
+
 signUp.addEventListener("click", function () {
-    var email = emailReg.value;
-    var name = nameReg.value;
-    var password = passwordReg.value;
+    const email = emailReg.value.toLowerCase();
+    //const name = nameReg.value;
+    const name = capitalizeFirstLetter(nameReg.value);
+    const password = passwordReg.value;
     if (name === "") {
         noNameAlert();
     }
     if (email === "") {
         noEmailAlert();
-    }
-    if (!email.includes("@")) {
-        noValidEmailAlert();
     }
     if (password == "") {
         noPinAlert();
@@ -157,17 +164,21 @@ signUp.addEventListener("click", function () {
             success: function () {
                 authenticatedUser();
             },
-
             error: function () {
-                console.log("user already registered");
+                //console.log("user already registered");
+                if (!email.includes("@")) {
+                    noEmailAlert();
+                } else {
+                    usedEmailAlert();
+                }
             },
         });
     }
 });
 
 signIn.addEventListener("click", function () {
-    var email = emailLog.value;
-    var password = passwordLog.value;
+    const email = emailLog.value.toLowerCase();
+    const password = passwordLog.value;
     $.ajaxSetup({
         headers: {
             "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
@@ -229,53 +240,43 @@ document.querySelector(".keypad-num").addEventListener("click", function (e) {
     }
 });
 
-/*
 function textAreaDelete(textarea) {
-    var inputString = $(textarea).val();
-    var shortenedString = inputString.substr(0, inputString.length - 1);
+    const inputString = $(textarea).val();
+    const shortenedString = inputString.substr(0, inputString.length - 1);
     $(textarea).val(shortenedString);
-    var inputStringPin = $(pinBar).val();
-    var shortenedStringPin = inputStringPin.substr(
+    // $(pinBar).val(shortenedStringPin);
+    $(passwordReg).val(shortenedString);
+    const inputStringPin = $(pinBar).val();
+    const shortenedStringPin = inputStringPin.substr(
         0,
         inputStringPin.length - 1
     );
-    $(pinBar).val(shortenedStringPin);
+    $(pinBar).val(shortenedString);
 }
-*/
+
+//CANCEL AND DISMISS
 
 $(cancelInputKeypad).click(function () {
-    //textAreaDelete(passwordReg);
-    //textAreaDelete(passwordLog);
-    var inputString = $(passwordReg).val();
-    var inputStringLog = $(passwordLog).val();
-    var shortenedString = inputString.substr(0, inputString.length - 1);
-    var shortenedStringLog = inputStringLog.substr(
-        0,
-        inputStringLog.length - 1
-    );
-    $(passwordReg).val(shortenedString);
-    $(passwordLog).val(shortenedStringLog);
-
-    //pinBar delete
-    var inputStringPin = $(pinBar).val();
-    var shortenedString = inputStringPin.substr(0, inputStringPin.length - 1);
-    $(pinBar).val(shortenedStringPin);
-
+    textAreaDelete(passwordReg);
+    textAreaDelete(passwordLog);
     flashKey(cancelInputKeypad);
 });
 
-$(cancelAllKeypad).click(function () {
+function clearEmailandPin() {
     $(passwordReg).val("");
     $(passwordLog).val("");
     $(pinBar).val("");
+}
+
+$(cancelAllKeypad).click(function () {
+    clearEmailandPin();
     flashKey(cancelAllKeypad);
 });
 
 $(dismissRegModal).click(function () {
     if (dismissRegModal.textContent === "Cancel") {
-        $(passwordReg).val("");
-        $(passwordLog).val("");
-        $(pinBar).val("");
+        clearEmailandPin();
+        flashKey(dismissRegModal);
     } else {
     }
 });

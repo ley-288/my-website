@@ -13,7 +13,7 @@ class CustomAuthController extends Controller
         return view('auth.login');
     }
 
-    public function customLogin(Request $request)
+    public function userLogin(Request $request)
     {
         $request->validate([
             'email' => 'required',
@@ -37,7 +37,7 @@ class CustomAuthController extends Controller
         return view('auth.registration');
     }
 
-    public function customRegistration(Request $request)
+    public function userRegistration(Request $request)
     {
         $request->validate([
             'name' => 'required',
@@ -48,7 +48,20 @@ class CustomAuthController extends Controller
         $data = $request->all();
         $check = $this->create($data);
 
-        return back();
+        //return back();
+
+        // LETS SEE
+        $credentials = $request->only('email', 'password');
+        if (Auth::attempt($credentials)) {
+            //logged in
+            //return redirect()->intended('/')
+            //         ->withSuccess('Signed in');
+            return back();
+
+        } else {
+            //do something if credentials wrong
+            return response()->json(['error' => 'Error msg'], 404);
+        }
 
         //return redirect("/")->withSuccess('You have signed-in');
         //return;

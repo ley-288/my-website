@@ -18,9 +18,9 @@ use App\Http\Controllers\CustomAuthController;
 
 
 Route::get('login', [CustomAuthController::class, 'index'])->name('login');
-Route::post('jiant-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
+Route::post('jiant-login', [CustomAuthController::class, 'userLogin'])->name('login.custom');
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
-Route::post('jiant-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
+Route::post('jiant-registration', [CustomAuthController::class, 'userRegistration'])->name('register.custom');
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

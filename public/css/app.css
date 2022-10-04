@@ -139,6 +139,14 @@ body {
     justify-content: center;
 }
 
+#email {
+    //text-transform: lowercase;
+}
+
+#email_address {
+    //text-transform: lowercase;
+}
+
 .hello {
     position: absolute;
     height: 100vh;
@@ -148,6 +156,7 @@ body {
     align-items: center;
     align-content: center;
     top: 0;
+    padding: 15px;
 }
 
 .alert-container {
@@ -163,6 +172,10 @@ body {
     width: 100%;
 }
 
+.alert-red h6 {
+    margin: 0;
+}
+
 .alert-notif {
     animation-duration: 0.9s;
     animation-name: dropIn;
@@ -171,7 +184,7 @@ body {
 
 .alert-red {
     margin: 5px;
-    background-image: linear-gradient(to bottom right, #ff206d, #ff0050);
+    background-image: linear-gradient(to bottom right, #ff5a93, #ff0095);
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -946,12 +959,14 @@ section h1 {
     }
 
     .nav-custom {
-        display: none;
+        //display: none;
         height: 10vh;
         justify-content: center !important;
-        padding-left: 0 !important;
-        backdrop-filter: blur(15px);
+        //backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
+        padding-top: 40px;
+        align-items: center;
+        flex-direction: column;
     }
 
     .inner-nav {
@@ -1078,6 +1093,10 @@ section h1 {
 }
 
 @media screen and (min-width: 768px) {
+    .alert-container {
+        width: 30%;
+    }
+
     #dont-show-me {
         display: none;
     }
@@ -1294,103 +1313,4 @@ section h1 {
     100% {
         background-position: 3000px 0px;
     }
-}
-.animate-bottom {
-    position: relative;
-    animation: animatebottom 0.4s;
-}
-
-.registerPinModal {
-    height: 100vh;
-}
-
-.dismiss-modal {
-    display: flex;
-    justify-content: center;
-}
-
-.dismiss-modal-btn {
-    width: 5rem;
-    background-color: #d3d3d32e;
-    border: none;
-    color: #fff;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-@keyframes animatebottom {
-    from {
-        bottom: -300px;
-        opacity: 0;
-    }
-
-    to {
-        bottom: 0;
-        opacity: 1;
-    }
-}
-
-@keyframes touchKey {
-    0% {
-        background-color: #d3d3d32e;
-    }
-
-    50% {
-        background-color: #86dff742;
-    }
-
-    100% {
-        background-color: #d3d3d32e;
-    }
-}
-
-.key-touch {
-    animation: touchKey 0.4s;
-}
-
-.disable-key {
-    pointer-events: none !important;
-}
-
-.pin-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-left: 5px;
-}
-
-.pin-input {
-    letter-spacing: 5px;
-    height: 50px;
-    border-radius: 10px;
-    margin: 5px;
-    border: none;
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    pointer-events: none;
-}
-
-.keypad-num {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.keypad-num-key {
-    width: 5rem;
-    height: 5rem;
-    text-align: center;
-    border-radius: 100%;
-    background-color: #d3d3d32e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
-    margin: 12px;
-}
-
-.pin-okay {
-    background-color: green;
 }
