@@ -107,9 +107,7 @@
 }
 
 .keyPadModal {
-    margin-top: 37vh;
     background-color: #000;
-    height: 100vh;
 }
 
 .keypad-num-key {
@@ -191,8 +189,11 @@
     width: 5rem;
 }
 
-@media screen and (min-width: 768px) {
-    .keyPadModal {
-        margin-top: 30vh;
-    }
+.keyPadModal-bottom {
+    overflow-y: hidden;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    top: auto !important;
+    height: auto !important;
+    bottom: 0;
 }

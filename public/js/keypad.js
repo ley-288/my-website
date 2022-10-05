@@ -2,6 +2,9 @@
 
 //ELEMENTS
 
+//KEYPAD WINDOW
+const keyPadWindow = document.querySelector("#keyPadModal");
+
 //INPUT
 const inputClick = document.querySelectorAll("input");
 
@@ -69,6 +72,7 @@ function focusOnInput() {
         field.addEventListener("focus", function () {
             console.log("clicked twice");
             $("#keyPadModal").modal("show");
+            keyPadWindow.classList.add("keyPadModal-bottom");
             activeInput = field;
         });
     });
@@ -110,8 +114,6 @@ inputClick.forEach(function (el) {
 
 // INTERNATIONAL CHARACTERS
 function toggleIntlLine(line) {
-    console.log(line);
-    //line.classList.toggle("hide");
     line.classList.remove("hide");
     [...line.parentElement.children].forEach(function (el) {
         if (el !== line) el.classList.add("hide");
@@ -135,5 +137,6 @@ $(dismissKeyModal).click(function () {
     flashKey(dismissKeyModal);
     setTimeout(function () {
         changeKeyWindow(keyWinUpper);
+        keyPadWindow.classList.remove("keyPadModal-bottom");
     }, 500);
 });

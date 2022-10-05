@@ -35,7 +35,7 @@
 
 {{--KEYBOARD KEYPAD--}}
 <!-- Modal -->
-<div class="modal fade animate" id="keyPadModal" tabindex="-1" role="dialog" aria-labelledby="keyPadModal" aria-hidden="true" style="overflow-y: hidden; backdrop-filter: blur(0px);">
+<div class="modal fade animate" id="keyPadModal" tabindex="-1" role="dialog" aria-labelledby="keyPadModal" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content animate-bottom" style="background-color:transparent!important; border:none">
             <div class="modal-body keyPadModal" style="padding:0;">
