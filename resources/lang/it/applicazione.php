@@ -10,6 +10,7 @@ return [
     |
     */
 
+    // HOME MARKETING PAGE
     'hello' => 'Ciao',
     'web_agency' => 'Agenzia Web Roma, Italia',
     'free_consultation' => 'Contattaci per una consulenza gratuita.',
@@ -62,4 +63,24 @@ return [
     'jobs_quote_2' => "Se non sei abbastanza appassionato dall'inizio, non ce la farai mai.",
     'jobs_quote_cont' => "Vogliamo solo aiutarti con le tue idee e svilupparle online!",
     'what_can_i_do' => 'Quindi.. cosa posso fare?',
+
+    //LOGIN AND REGISTER PAGES
+    'template' => "template",
+    'login' => 'Login',
+    'register' => 'Registrati',
+    'cancel' => 'Cancel',
+    'ok' => 'OK',
+    'oops' => "Ops! Qualcosa non va!",
+    'are_you_sure_your_pin' => "Sei sicuro che il PIN e l'e-mail siano corretti?",
+    'please_name' => 'Per favore aggiungi il tuo nome!',
+    'valid_email' => 'Non puoi iscriverti senza un indirizzo email valido!',
+    'please_pin' => 'Si prega di inserire un pin di 5 cifre!',
+    'email_used' => 'Questo indirizzo email è già stato registrato!',
+    'enter_pin' => 'PIN',
+    'signin' => 'Sign-in',
+    'signup' => 'Sign-up',
+    'name' => 'Nome',
+    'create_pin' => 'PIN',
+    'login_swap' => 'Hai già un account?',
+    'register_swap' => "Sono nuovo di",
 ];

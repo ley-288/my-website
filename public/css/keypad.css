@@ -9,16 +9,29 @@
 
 .dismiss-modal {
     display: flex;
+    justify-content: space-between;
+}
+
+.dismiss-numpad {
+    display: flex;
     justify-content: center;
+}
+
+.dismiss-button-line {
+    display: flex;
 }
 
 .dismiss-modal-btn {
     width: 5rem;
+    height: 2.8rem;
     background-color: #d3d3d32e;
     border: none;
     color: #fff;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
 }
 
 @keyframes animatebottom {
@@ -117,7 +130,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: sans-serif;
 }
 
 .keypad-text-key {
@@ -164,15 +176,23 @@
 
 .bl-bottom {
     width: 20%;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .key-bottom {
     width: 2.5rem;
 }
+
 .space-key {
-    width: 10rem;
+    width: 15rem;
 }
+
 .return-key {
     width: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .keyPadModal {
+        margin-top: 30vh;
+    }
 }

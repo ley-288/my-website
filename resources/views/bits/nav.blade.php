@@ -1,7 +1,7 @@
 
 
 <div class="nav-custom">
-    <div class="inner-nav"><a href="{{url('/')}}"><h1 style="color:white; font-size:6rem;">J I A N T</h1></a></div>
+    <div class="inner-nav"><a href="{{url('/')}}"><h1 style="color:white; font-size:6rem;" class="jiant">JIANT</h1></a></div>
 
     <div class="nav--login">
         <ul class="nav--login">

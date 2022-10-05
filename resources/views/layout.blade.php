@@ -38,6 +38,10 @@
                     format('truetype');
                     font-weight: normal;
                     font-style: normal;
+
+                }
+                .jiant{
+                    font-family: phosphaterrsoliduploaded_file !important;
                 }
             </style>
         </head>

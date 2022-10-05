@@ -10,6 +10,7 @@ return [
     |
     */
 
+    // HOME MARKETING PAGE
     'hello' => 'Hello',
     'web_agency' => 'Web Agency Roma, Italia',
     'free_consultation' => 'Contact us for a free consultation.',
@@ -63,4 +64,24 @@ return [
     'jobs_quote_2' => "If you're not passionate enough from the start you'll never stick it out.",
     'jobs_quote_cont' => "We only aim to help you with your ideas and developing them online!",
     'what_can_i_do' => 'So.. what can I do?',
+
+    //LOGIN AND REGISTER PAGES
+    'template' => "template",
+    'login' => 'Login',
+    'register' => 'Register',
+    'cancel' => 'Cancel',
+    'ok' => 'OK',
+    'oops' => "Oops! Something is not quite right!",
+    'are_you_sure_your_pin' => 'Are you sure your PIN and email are correct?',
+    'please_name' => 'Please add your name!',
+    'valid_email' => 'You cant sign up without a valid email address!',
+    'please_pin' => 'Please enter a 5 digit pin!',
+    'email_used' => 'This email address is already registered!',
+    'enter_pin' => 'PIN',
+    'signin' => 'Sign-in',
+    'signup' => 'Sign-up',
+    'name' => 'Name',
+    'create_pin' => 'PIN',
+    'login_swap' => 'Have an account already?',
+    'register_swap' => "I'm new to",
 ];

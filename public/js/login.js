@@ -214,7 +214,6 @@ document.querySelector(".keypad-num").addEventListener("click", function (e) {
     e.preventDefault();
 
     // Matching strategy
-
     if (e.target.classList.contains("num-put")) {
         flashKey(e.target);
         const id = e.target.getAttribute("data-val");
@@ -226,6 +225,7 @@ document.querySelector(".keypad-num").addEventListener("click", function (e) {
     // IF LENGTH = 5
     if (passwordReg.value.length > 4) {
         // need to cancel clickable buttons
+        const saveIcon = "<i class='material-icons-round'>check_circle</i>";
         dismissRegModal.textContent = "Save";
         dismissRegModal.classList.add("pin-okay");
         keyPut.forEach(function (elem) {
