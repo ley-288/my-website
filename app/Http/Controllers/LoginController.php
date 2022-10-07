@@ -1,16 +1,21 @@
 <?php
+
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use DB;
 use Hash;
 use Session;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
-class CustomAuthController extends Controller
+use Illuminate\Support\Facades\Mail;
+use App\Mail\WelcomeMail;
+
+class LoginController extends Controller
 {
     public function index()
     {
-        return view('auth.login');
+        return view('auth.jiant-login');
     }
 
     public function userLogin(Request $request)
@@ -30,6 +35,11 @@ class CustomAuthController extends Controller
             //do something if credentials wrong
             return response()->json(['error' => 'Error msg'], 404);
         }
+
+        $email = "leyton@jiant.it";
+        $data = "Jiant";
+        Mail::to($email)->send(new WelcomeMail($data));
+
     }
 
     public function registration()
@@ -47,6 +57,10 @@ class CustomAuthController extends Controller
 
         $data = $request->all();
         $check = $this->create($data);
+
+        $email = $request->email;
+        $data = $request->name;
+        Mail::to($email)->send(new WelcomeMail($data));
 
         //return back();
 
@@ -75,7 +89,6 @@ class CustomAuthController extends Controller
         'password' => Hash::make($data['password'])
       ]);
     }
-
 
     public function signOut() {
         Session::flush();

@@ -37,10 +37,42 @@
         <div class="carousel-item active">
             <div class="stretch-card">
                 <div class="card" id="login-form">
-                    <h3 class="card-header text-center">@lang('applicazione.login')</h3>
                     <div class="card-body">
+                        <a href="{{ url('auth/facebook') }}">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-dark btn-block social-login-btn" style="background-color:#1778f2;">
+                                    <div class="soc-btn">
+                                        @lang('applicazione.reg_fb')
+                                        <img class="social-btn-icon" src="{{ asset('images/social/facebook-white.png') }}">
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                        <a href="{{ route('google.login') }}">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-light btn-block social-login-btn">
+                                    <div class="soc-btn">
+                                        @lang('applicazione.reg_google')
+                                        <img class="social-btn-icon" src="{{ asset('images/social/google.png') }}">
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                        <a href="#" style="display:none;">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-dark btn-block social-login-btn">
+                                    <div class="soc-btn">
+                                        @lang('applicazione.continue_apple')
+                                        <img class="social-btn-icon" src="{{ asset('images/social/apple.png') }}">
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                        <div>
+                            <h6 class="or-select">- @lang('applicazione.or') -</h6>
+                        </div>
                         <div class="form-group mb-3">
-                            <input type="text" placeholder="Email" id="email" class="form-control focus-input" name="email" required
+                            <input type="text" placeholder="Email" id="email" class="form-control focus-input" name="email" required inputmode='none' autoComplete="off"
                                          >
                             @if ($errors->has('email'))
                                 <span class="text-danger-custom">{{ $errors->first('email') }}</span>
@@ -66,18 +98,50 @@
         <div class="carousel-item">
             <div class="stretch-card">
                 <div class="card blur" id="register-form">
-                    <h3 class="card-header text-center">@lang('applicazione.register')</h3>
                     <div class="card-body">
+                        <a href="{{ url('auth/facebook') }}">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-dark btn-block social-login-btn" style="background-color:#1778f2;">
+                                    <div class="soc-btn">
+                                        @lang('applicazione.reg_fb')
+                                        <img class="social-btn-icon" src="{{ asset('images/social/facebook-white.png') }}">
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                        <a href="{{ route('google.login') }}">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-light btn-block social-login-btn">
+                                    <div class="soc-btn">
+                                        @lang('applicazione.reg_google')
+                                        <img class="social-btn-icon" src="{{ asset('images/social/google.png') }}">
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                        <a href="#" style="display:none;">
+                            <div class="form-group mb-3">
+                                <button class="btn btn-dark btn-block social-login-btn">
+                                    <div class="soc-btn">
+                                        @lang('applicazione.continue_apple')
+                                        <img class="social-btn-icon" src="{{ asset('images/social/apple.png') }}">
+                                    </div>
+                                </button>
+                            </div>
+                        </a>
+                        <div>
+                            <h6 class="or-select">- @lang('applicazione.or') -</h6>
+                        </div>
                         <div class="form-group mb-3">
                             <input type="text" placeholder="@lang('applicazione.name')" id="name" class="form-control focus-input" name="name"
-                                        required>
+                                        required inputmode='none' autoComplete="off">
                             @if ($errors->has('name'))
                                 <span class="text-danger-custom">{{ $errors->first('name') }}</span>
                             @endif
                         </div>
                         <div class="form-group mb-3">
                             <input type="text" placeholder="Email" id="email_address" class="form-control focus-input"
-                                        name="email" required>
+                                        name="email" required inputmode='none' autoComplete="off">
                             @if ($errors->has('email'))
                                 <span class="text-danger-custom">{{ $errors->first('email') }}</span>
                             @endif
@@ -103,13 +167,6 @@
     </div>
 </div>
 
-{{--
-    TO DO!
-<div class="close-alerts">
-    <i class="material-icons-round">close</i>
-</div>
---}}
-
 {{--LOGIN / REGISTER SWITCH BUTTONS--}}
 <div class="carousel-ctrl-block" style="margin-bottom:125px;">
     <a href="#carouselExampleControls" role="button" data-slide="prev" id="login-prev-btn" class="hide">
@@ -124,16 +181,9 @@
 <div class="language-block">
     <div class="lineup">
         <img src="{{ asset('images/logos/jiant2.png') }}" class="micro-logo"/>
-        <div style="margin-right: 10px;">2022</div>
-        <div style="margin-right: 10px;"><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></div>
-        <div><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></div>
-    </div>
-    <div class="lineup">
-        <div>
-            <a href="{{url('/')}}/language/it" @if(Lang::locale() == 'it') class="text-muted" style="pointer-events:none;" @endif>IT</a>
-        </div>
-        <div style="margin-left:20px;">
-            <a href="{{url('/')}}/language/en" @if(Lang::locale() == 'en') class="text-muted" style="pointer-events:none;" @endif>EN</a>
-        </div>
+        <div class="margin-right-space">2022</div>
+        <div class="margin-right-space"><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></div>
+        <div class="margin-right-space"><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></div>
+        <div><a href="#" data-toggle="modal" data-target="#langModal">@lang('language.language')</a></div>
     </div>
 </div>

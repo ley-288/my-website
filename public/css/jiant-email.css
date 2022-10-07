@@ -1,0 +1,8 @@
+.email-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}

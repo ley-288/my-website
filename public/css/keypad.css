@@ -102,17 +102,23 @@
 
 .keypad-num {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.keypad-num-row {
+    display: flex;
 }
 
 .keyPadModal {
-    background-color: #000;
+    //background-color: #000;
 }
 
 .keypad-num-key {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     text-align: center;
     border-radius: 100%;
     background-color: #d3d3d32e;
@@ -128,6 +134,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 20vh;
 }
 
 .keypad-text-key {
@@ -191,8 +198,8 @@
 
 .keyPadModal-bottom {
     overflow-y: hidden;
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     top: auto !important;
     height: auto !important;
     bottom: 0;

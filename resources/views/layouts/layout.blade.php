@@ -11,7 +11,7 @@
             @include('bits.favicon')
             @yield('meta')
             @stack('before-styles')
-            <link href="{{ asset('css/app.css?v=12.5') }}" rel="stylesheet">
+            <link href="{{ asset('css/jiant-app.css?v=12.5') }}" rel="stylesheet">
             <link href="{{ asset('css/keypad.css?v=12.5') }}" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
@@ -61,7 +61,7 @@
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"><script>
             <script src="{{ asset('js/parallax.js?v=1.4') }}"></script>
             <script src="{{ asset('js/login.js?v=1.4') }}"></script>
             <script src="{{ asset('js/keypad.js?v=1.4') }}"></script>

@@ -1,5 +1,5 @@
 
-@extends('layout')
+@extends('layouts.layout')
 
 @section('content')
 
@@ -20,15 +20,10 @@
                     </div>
                     <div style="z-index:4; position:absolute;">
                         <img src="{{ asset('images/logos/jiant2.png') }}" id="jiant-image"/>
-                        <h1 class="hero-typeface-logo">J I A N T</h1><h2 class="hero-typeface">@lang('applicazione.web_agency')</h2></br>
+                        <h1 class="hero-typeface-logo jiant">JIANT</h1><h2 class="hero-typeface">@lang('applicazione.web_agency')</h2></br>
                         <h6 class="hero-typeface">WEB DEVELOPMENT | SEO | MARKETING | SOCIAL | GRAPHIC DESIGN</h6>
                         </br>
                         </br>
-                        <div class="language-block" id="dont-show-me">
-                            <a href="{{url('/')}}/language/it" @if(Lang::locale() == 'it') class="text-muted" style="pointer-events:none;" @endif><h6> IT </h6></a>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="{{url('/')}}/language/en" @if(Lang::locale() == 'en') class="text-muted" style="pointer-events:none;" @endif><h6> EN </h6></a>
-                        </div>
                     </div>
                     <div style="position: absolute;right: 0;">
                         <i class="material-icons-round box_icon">keyboard_arrow_right</i>
@@ -279,7 +274,7 @@
                                         <div class="inner-item-layout">
                                             <img src="{{ asset('images/logos/jiant2.png') }}" class="info-image">
                                             </br>
-                                            <h3 style="color:white; font-size:2rem;">J I A N T</h3>
+                                            <h3 style="color:white; font-size:2rem;" class="jiant">JIANT</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -346,7 +341,7 @@
 
                     <div class="jiant-footer">
                             <div class="jiant-footer-details">
-                                <h1 class="footer-logo">J I A N T</h1>
+                                <h1 class="footer-logo jiant">JIANT</h1>
                             </div>
                             <div style="display: flex;justify-content: flex-end;">
 
@@ -374,16 +369,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="privacy-cookies">
-                        <div style="margin-right: 10px;">2022</div>
-                        <div style="margin-right: 10px;"><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></div>
-                        <div><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></div>
 
-                        <div class="language-block">
-        <a href="{{url('/')}}/language/it" @if(Lang::locale() == 'it') class="text-muted" style="pointer-events:none;" @endif><h6> IT </h6></a>
-        <a href="{{url('/')}}/language/en" @if(Lang::locale() == 'en') class="text-muted" style="pointer-events:none;" @endif><h6> EN </h6></a>
-    </div>
-                    </div>
 
 
 

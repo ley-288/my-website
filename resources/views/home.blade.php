@@ -1,5 +1,5 @@
 
-@extends('layout')
+@extends('layouts.layout')
 
 @section('content')
 
@@ -303,43 +303,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Modal -->
-<div class="modal fade" id="langModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Language</h5>
-      </div>
-      <div class="modal-body">
-        @if(Lang::locale() == 'it')
-        <a href="{{ '/language/en' }}" class="dropdown-item" style="color:black!important;">
-            <div class="flag-holster">
-                <div>
-                    <img src="{{ asset('images/misc/uk.png') }}" class="flag-icon">
-                </div>
-                <div>
-                    EN
-                </div>
-            </div>
-        </a>
-        @endif
-        @if(Lang::locale() == 'en')
-        <a href="{{ '/language/it' }}" class="dropdown-item" style="color:black!important;">
-            <div class="flag-holster">
-                <div>
-                    <img src="{{ asset('images/misc/italy.png') }}" class="flag-icon">
-                </div>
-                <div>
-                    IT
-                </div>
-            </div>
-        </a>
-        @endif
-      </div>
-    </div>
-  </div>
-</div>
 
 
 @endsection

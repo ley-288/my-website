@@ -12,6 +12,8 @@ return [
 
     // HOME MARKETING PAGE
     'hello' => 'Hello',
+    'welcome_back' => 'Welcome back',
+    'welcome' => 'Welcome',
     'web_agency' => 'Web Agency Roma, Italia',
     'free_consultation' => 'Contact us for a free consultation.',
     'better_it' => ' If you already have a quote we promise to better it!',
@@ -84,4 +86,10 @@ return [
     'create_pin' => 'PIN',
     'login_swap' => 'Have an account already?',
     'register_swap' => "I'm new to",
+    'continue_fb' => "Continue with Facebook",
+    'continue_google' => "Continue with Google",
+    'continue_apple' => "Continue with Apple",
+    'reg_fb' => "Continue with Facebook",
+    'reg_google' => "Continue with Google",
+    'or' => 'or continue with email',
 ];

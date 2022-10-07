@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LanguageController;
-use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\FacebookController;
+use App\Http\Controllers\GoogleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,16 +18,26 @@ use App\Http\Controllers\CustomAuthController;
 |
 */
 
+//LOGIN AND REGISTER
+Route::get('login', [LoginController::class, 'index'])->name('login');
+Route::post('login/jiant', [LoginController::class, 'userLogin'])->name('login.custom');
+Route::get('registration', [LoginController::class, 'registration'])->name('register-user');
+Route::post('registration/jiant', [LoginController::class, 'userRegistration'])->name('register.custom');
+Route::get('signout', [LoginController::class, 'signOut'])->name('signout');
 
-Route::get('login', [CustomAuthController::class, 'index'])->name('login');
-Route::post('jiant-login', [CustomAuthController::class, 'userLogin'])->name('login.custom');
-Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
-Route::post('jiant-registration', [CustomAuthController::class, 'userRegistration'])->name('register.custom');
-Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+//FACEBOOK LOGIN
+Route::get('auth/facebook', [FacebookController::class, 'facebookRedirect']);
+Route::get('auth/facebook/callback', [FacebookController::class, 'loginWithFacebook']);
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//GOOGLE LOGIN
+Route::prefix('google')->name('google.')->group( function(){
+    Route::get('login', [GoogleController::class, 'loginWithGoogle'])->name('login');
+    Route::any('callback', [GoogleController::class, 'callbackFromGoogle'])->name('callback');
+});
 
-Route::get('/test', function () {
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::get('/marketing', function () {
     return view('new');
 });
 
@@ -47,5 +59,13 @@ Route::get('/clear', function() {
     return "All Clear!";
 });
 
-Route::get('/language/{lang}', [App\Http\Controllers\LanguageController::class, 'swap'])->name('lang.swap');
-
+Route::get('/language/{lang}', [LanguageController::class, 'swap'])->name('lang.swap');
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

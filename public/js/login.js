@@ -2,7 +2,7 @@
 
 // ELEMENTS
 
-//Alerts
+//ALERTS
 const noLoginMessage = document.querySelector("#no-login-message");
 const noLoginDismiss = document.querySelector("#alert-dismiss-login");
 const noNameMessage = document.querySelector("#no-name-message");
@@ -10,7 +10,7 @@ const noEmailMessage = document.querySelector("#no-email-message");
 const noPinMessage = document.querySelector("#no-pin-message");
 const usedEmailMessage = document.querySelector("#used-email-message");
 
-//Buttons
+//BUTTONS
 const registerBtn = document.querySelector("#register-next-btn");
 const loginBtn = document.querySelector("#login-prev-btn");
 const signUp = document.querySelector("#sign-up-btn");
@@ -20,11 +20,11 @@ const cancelAllKeypad = document.querySelector(".cancel-all");
 const keyPut = document.querySelectorAll(".num-put");
 const dismissRegModal = document.querySelector(".dismiss-numpad-btn");
 
-//Forms
+//FORMS
 const registerForm = document.querySelector("#register-form");
 const loginForm = document.querySelector("#login-form");
 
-//Inputs
+//INPUTS
 const emailLog = document.querySelector("#email"); // login email
 const emailReg = document.querySelector("#email_address"); // register email
 const passwordLog = document.querySelector("#pword"); // login password
@@ -32,11 +32,57 @@ const passwordReg = document.querySelector("#password"); // register password
 const nameReg = document.querySelector("#name");
 const pinBar = document.querySelector(".pin-input");
 
-//Included Blades
+//INCLUDED BLADES
 const formIncluded = document.querySelector("#included-form");
 
-//Blade divs
+//BLADE DIVS
 const helloSection = document.querySelector("#hello");
+const welcomeMessage = document.querySelector("#welcome_message");
+
+//WELCOME MESSAGE
+const welcome = [
+    "Welcome",
+    "Wilkommen",
+    "Benvenuto",
+    "Welkom",
+    "أهلا بك",
+    "歡迎",
+    "欢迎",
+    "Dobrodošli",
+    "Vítejte",
+    "Velkommen",
+    "Bonvenon",
+    "Tervetuloa",
+    "Bienvenu",
+    "καλως ΗΡΘΑΤΕ",
+    "Welina",
+    "ברוך הבא",
+    "स्वागत",
+    "Velkominn",
+    "Selamat datang",
+    "いらっしゃいませ",
+    "Sugeng rawuh",
+    "어서 오십시오",
+    "Bi xêr hatî",
+    "Grata",
+    "സ്വാഗതം",
+    "Nau mai haere mai",
+    "خوش آمدی",
+    "Powitanie",
+    "Bem-vindo",
+    "ਸੁਆਗਤ ਹੈ",
+    "Добродошли",
+    "Vitajte",
+    "Bienvenidos",
+    "Karibu",
+    "Välkommen",
+    "ยินดีต้อนรับ",
+    "Hoş geldin",
+    "Ласкаво просимо",
+    "خوش آمدید",
+    "Chào mừng",
+    "ברוכים הבאים",
+];
 
 ///////////////////////////////////////////////////////////////
 
@@ -102,6 +148,14 @@ function usedEmailAlert() {
     alertDisappear(usedEmailMessage);
 }
 
+function blinkWelcomeMessage() {
+    let random = Math.floor(Math.random() * welcome.length);
+    $(welcomeMessage).fadeOut(1000, function () {
+        welcomeMessage.textContent = welcome[random];
+    });
+    $(welcomeMessage).delay(1000).fadeIn(1000);
+}
+
 // MANUAL DISMISS
 noLoginDismiss.addEventListener("click", function () {
     noLoginMessage.classList.remove("alert-notif");
@@ -113,13 +167,25 @@ noLoginDismiss.addEventListener("click", function () {
 });
 
 // AUTHENTICATION
-function authenticatedUser() {
+function authenticatedUser(name) {
     setTimeout(function () {
         clearForm();
     }, 2000);
     formIncluded.classList.add("fade-out");
     // LOAD IN WEB PAGE
     setTimeout(function () {
+        if (name) {
+            //if registering
+            welcomeMessage.textContent = "Welcome";
+            const para = document.createElement("h3");
+            //return user first name
+            para.innerHTML = ", " + name;
+            helloSection.appendChild(para);
+        } else {
+            //logging in
+            welcomeMessage.textContent = "Welcome back";
+            setInterval(blinkWelcomeMessage, 5000);
+        }
         helloSection.classList.add("fade-in");
     }, 4000);
 }
@@ -134,6 +200,7 @@ function capitalizeFirstLetter(str) {
     return splitStr.join(" ");
 }
 
+//REGISTER
 signUp.addEventListener("click", function () {
     const email = emailReg.value.toLowerCase();
     //const name = nameReg.value;
@@ -162,7 +229,7 @@ signUp.addEventListener("click", function () {
                 password: password,
             },
             success: function () {
-                authenticatedUser();
+                authenticatedUser(name);
             },
             error: function () {
                 //console.log("user already registered");
@@ -176,6 +243,7 @@ signUp.addEventListener("click", function () {
     }
 });
 
+//LOGIN
 signIn.addEventListener("click", function () {
     const email = emailLog.value.toLowerCase();
     const password = passwordLog.value;
@@ -244,7 +312,6 @@ function textAreaDelete(textarea) {
     const inputString = $(textarea).val();
     const shortenedString = inputString.substr(0, inputString.length - 1);
     $(textarea).val(shortenedString);
-    // $(pinBar).val(shortenedStringPin);
     $(passwordReg).val(shortenedString);
     const inputStringPin = $(pinBar).val();
     const shortenedStringPin = inputStringPin.substr(
@@ -255,7 +322,6 @@ function textAreaDelete(textarea) {
 }
 
 //CANCEL AND DISMISS
-
 $(cancelInputKeypad).click(function () {
     textAreaDelete(passwordReg);
     textAreaDelete(passwordLog);

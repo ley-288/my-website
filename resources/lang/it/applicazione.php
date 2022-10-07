@@ -12,6 +12,8 @@ return [
 
     // HOME MARKETING PAGE
     'hello' => 'Ciao',
+    'welcome_back' => 'Bentornato',
+    'welcome' => 'Benvenuto',
     'web_agency' => 'Agenzia Web Roma, Italia',
     'free_consultation' => 'Contattaci per una consulenza gratuita.',
     'better_it' => 'Se hai già un preventivo ti promettiamo di migliorarlo!',
@@ -83,4 +85,10 @@ return [
     'create_pin' => 'PIN',
     'login_swap' => 'Hai già un account?',
     'register_swap' => "Sono nuovo di",
+    'continue_fb' => "Continua con Facebook",
+    'continue_google' => "Continua con Google",
+    'continue_apple' => "Continua con Apple",
+    'reg_fb' => "Continua con Facebook",
+    'reg_google' => "Continua con Google",
+    'or' => 'oppure continua con email',
 ];

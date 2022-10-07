@@ -7,6 +7,7 @@ const keyPadWindow = document.querySelector("#keyPadModal");
 
 //INPUT
 const inputClick = document.querySelectorAll("input");
+const tempInput = document.querySelector(".temp-input");
 
 //SPECIAL KEYS
 const spaceKey = document.querySelector(".space-key");
@@ -41,6 +42,14 @@ function changeKeyWindow(window) {
     [...window.parentElement.children].forEach(function (el) {
         if (el !== window) el.classList.add("hide");
     });
+    //RESET INTERNATIONAL WINDOW TO A
+    intLine.forEach(function (el) {
+        if (!el.classList.contains("international-line-a")) {
+            el.classList.add("hide");
+        } else {
+            el.classList.remove("hide");
+        }
+    });
 }
 
 shiftKey.addEventListener("click", function (e) {
@@ -70,6 +79,8 @@ function focusOnInput() {
     let activeInput = null;
     inputFocused.forEach((field) => {
         field.addEventListener("focus", function () {
+            tempInput.placeholder = field.placeholder;
+            tempInput.value = field.value;
             console.log("clicked twice");
             $("#keyPadModal").modal("show");
             keyPadWindow.classList.add("keyPadModal-bottom");
@@ -98,6 +109,7 @@ function focusOnInput() {
                         activeInput.value + singleKey.getAttribute("data-val");
                     activeInput.focus();
                 }
+                tempInput.value = activeInput.value;
             } else {
                 console.log("null value");
             }
@@ -107,8 +119,11 @@ function focusOnInput() {
 
 inputClick.forEach(function (el) {
     el.addEventListener("click", function (e) {
+        e.stopPropagation();
         console.log("clicked once");
-        focusOnInput();
+        if (!el.classList.contains("temp-input")) {
+            focusOnInput();
+        }
     });
 });
 
@@ -135,6 +150,7 @@ selectKey.forEach(function (keyPressed) {
 //CANCEL AND DISMISS
 $(dismissKeyModal).click(function () {
     flashKey(dismissKeyModal);
+    tempInput.value = "";
     setTimeout(function () {
         changeKeyWindow(keyWinUpper);
         keyPadWindow.classList.remove("keyPadModal-bottom");

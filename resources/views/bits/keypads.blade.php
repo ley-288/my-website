@@ -6,23 +6,31 @@
         <div class="modal-content animate-bottom" style="background-color:transparent!important;">
             <div class="modal-body registerPinModal">
                 <div class="pin-wrapper">
-                    <input type="number" data-role="pin" maxlength="5" class="pin-input" placeholder="● ● ● ● ●">
+                    <input type="number" data-role="pin" maxlength="5" class="pin-input" placeholder="* * * * *" readonly>
                 </div>
                 </br>
                 </br>
                 <div class="keypad-num">
-                    <div class="keypad-num-key num-put" data-val="1">1</div>
-                    <div class="keypad-num-key num-put" data-val="2">2</div>
-                    <div class="keypad-num-key num-put" data-val="3">3</div>
-                    <div class="keypad-num-key num-put" data-val="4">4</div>
-                    <div class="keypad-num-key num-put" data-val="5">5</div>
-                    <div class="keypad-num-key num-put" data-val="6">6</div>
-                    <div class="keypad-num-key num-put" data-val="7">7</div>
-                    <div class="keypad-num-key num-put" data-val="8">8</div>
-                    <div class="keypad-num-key num-put" data-val="9">9</div>
-                    <div class="keypad-num-key cancel-all"><i class="material-icons-round">delete</i></div>
-                    <div class="keypad-num-key num-put" data-val="0">0</div>
-                    <div class="keypad-num-key cancel"><i class="material-icons-round">backspace</i></div>
+                    <div class="keypad-num-row">
+                        <div class="keypad-num-key num-put" data-val="1">1</div>
+                        <div class="keypad-num-key num-put" data-val="2">2</div>
+                        <div class="keypad-num-key num-put" data-val="3">3</div>
+                    </div>
+                    <div class="keypad-num-row">
+                        <div class="keypad-num-key num-put" data-val="4">4</div>
+                        <div class="keypad-num-key num-put" data-val="5">5</div>
+                        <div class="keypad-num-key num-put" data-val="6">6</div>
+                    </div>
+                    <div class="keypad-num-row">
+                        <div class="keypad-num-key num-put" data-val="7">7</div>
+                        <div class="keypad-num-key num-put" data-val="8">8</div>
+                        <div class="keypad-num-key num-put" data-val="9">9</div>
+                    </div>
+                    <div class="keypad-num-row">
+                        <div class="keypad-num-key cancel-all"><i class="material-icons-round">delete</i></div>
+                        <div class="keypad-num-key num-put" data-val="0">0</div>
+                        <div class="keypad-num-key cancel"><i class="material-icons-round">backspace</i></div>
+                    </div>
                 </div>
                 </br>
                 <div class="dismiss-numpad">
@@ -37,8 +45,12 @@
 <!-- Modal -->
 <div class="modal fade animate" id="keyPadModal" tabindex="-1" role="dialog" aria-labelledby="keyPadModal" aria-hidden="true">
     <div class="modal-dialog" role="document">
+        <div class="close-box" style="height: 50vh;" data-dismiss="modal"></div>
         <div class="modal-content animate-bottom" style="background-color:transparent!important; border:none">
             <div class="modal-body keyPadModal" style="padding:0;">
+                <div>
+                    <input type="text" class="temp-input form-control" style="border: none;" readonly>
+                </div>
                 </br>
                 </br>
                 <div class="keypad-text">
