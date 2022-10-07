@@ -30,15 +30,14 @@ class LoginController extends Controller
             //logged in
             //return redirect()->intended('/')
             //         ->withSuccess('Signed in');
-
         } else {
             //do something if credentials wrong
             return response()->json(['error' => 'Error msg'], 404);
         }
 
-        $email = "leyton@jiant.it";
-        $data = "Jiant";
-        Mail::to($email)->send(new WelcomeMail($data));
+        //$email = "leyton@jiant.it";
+        //$data = "Jiant";
+        //Mail::to($email)->send(new WelcomeMail($data));
 
     }
 
@@ -70,7 +69,7 @@ class LoginController extends Controller
             //logged in
             //return redirect()->intended('/')
             //         ->withSuccess('Signed in');
-            return back();
+            //return back();
 
         } else {
             //do something if credentials wrong

@@ -58,7 +58,8 @@
                                 </button>
                             </div>
                         </a>
-                        <a href="#" style="display:none;">
+                        {{--
+                        <a href="#">
                             <div class="form-group mb-3">
                                 <button class="btn btn-dark btn-block social-login-btn">
                                     <div class="soc-btn">
@@ -68,6 +69,7 @@
                                 </button>
                             </div>
                         </a>
+                        --}}
                         <div>
                             <h6 class="or-select">- @lang('applicazione.or') -</h6>
                         </div>
@@ -119,7 +121,8 @@
                                 </button>
                             </div>
                         </a>
-                        <a href="#" style="display:none;">
+                        {{--
+                        <a href="#">
                             <div class="form-group mb-3">
                                 <button class="btn btn-dark btn-block social-login-btn">
                                     <div class="soc-btn">
@@ -129,6 +132,7 @@
                                 </button>
                             </div>
                         </a>
+                        --}}
                         <div>
                             <h6 class="or-select">- @lang('applicazione.or') -</h6>
                         </div>

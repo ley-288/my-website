@@ -221,7 +221,7 @@ signUp.addEventListener("click", function () {
             },
         });
         $.ajax({
-            url: "/jiant-registration",
+            url: "/registration/jiant",
             type: "POST",
             data: {
                 email: email,
@@ -253,7 +253,7 @@ signIn.addEventListener("click", function () {
         },
     });
     $.ajax({
-        url: "/jiant-login",
+        url: "/login/jiant",
         type: "POST",
         data: {
             email: email,

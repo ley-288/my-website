@@ -66,7 +66,6 @@ body {
 }
 
 .fade-in {
-    //animation-delay: 2.5s;
     animation-duration: 1s;
     animation-name: opacityAnimationFade;
     animation-fill-mode: forwards;
@@ -84,8 +83,6 @@ body {
     animation-duration: 0.9s;
     animation-name: scaleBlurAnimation;
     animation-fill-mode: forwards;
-    //animation-delay: 1s;
-    //animation-timing-function: cubic-bezier(1, 0.1, 1, 0.1);
 }
 
 @keyframes scaleBlurAnimation {
@@ -151,14 +148,6 @@ body {
 #included-form {
     display: flex;
     justify-content: center;
-}
-
-#email {
-    //text-transform: lowercase;
-}
-
-#email_address {
-    //text-transform: lowercase;
 }
 
 .hello {
@@ -566,7 +555,6 @@ img {
 
 .ItemCard__meta.designer:before {
     margin-right: 3px;
-    //content: 'by';
 }
 
 .ItemCard__title,
@@ -1004,11 +992,10 @@ section h1 {
     }
 
     .nav-custom {
-        //display: none;
         height: 10vh;
         justify-content: center !important;
         //backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
+        //-webkit-backdrop-filter: blur(15px);
         padding-top: 40px;
         align-items: center;
         flex-direction: column;
@@ -1030,7 +1017,6 @@ section h1 {
 
     .card {
         width: 96vw;
-        //height: 96vw;
     }
     #io-image {
         margin-left: 50vw;
