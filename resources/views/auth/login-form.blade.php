@@ -174,10 +174,12 @@
 {{--LOGIN / REGISTER SWITCH BUTTONS--}}
 <div class="carousel-ctrl-block" style="margin-bottom:125px;">
     <a href="#carouselExampleControls" role="button" data-slide="prev" id="login-prev-btn" class="hide">
-        <h6>@lang('applicazione.login_swap') ..@lang('applicazione.login')</h6>
+        <h6>@lang('applicazione.login_swap')</h6>
+        <h6 class="link-blue">@lang('applicazione.signin')</h6>
     </a>
-    <a href="#carouselExampleControls" role="button" data-slide="next" id="register-next-btn" >
-        <h6>@lang('applicazione.register_swap')<strong class="jiant"> JIANT</strong>.. @lang('applicazione.register')</h6>
+    <a href="#carouselExampleControls" role="button" data-slide="next" id="register-next-btn">
+        <h6>@lang('applicazione.register_swap')<strong class="jiant"> JIANT</strong></h6>
+        <h6 class="link-blue">@lang('applicazione.signup')</h6>
     </a>
 </div>
 

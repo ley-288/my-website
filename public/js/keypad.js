@@ -20,6 +20,7 @@ const reverseShiftKey = document.querySelector(".reverse-shift-key");
 const symbolKey = document.querySelector(".symbol-key");
 const internationalKey = document.querySelector(".international-key");
 const selectKey = document.querySelectorAll(".key-select");
+const capKey = document.querySelectorAll(".cap");
 
 //INTERNATIONAL LINES
 const intLine = document.querySelectorAll(".key-line-lower");
@@ -55,22 +56,33 @@ function changeKeyWindow(window) {
 shiftKey.addEventListener("click", function (e) {
     changeKeyWindow(keyWinLower);
 });
+
 reverseShiftKey.addEventListener("click", function (e) {
     changeKeyWindow(keyWinUpper);
 });
+
 numKey.forEach(function (elem) {
     elem.addEventListener("click", function (e) {
         changeKeyWindow(keyWinNum);
     });
 });
+
 letterKey.addEventListener("click", function (e) {
     changeKeyWindow(keyWinLower);
 });
+
 symbolKey.addEventListener("click", function (e) {
     changeKeyWindow(keyWinMath);
 });
+
 internationalKey.addEventListener("click", function (e) {
     changeKeyWindow(keyWinInternational);
+});
+
+capKey.forEach(function (keyPressed) {
+    keyPressed.addEventListener("click", function (e) {
+        changeKeyWindow(keyWinLower);
+    });
 });
 
 function focusOnInput() {

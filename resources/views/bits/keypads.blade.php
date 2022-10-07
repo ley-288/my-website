@@ -4,6 +4,10 @@
 <div class="modal fade animate" id="registerPinModal" tabindex="-1" role="dialog" aria-labelledby="registerPinModal" aria-hidden="true" style="overflow-y: hidden;">
     <div class="modal-dialog" role="document">
         <div class="modal-content animate-bottom" style="background-color:transparent!important;">
+            <div class="pin-message">
+                <i class="material-icons-round">dialpad</i>
+                <p>Please choose a 5 number PIN code</p>
+            </div>
             <div class="modal-body registerPinModal">
                 <div class="pin-wrapper">
                     <input type="number" data-role="pin" maxlength="5" class="pin-input" placeholder="* * * * *" readonly>
@@ -13,23 +17,23 @@
                 <div class="keypad-num">
                     <div class="keypad-num-row">
                         <div class="keypad-num-key num-put" data-val="1">1</div>
-                        <div class="keypad-num-key num-put" data-val="2">2</div>
-                        <div class="keypad-num-key num-put" data-val="3">3</div>
+                        <div class="keypad-num-key num-put" data-val="2">2 <p>ABC</p></div>
+                        <div class="keypad-num-key num-put" data-val="3">3<p>DEF</p></div>
                     </div>
                     <div class="keypad-num-row">
-                        <div class="keypad-num-key num-put" data-val="4">4</div>
-                        <div class="keypad-num-key num-put" data-val="5">5</div>
-                        <div class="keypad-num-key num-put" data-val="6">6</div>
+                        <div class="keypad-num-key num-put" data-val="4">4<p>GHI</p></div>
+                        <div class="keypad-num-key num-put" data-val="5">5<p>JKL</p></div>
+                        <div class="keypad-num-key num-put" data-val="6">6<p>MNO</p></div>
                     </div>
                     <div class="keypad-num-row">
-                        <div class="keypad-num-key num-put" data-val="7">7</div>
-                        <div class="keypad-num-key num-put" data-val="8">8</div>
-                        <div class="keypad-num-key num-put" data-val="9">9</div>
+                        <div class="keypad-num-key num-put" data-val="7">7<p>PQRS</p></div>
+                        <div class="keypad-num-key num-put" data-val="8">8<p>TUV</p></div>
+                        <div class="keypad-num-key num-put" data-val="9">9<p>WXYZ</p></div>
                     </div>
                     <div class="keypad-num-row">
-                        <div class="keypad-num-key cancel-all"><i class="material-icons-round">delete</i></div>
+                        <div class="keypad-num-key cancel-all" style="background-color:transparent;"><i class="material-icons-round">delete</i></div>
                         <div class="keypad-num-key num-put" data-val="0">0</div>
-                        <div class="keypad-num-key cancel"><i class="material-icons-round">backspace</i></div>
+                        <div class="keypad-num-key cancel" style="background-color:transparent;"><i class="material-icons-round">backspace</i></div>
                     </div>
                 </div>
                 </br>
@@ -58,37 +62,37 @@
                         {{--KeyPad WINDOW 1 UPPERCASE--}}
                         <div id="key-win-uppercase" class="key-win">
                             <div class="key-line key-line-1">
-                                <div class="keypad-text-key key-put" data-val="Q">Q</div>
-                                <div class="keypad-text-key key-put" data-val="W">W</div>
-                                <div class="keypad-text-key key-put" data-val="E">E</div>
-                                <div class="keypad-text-key key-put" data-val="R">R</div>
-                                <div class="keypad-text-key key-put" data-val="T">T</div>
-                                <div class="keypad-text-key key-put" data-val="Y">Y</div>
-                                <div class="keypad-text-key key-put" data-val="U">U</div>
-                                <div class="keypad-text-key key-put" data-val="I">I</div>
-                                <div class="keypad-text-key key-put" data-val="O">O</div>
-                                <div class="keypad-text-key key-put" data-val="P">P</div>
+                                <div class="keypad-text-key key-put cap" data-val="Q">Q</div>
+                                <div class="keypad-text-key key-put cap" data-val="W">W</div>
+                                <div class="keypad-text-key key-put cap" data-val="E">E</div>
+                                <div class="keypad-text-key key-put cap" data-val="R">R</div>
+                                <div class="keypad-text-key key-put cap" data-val="T">T</div>
+                                <div class="keypad-text-key key-put cap" data-val="Y">Y</div>
+                                <div class="keypad-text-key key-put cap" data-val="U">U</div>
+                                <div class="keypad-text-key key-put cap" data-val="I">I</div>
+                                <div class="keypad-text-key key-put cap" data-val="O">O</div>
+                                <div class="keypad-text-key key-put cap" data-val="P">P</div>
                             </div>
                             <div class="key-line key-line-2">
-                                <div class="keypad-text-key key-put" data-val="A">A</div>
-                                <div class="keypad-text-key key-put" data-val="S">S</div>
-                                <div class="keypad-text-key key-put" data-val="D">D</div>
-                                <div class="keypad-text-key key-put" data-val="F">F</div>
-                                <div class="keypad-text-key key-put" data-val="G">G</div>
-                                <div class="keypad-text-key key-put" data-val="H">H</div>
-                                <div class="keypad-text-key key-put" data-val="J">J</div>
-                                <div class="keypad-text-key key-put" data-val="K">K</div>
-                                <div class="keypad-text-key key-put" data-val="L">L</div>
+                                <div class="keypad-text-key key-put cap" data-val="A">A</div>
+                                <div class="keypad-text-key key-put cap" data-val="S">S</div>
+                                <div class="keypad-text-key key-put cap" data-val="D">D</div>
+                                <div class="keypad-text-key key-put cap" data-val="F">F</div>
+                                <div class="keypad-text-key key-put cap" data-val="G">G</div>
+                                <div class="keypad-text-key key-put cap" data-val="H">H</div>
+                                <div class="keypad-text-key key-put cap" data-val="J">J</div>
+                                <div class="keypad-text-key key-put cap" data-val="K">K</div>
+                                <div class="keypad-text-key key-put cap" data-val="L">L</div>
                             </div>
                             <div class="key-line key-line-3">
                                 <div class="keypad-text-key key-put special-key shift-key"><i   class="material-icons-round">keyboard_double_arrow_down</i></div>
-                                <div class="keypad-text-key key-put" data-val="Z">Z</div>
-                                <div class="keypad-text-key key-put" data-val="X">X</div>
-                                <div class="keypad-text-key key-put" data-val="C">C</div>
-                                <div class="keypad-text-key key-put" data-val="V">V</div>
-                                <div class="keypad-text-key key-put" data-val="B">B</div>
-                                <div class="keypad-text-key key-put" data-val="N">N</div>
-                                <div class="keypad-text-key key-put" data-val="M">M</div>
+                                <div class="keypad-text-key key-put cap" data-val="Z">Z</div>
+                                <div class="keypad-text-key key-put cap" data-val="X">X</div>
+                                <div class="keypad-text-key key-put cap" data-val="C">C</div>
+                                <div class="keypad-text-key key-put cap" data-val="V">V</div>
+                                <div class="keypad-text-key key-put cap" data-val="B">B</div>
+                                <div class="keypad-text-key key-put cap" data-val="N">N</div>
+                                <div class="keypad-text-key key-put cap" data-val="M">M</div>
                                 <div class="keypad-text-key key-put special-key backspace-key"><i class="material-icons-round">backspace</i></div>
                             </div>
                         </div>
