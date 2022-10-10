@@ -2,8 +2,8 @@
 {{--PIN KEYPAD--}}
 <!-- Modal -->
 <div class="modal fade animate" id="registerPinModal" tabindex="-1" role="dialog" aria-labelledby="registerPinModal" aria-hidden="true" style="overflow-y: hidden;">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content animate-bottom" style="background-color:transparent!important;">
+    <div class="modal-dialog pin-center" role="document">
+        <div class="modal-content animate-bottom" style="background-color:transparent!important; margin-top:0;">
             <div class="pin-message">
                 <i class="material-icons-round">dialpad</i>
                 <p>Please choose a 5 number PIN code</p>
@@ -31,14 +31,16 @@
                         <div class="keypad-num-key num-put" data-val="9">9<p>WXYZ</p></div>
                     </div>
                     <div class="keypad-num-row">
-                        <div class="keypad-num-key cancel-all" style="background-color:transparent;"><i class="material-icons-round">delete</i></div>
-                        <div class="keypad-num-key num-put" data-val="0">0</div>
-                        <div class="keypad-num-key cancel" style="background-color:transparent;"><i class="material-icons-round">backspace</i></div>
+                        <div class="keypad-num-key cancel-all" style="background-color:transparent; justify-content:center;"><i class="material-icons-round">delete</i></div>
+                        <div class="keypad-num-key num-put" data-val="0">0<p>+</p></div>
+                        <div class="keypad-num-key cancel" style="background-color:transparent;justify-content:center;"><i class="material-icons-round">backspace</i></div>
                     </div>
                 </div>
                 </br>
                 <div class="dismiss-numpad">
-                    <button class="dismiss-numpad-btn dismiss-modal-btn" data-dismiss="modal">@lang('applicazione.cancel')</button>
+                    <button class="dismiss-numpad-btn dismiss-modal-btn" data-dismiss="modal">
+                        @lang('applicazione.cancel')
+                    </button>
                 </div>
             </div>
         </div>
@@ -122,7 +124,6 @@
                                 <div class="keypad-text-key key-put" data-val="k">k</div>
                                 <div class="keypad-text-key key-put" data-val="l">l</div>
                             </div>
-
                             <div class="key-line key-line-3">
                                 <div class="keypad-text-key key-put special-key reverse-shift-key"><i class="material-icons-round">keyboard_double_arrow_up</i></div>
                                 <div class="keypad-text-key key-put" data-val="z">z</div>
@@ -150,7 +151,6 @@
                                 <div class="keypad-text-key key-put" data-val="9">9</div>
                                 <div class="keypad-text-key key-put" data-val="0">0</div>
                             </div>
-
                             <div class="key-line key-line-2">
                                 <div class="keypad-text-key key-put" data-val="-">-</div>
                                 <div class="keypad-text-key key-put" data-val="/">/</div>
@@ -163,7 +163,6 @@
                                 <div class="keypad-text-key key-put" data-val="@">@</div>
                                 <div class="keypad-text-key key-put" data-val='"'>"</div>
                             </div>
-
                             <div class="key-line key-line-3">
                                 <div class="keypad-text-key key-put special-key symbol-key"><i class="material-icons-round">calculate</i></div>
                                 <div class="keypad-text-key key-put" data-val=".">.</div>
@@ -189,7 +188,6 @@
                                 <div class="keypad-text-key key-put" data-val="+">+</div>
                                 <div class="keypad-text-key key-put" data-val="=">=</div>
                             </div>
-
                             <div class="key-line key-line-2">
                                 <div class="keypad-text-key key-put" data-val="_">_</div>
                                 <div class="keypad-text-key key-put" data-val="/">\</div>
@@ -202,7 +200,6 @@
                                 <div class="keypad-text-key key-put" data-val="￥">￥</div>
                                 <div class="keypad-text-key key-put" data-val='·'>·</div>
                             </div>
-
                             <div class="key-line key-line-3">
                                 <div class="keypad-text-key key-put special-key num-key"><i class="material-icons-round">123</i></div>
                                 <div class="keypad-text-key key-put" data-val=".">.</div>
@@ -226,7 +223,6 @@
                                 <div class="keypad-text-key key-select" data-sel="s">S</div>
                                 <div class="keypad-text-key key-select" data-sel="u">U</div>
                             </div>
-
                             <div class="key-line key-line-2">
                                 <div class="key-line key-line-lower international-line-a">
                                     <div class="keypad-text-key key-put" data-val="À">À</div>
@@ -287,7 +283,6 @@
                                     <div class="keypad-text-key key-put" data-val="Ū">Ū</div>
                                 </div>
                             </div>
-
                             <div class="key-line key-line-3">
                                 <div class="key-line key-line-lower international-line-a">
                                     <div class="keypad-text-key key-put" data-val="à">à</div>
@@ -361,7 +356,6 @@
                             <div class="keypad-text-key key-put bl-bottom" data-val="gmail">gmail</div>
                             <div class="keypad-text-key key-put bl-bottom" data-val=".com">.com</div>
                         </div>
-
                         <div class="key-bottom-row-line">
                             <div class="keypad-text-key key-bottom key-put special-key emoji-key"><i class="material-icons-round">emoji_emotions</i></div>
                             <div class="keypad-text-key key-bottom key-put special-key space-key"><i class="material-icons-round" data-val=" ">space_bar</i></div>

@@ -1,0 +1,70 @@
+.wrapper {
+  position: relative;
+  height: 800px;
+  -webkit-perspective: 800;
+}
+
+.layer {
+  position: absolute;
+  will-change: transform;
+}
+
+.ad {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 840px;
+  height: 500px;
+  margin-left: -420px;
+  margin-top: -250px;
+  background: black;
+  overflow: hidden;
+  border-radius: 3px;
+  -webkit-transform-style: preserve-3d;
+  will-change: transform;
+  box-shadow: 0 60px 100px rgba(0, 0, 0, 0.5);
+}
+
+.layer-1,
+.layer-2,
+.layer-3 {
+  top: 50%;
+  left: 50%;
+  margin-left: -630px;
+  margin-top: -375px;
+  width: 1260px;
+  height: 750px;
+  transform: scale(0.7);
+}
+
+.light {
+  top: 50%;
+  left: 50%;
+  margin-left: -840px;
+  margin-top: -800px;
+  width: 1680px;
+  height: 1000px;
+  background: radial-gradient(ellipse closest-side at center, #6C6C6C, black);
+  mix-blend-mode: color-dodge;
+  opacity: 0.6;
+  z-index: 3;
+}
+
+.light-2 {
+  z-index: 4;
+  background: radial-gradient(ellipse closest-side at center, white, black);
+  mix-blend-mode: screen;
+  opacity: 0.3;
+}
+
+.layer-1 {
+  background-image: url(http://demos.attasi.com/apple-tv/images/breaking-bad-layer-1.jpg);
+}
+
+.layer-2 {
+  background-image: url(http://demos.attasi.com/apple-tv/images/breaking-bad-layer-2.png);
+}
+
+.layer-3 {
+  background-image: url(http://demos.attasi.com/apple-tv/images/breaking-bad-layer-3.png);
+}/*# sourceMappingURL=app.css.map */

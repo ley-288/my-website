@@ -91,5 +91,5 @@ return [
     'continue_apple' => "Continue with Apple",
     'reg_fb' => "Continue with Facebook",
     'reg_google' => "Continue with Google",
-    'or' => 'or continue with email',
+    'or' => 'or',
 ];

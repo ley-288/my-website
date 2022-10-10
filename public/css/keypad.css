@@ -3,9 +3,16 @@
     animation: animatebottom 0.4s;
 }
 
-.registerPinModal {
-    height: 100vh;
-    margin-top: 10vh;
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
 }
 
 .dismiss-modal {
@@ -80,7 +87,6 @@
 
 .pin-input {
     letter-spacing: 5px;
-    height: 50px;
     border-radius: 10px;
     margin: 5px;
     border: none;
@@ -135,7 +141,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 20vh;
+    padding-top: 5vh;
 }
 
 .keypad-text-key {
@@ -204,6 +210,13 @@
     top: auto !important;
     height: auto !important;
     bottom: 0;
+}
+
+.pin-center {
+    display: flex;
+    height: 100vh;
+    bottom: 0;
+    align-items: center;
 }
 
 .pin-message {
