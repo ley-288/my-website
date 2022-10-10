@@ -21,9 +21,20 @@ const symbolKey = document.querySelector(".symbol-key");
 const internationalKey = document.querySelector(".international-key");
 const selectKey = document.querySelectorAll(".key-select");
 const capKey = document.querySelectorAll(".cap");
+const emoSelectKey = document.querySelectorAll(".emo-select");
+
+//KEYS
+const keyPressed = document.querySelectorAll(".key-put");
 
 //INTERNATIONAL LINES
 const intLine = document.querySelectorAll(".key-line-lower");
+
+//EMOJI LINES
+const emoLine = document.querySelectorAll(".emo-line-lower");
+
+//EMOJI VALUES
+const emojiVal = document.querySelectorAll("[data-filter]");
+const emojiBar = document.querySelector(".emoji-bar");
 
 //KEY WINDOWS
 const keyWinUpper = document.querySelector("#key-win-uppercase");
@@ -31,6 +42,7 @@ const keyWinLower = document.querySelector("#key-win-lowercase");
 const keyWinNum = document.querySelector("#key-win-numerals");
 const keyWinMath = document.querySelector("#key-win-maths");
 const keyWinInternational = document.querySelector("#key-win-international");
+const keyWinEmoji = document.querySelector("#key-win-emoji");
 
 //BUTTONS
 const dismissKeyModal = document.querySelector(".dismiss-keypad-btn");
@@ -46,6 +58,14 @@ function changeKeyWindow(window) {
     //RESET INTERNATIONAL WINDOW TO A
     intLine.forEach(function (el) {
         if (!el.classList.contains("international-line-a")) {
+            el.classList.add("hide");
+        } else {
+            el.classList.remove("hide");
+        }
+    });
+    //RESET EMOJI WINDOW
+    emoLine.forEach(function (el) {
+        if (!el.classList.contains("emo-line-face")) {
             el.classList.add("hide");
         } else {
             el.classList.remove("hide");
@@ -79,6 +99,10 @@ internationalKey.addEventListener("click", function (e) {
     changeKeyWindow(keyWinInternational);
 });
 
+emojiKey.addEventListener("click", function (e) {
+    changeKeyWindow(keyWinEmoji);
+});
+
 capKey.forEach(function (keyPressed) {
     keyPressed.addEventListener("click", function (e) {
         changeKeyWindow(keyWinLower);
@@ -86,7 +110,6 @@ capKey.forEach(function (keyPressed) {
 });
 
 function focusOnInput() {
-    let keyPressed = document.querySelectorAll(".key-put");
     let inputFocused = document.querySelectorAll(".focus-input");
     let activeInput = null;
     inputFocused.forEach((field) => {
@@ -159,6 +182,19 @@ selectKey.forEach(function (keyPressed) {
     });
 });
 
+// EMOJI SELECT
+emoSelectKey.forEach(function (keyPressed) {
+    keyPressed.addEventListener("click", function (e) {
+        flashKey(keyPressed);
+        const selected = keyPressed.getAttribute("data-emo");
+        emoLine.forEach(function (el) {
+            if (el.classList.contains(`emo-line-${selected}`)) {
+                toggleIntlLine(el);
+            }
+        });
+    });
+});
+
 //CANCEL AND DISMISS
 $(dismissKeyModal).click(function () {
     flashKey(dismissKeyModal);
@@ -169,6 +205,25 @@ $(dismissKeyModal).click(function () {
     }, 500);
 });
 
+spaceKey.addEventListener("click", function (e) {
+    let temp = [...tempInput.value.toLowerCase().split(" ")];
+    for (var i in emojiVal)
+        if (emojiVal.hasOwnProperty(i)) {
+            let box = [...emojiVal[i].getAttribute("data-filter").split(" ")];
+            const found = box.some((r) => temp.includes(r));
+            if (found) {
+                if (emojiBar.children[0]) {
+                    emojiBar.children[0].remove();
+                }
+                emojiBar.appendChild(emojiVal[i].cloneNode(true));
+                return;
+            }
+        }
+});
+
+/////////////////////////////////////////
+
+//LONG PRESS TO DO
 // click
 var d = document.querySelector(".shift-key"),
     isDown = false,

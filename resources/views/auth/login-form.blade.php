@@ -186,7 +186,8 @@
 {{--CHANGE LANGUAGE SELECT BUTTON--}}
 <div class="language-block">
     <div class="lineup">
-        <img src="{{ asset('images/logos/jiant2.png') }}" class="micro-logo"/>
+        {{--<img src="{{ asset('images/logos/jiant2.png') }}" class="micro-logo"/>--}}
+        <div class="margin-right-space jiant">jiant</div>
         <div class="margin-right-space">2022</div>
         <div class="margin-right-space"><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></div>
         <div class="margin-right-space"><a href="{{url('/')}}/cookie-policy">Cookie Policy</a></div>

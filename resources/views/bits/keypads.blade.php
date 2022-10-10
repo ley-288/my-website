@@ -58,6 +58,9 @@
                     <input type="text" class="temp-input form-control" style="border: none;" readonly>
                 </div>
                 </br>
+                <div class="emoji-bar">
+
+                </div>
                 </br>
                 <div class="keypad-text">
                     <div id="keypad-keys">
@@ -343,6 +346,1380 @@
                                     <div class="keypad-text-key key-put" data-val="ü">ü</div>
                                     <div class="keypad-text-key key-put" data-val="ū">ū</div>
                                 </div>
+                            </div>
+                        </div>
+
+                        {{--KeyPad WINDOW 6 EMOJI--}}
+
+                        <div id="key-win-emoji" class="key-win hide">
+                            <div class="emo-scroll">
+                                <div class="emo-line-lower emo-line-face">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😀" data-filter="happy angry">😀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😃" data-filter="smile">😃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😄" data-filter="excited">😄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😁" data-filter="sad">😁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😆">😆</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥹">🥹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😅">😅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😂">😂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤣">🤣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥲">🥲</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="☺️">☺️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😊">😊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😇">😇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙂">🙂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙃">🙃</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😉">😉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😌">😌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😍">😍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥰">🥰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😘">😘</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😗">😗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😙">😙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😚">😚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😋">😋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😛">😛</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😝">😝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😜">😜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤪">🤪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤨">🤨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧐">🧐</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤓">🤓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😎">😎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥸">🥸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤩">🤩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥳">🥳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😏">😏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😒">😒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😞">😞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😔">😔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😟">😟</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😕">😕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙁">🙁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☹️">☹️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😣">😣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😖">😖</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😫">😫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😩">😩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥺">🥺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😢">😢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😭">😭</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😤">😤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😠">😠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😡">😡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤬">🤬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤯">🤯</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😳">😳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥵">🥵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥶">🥶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😶‍🌫️">😶‍🌫️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😱">😱</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😨">😨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😰">😰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😥">😥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😓">😓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤗">🤗</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤔">🤔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫣">🫣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤭">🤭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫢">🫢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫡">🫡</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤫">🤫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫠">🫠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤥">🤥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😶">😶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫥">🫥</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😐">😐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫤">🫤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😑">😑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😬">😬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙄">🙄</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😯">😯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😦">😦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😧">😧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😮">😮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😲">😲</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥱">🥱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😴">😴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤤">🤤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😪">😪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😮‍💨">😮‍💨</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😵">😵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😵‍💫">😵‍💫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤐">🤐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥴">🥴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤢">🤢</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤮">🤮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤧">🤧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😷">😷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤒">🤒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤕">🤕</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤑">🤑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤠">🤠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😈">😈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👿">👿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👹">👹</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👺">👺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤡">🤡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💩">💩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👻">👻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💀">💀</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="☠️">☠️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👽">👽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👾">👾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤖">🤖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎃">🎃</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😺">😺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😸">😸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😹">😹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😻">😻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😼">😼</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😽">😽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙀">🙀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😿">😿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😾">😾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫶">🫶</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤲">🤲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👐">👐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙌">🙌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👏">👏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤝">🤝</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👍">👍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👎">👎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👊">👊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="✊">✊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤛">🤛</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤜">🤜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤞">🤞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="✌️">✌️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫰">🫰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤟">🤟</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤘">🤘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👌">👌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤌">🤌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤏">🤏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫳">🫳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🫴">🫴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👈">👈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👉">👉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👆">👆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👇">👇</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="☝️">☝️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="✋">✋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤚">🤚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🖐">🖐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🖖">🖖</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👋">👋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤙">🤙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫲">🫲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫱">🫱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💪">💪</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦾">🦾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🖕">🖕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="✍️">✍️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙏">🙏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫵">🫵</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦶">🦶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦵">🦵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦿">🦿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💄">💄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💋">💋</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👄">👄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫦">🫦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦷">🦷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👅">👅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👂">👂</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦻">🦻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👃">👃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👣">👣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👁">👁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👀">👀</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🫀">🫀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫁">🫁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧠">🧠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🗣">🗣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👤">👤</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👥">👥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫂">🫂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👶">👶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👧">👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧒">🧒</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👦">👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩">👩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑">🧑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨">👨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦱">👩‍🦱</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦱">🧑‍🦱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦱">👨‍🦱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦰">👩‍🦰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦰">🧑‍🦰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦰">👨‍🦰</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👱‍♀️">👱‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👱">👱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👱‍♂️">👱‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦳">👩‍🦳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦳">🧑‍🦳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦳">👨‍🦳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦲">👩‍🦲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦲">🧑‍🦲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦲">👨‍🦲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧔‍♀️">🧔‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧔">🧔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧔‍♂️">🧔‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👵">👵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧓">🧓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👴">👴</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👲">👲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👳‍♀️">👳‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👳">👳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👳‍♂️">👳‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧕">🧕</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👮‍♀️">👮‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👮">👮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👮‍♂️">👮‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👷‍♀️">👷‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👷">👷</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👷‍♂️">👷‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💂‍♀️">💂‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💂">💂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💂‍♂️">💂‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕵️‍♀️">🕵️‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🕵️">🕵️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕵️‍♂️">🕵️‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍⚕️">👩‍⚕️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍⚕️">🧑‍⚕️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍⚕️">👨‍⚕️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🌾">👩‍🌾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🌾">🧑‍🌾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🌾">👨‍🌾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🍳">👩‍🍳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🍳">🧑‍🍳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🍳">👨‍🍳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🎓">👩‍🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎓">🧑‍🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🎓">👨‍🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🎤">👩‍🎤</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎤">🧑‍🎤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🎤">👨‍🎤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🏫">👩‍🏫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🏫">🧑‍🏫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🏫">👨‍🏫</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🏭">👩‍🏭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🏭">🧑‍🏭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🏭">👨‍🏭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍💻">👩‍💻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍💻">🧑‍💻</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👨🏻‍💻">👨🏻‍💻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍💼">👩‍💼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍💼">🧑‍💼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍💼">👨‍💼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🔧">👩‍🔧</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🔧">🧑‍🔧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🔧">👨‍🔧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🔬">👩‍🔬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🔬">🧑‍🔬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🔬">👨‍🔬</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🎨">👩‍🎨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎨">🧑‍🎨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🎨">👨‍🎨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🚒">👩‍🚒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🚒">🧑‍🚒</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🚒">👨‍🚒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍✈️">👩‍✈️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍✈️">🧑‍✈️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍✈️">👨‍✈️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🚀">👩‍🚀</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🚀">🧑‍🚀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🚀">👨‍🚀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍⚖️">👩‍⚖️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍⚖️">🧑‍⚖️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍⚖️">👨‍⚖️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👰‍♀️">👰‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👰">👰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👰‍♂️">👰‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤵‍♀️">🤵‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤵">🤵</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤵‍♂️">🤵‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👸">👸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫅">🫅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤴">🤴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥷">🥷</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦸‍♀️">🦸‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦸">🦸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦸‍♂️">🦸‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦹‍♀️">🦹‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦹">🦹</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦹‍♂️">🦹‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤶">🤶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎄">🧑‍🎄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎅">🎅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧙‍♀️">🧙‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧙">🧙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧙‍♂️">🧙‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧝‍♀️">🧝‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧝">🧝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧝‍♂️">🧝‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧌">🧌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧛‍♀️">🧛‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧛">🧛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧛‍♂️">🧛‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧟‍♀️">🧟‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧟">🧟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧟‍♂️">🧟‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧞‍♀️">🧞‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧞">🧞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧞‍♂️">🧞‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧜‍♀️">🧜‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧜">🧜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧜‍♂️">🧜‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧚‍♀️">🧚‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧚">🧚</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧚‍♂️">🧚‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👼">👼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤰">🤰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫄">🫄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫃">🫃</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤱">🤱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🍼">👩‍🍼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🍼">🧑‍🍼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🍼">👨‍🍼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙇‍♀️">🙇‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🙇">🙇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙇‍♂️">🙇‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💁‍♀️">💁‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💁">💁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💁‍♂️">💁‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🙅‍♀️">🙅‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙅">🙅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙅‍♂️">🙅‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙆‍♀️">🙆‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙆">🙆</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🙆‍♂️">🙆‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙋‍♀️">🙋‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙋">🙋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙋‍♂️">🙋‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧏‍♀️">🧏‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧏">🧏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧏‍♂️">🧏‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤦‍♀️">🤦‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤦">🤦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤦‍♂️">🤦‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤷‍♀️">🤷‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤷">🤷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤷‍♂️">🤷‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙎‍♀️">🙎‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙎">🙎</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🙎‍♂️">🙎‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙍‍♀️">🙍‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙍">🙍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙍‍♂️">🙍‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💇‍♀️">💇‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="💇">💇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💇‍♂️">💇‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💆‍♀️">💆‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💆">💆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💆‍♂️">💆‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧖‍♀️">🧖‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧖">🧖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧖‍♂️">🧖‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💅">💅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤳">🤳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧖‍♀️">🧖‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💃">💃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕺">🕺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👯‍♀️">👯‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👯">👯</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👯‍♂️">👯‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕴">🕴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦽">👩‍🦽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦽">🧑‍🦽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦽">👨‍🦽</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦼">👩‍🦼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦼">🧑‍🦼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦼">👨‍🦼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚶‍♀️">🚶‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚶">🚶</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🚶‍♂️">🚶‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦯">👩‍🦯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦯">🧑‍🦯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦯">👨‍🦯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧎‍♀️">🧎‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧎">🧎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧎‍♂️">🧎‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏃‍♀️">🏃‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏃">🏃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏃‍♂️">🏃‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧍‍♀️">🧍‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧍">🧍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧍‍♂️">🧍‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👫">👫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👭">👭</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👬">👬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍❤️‍👨">👩‍❤️‍👨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍❤️‍👩">👩‍❤️‍👩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💑">💑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍❤️‍👨">👨‍❤️‍👨</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍❤️‍💋‍👨">👩‍❤️‍💋‍👨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍❤️‍💋‍👩">👩‍❤️‍💋‍👩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💏">💏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍❤️‍💋‍👨">👨‍❤️‍💋‍👨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👩‍👦">👨‍👩‍👦</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👩‍👧">👨‍👩‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👩‍👧‍👦">👨‍👩‍👧‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👩‍👦‍👦">👨‍👩‍👦‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👩‍👧‍👧">👨‍👩‍👧‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👩‍👦">👩‍👩‍👦</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👩‍👧">👩‍👩‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👩‍👧‍👦">👩‍👩‍👧‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👩‍👦‍👦">👩‍👩‍👦‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👩‍👧‍👧">👩‍👩‍👧‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👨‍👦">👨‍👨‍👦</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👨‍👧">👨‍👨‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👨‍👧‍👦">👨‍👨‍👧‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👨‍👦‍👦">👨‍👨‍👦‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👨‍👧‍👧">👨‍👨‍👧‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👦">👩‍👦</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👧">👩‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👧‍👦">👩‍👧‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👦‍👦">👩‍👦‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍👧‍👧">👩‍👧‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👦">👨‍👦</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👧">👨‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👧‍👦">👨‍👧‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👦‍👦">👨‍👦‍👦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍👧‍👧">👨‍👧‍👧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪢">🪢</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧶">🧶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧵">🧵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪡">🪡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧥">🧥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥼">🥼</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦺">🦺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👚">👚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👕">👕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👖">👖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🩲">🩲</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🩳">🩳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👔">👔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👗">👗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👙">👙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🩱">🩱</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👘">👘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥻">🥻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🩴">🩴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥿">🥿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👠">👠</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👡">👡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👢">👢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👞">👞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👟">👟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥾">🥾</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧦">🧦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧤">🧤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧣">🧣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎩">🎩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧢">🧢</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="👒">👒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎓">🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛑">⛑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪖">🪖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👑">👑</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="💍">💍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👝">👝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👛">👛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👜">👜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💼">💼</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎒">🎒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧳">🧳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👓">👓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕶">🕶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥽">🥽</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌂">🌂</div>
+                                    </div>
+                                </div>
+                                <div class="emo-line-lower emo-line-nature">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐶" data-filter="dog puppy">🐶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐱" data-filter="cat kitty">🐱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐭" data-filter="mouse">🐭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐹" data-filter="mouse">🐹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐰" data-filter="rabbit">🐰</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦊">🦊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐻">🐻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐼">🐼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐻‍❄️">🐻‍❄️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐨">🐨</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐯">🐯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦁">🦁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐮">🐮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐷">🐷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐽">🐽</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐸">🐸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐵">🐵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙈">🙈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙉">🙉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙊">🙊</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐒">🐒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐔">🐔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐧">🐧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐦">🐦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐤">🐤</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐣">🐣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐥">🐥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦆">🦆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦅">🦅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦉">🦉</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦇">🦇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐺">🐺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐗">🐗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐴">🐴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦄">🦄</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐝">🐝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪱">🪱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐛">🐛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦋">🦋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐌">🐌</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐞">🐞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐜">🐜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪰">🪰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪲">🪲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪳">🪳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦟">🦟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦗">🦗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕷">🕷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕸">🕸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦂">🦂</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐢">🐢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐍">🐍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦎">🦎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦖">🦖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦕">🦕</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐙">🐙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦑">🦑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦐">🦐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦞">🦞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦀">🦀</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐡">🐡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐠">🐠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐟">🐟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐬">🐬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐳">🐳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐋">🐋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦈">🦈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦭">🦭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐊">🐊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐅">🐅</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐆">🐆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦓">🦓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦍">🦍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦧">🦧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦣">🦣</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐘">🐘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦛">🦛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦏">🦏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐪">🐪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐫">🐫</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦒">🦒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦘">🦘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦬">🦬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐃">🐃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐂">🐂</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐄">🐄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐎">🐎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐖">🐖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐏">🐏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐑">🐑</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦙">🦙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐐">🐐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦌">🦌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐕">🐕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐩">🐩</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦮">🦮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐕‍🦺">🐕‍🦺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐈">🐈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐈‍⬛">🐈‍⬛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪶">🪶</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐓">🐓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦃">🦃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦤">🦤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦚">🦚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦜">🦜</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦢">🦢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦩">🦩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕊">🕊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐇">🐇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦝">🦝</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🦨">🦨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦡">🦡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦫">🦫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦦">🦦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦥">🦥</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐁">🐁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐀">🐀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐿">🐿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦔">🦔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐾">🐾</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🐉">🐉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐲">🐲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌵">🌵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎄">🎄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌲">🌲</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌳">🌳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌴">🌴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪵">🪵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌱">🌱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌿">🌱</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="☘️">☘️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍀">🍀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎍">🎍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪴">🪴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎋">🎋</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍃">🍃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍂">🍂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍁">🍁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪺">🪺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪹">🪹</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍄">🍄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🐚">🐚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪸">🪸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪨">🪨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌾">🌾</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="💐">💐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌷">🌷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌹">🌹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥀">🥀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪷">🪷</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌺">🌺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌸">🌸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌼">🌼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌻">🌻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌞">🌞</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌝">🌝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌛">🌛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌜">🌜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌚">🌚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌕">🌕</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌖">🌖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌗">🌗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌘">🌘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌑">🌑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌒">🌒</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌓">🌓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌔">🌔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌙">🌙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌎">🌎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌍">🌍</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌏">🌏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪐">🪐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💫">💫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⭐️">⭐️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌟">🌟</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="✨">✨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⚡️">⚡️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☄️">☄️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💥">💥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🔥">🔥</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌪">🌪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌈">🌈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☀️">☀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌤">🌤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛅️">⛅️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌥">🌥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☁️">☁️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌦">🌦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌧">🌧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛈">⛈</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌩">🌩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌨">🌨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="❄️">❄️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☃️">☃️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛄️">⛄️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌬">🌬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💨">💨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💧">💧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💦">💦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫧">🫧</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="☔️">☔️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☂️">☂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌊">🌊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌫">🌫</div>
+                                    </div>
+                                </div>
+                                <div class="emo-line-lower emo-line-food">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍏">🍏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍎">🍎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍐">🍐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍊">🍊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍋">🍋</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍌">🍌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍉">🍉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍇">🍇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍓">🍓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫐">🫐</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍈">🍈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍒">🍒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍑">🍑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥭">🥭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍍">🍍</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥥">🥥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥝">🥝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍅">🍅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍆">🍆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥑">🥑</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥦">🥦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥬">🥬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥒">🥒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌶">🌶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫑">🫑</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌽">🌽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥕">🥕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫒">🫒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧄">🧄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧅">🧅</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥔">🥔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍠">🍠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥐">🥐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥯">🥯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍞">🍞</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥖">🥖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥨">🥨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧀">🧀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥚">🥚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍳">🍳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧈">🧈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥞">🥞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧇">🧇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥓">🥓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥩">🥩</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍗">🍗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍖">🍖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦴">🦴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌭">🌭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍔">🍔</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍟">🍟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍕">🍕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫓">🫓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥪">🥪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥙">🥙</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧆">🧆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌮">🌮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌯">🌯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫔">🫔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥗">🥗</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥘">🥘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫕">🫕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥫">🥫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫙">🫙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍝">🍝</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍜">🍜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍲">🍲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍛">🍛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍣">🍣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍱">🍱</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥟">🥟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦪">🦪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍤">🍤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍙">🍙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍚">🍚</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍘">🍘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍥">🍥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥠">🥠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥮">🥮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍢">🍢</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍡">🍡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍧">🍧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍨">🍨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍦">🍦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥧">🥧</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧁">🧁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍰">🍰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎂">🎂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍮">🍮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍭">🍭</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍬">🍬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍫">🍫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍿">🍿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍩">🍩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍪">🍪</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🌰">🌰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥜">🥜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫘">🫘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍯">🍯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥛">🥛</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🫗">🫗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍼">🍼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫖">🫖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☕️">☕️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍵">🍵</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧃">🧃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥤">🥤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧋">🧋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍶">🍶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍺">🍺</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍻">🍻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥂">🥂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍷">🍷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥃">🥃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍸">🍸</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍹">🍹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧉">🧉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍾">🍾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧊">🧊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥄">🥄</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🍴">🍴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🍽">🍽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥣">🥣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥡">🥡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥢">🥢</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🧂">🧂</div>
+                                    </div>
+                                </div>
+                                <div class="emo-line-lower emo-line-activity">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="⚽️">⚽️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏀">🏀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏈">🏈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⚾️">⚾️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥎">🥎</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎾">🎾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏐">🏐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏉">🏉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥏">🥏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎱">🎱</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🪀">🪀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏓">🏓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏸">🏸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏒">🏒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏑">🏑</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥍">🥍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏏">🏏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪃">🪃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥅">🥅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛳️">⛳️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🪁">🪁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🛝">🛝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏹">🏹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎣">🎣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤿">🤿</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🥊">🥊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥋">🥋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎽">🎽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🛹">🛹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🛼">🛼</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🛷">🛷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛸">⛸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥌">🥌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎿">🎿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛷">⛷</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🏂">🏂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪂">🪂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏋️‍♀️">🏋️‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏋️">🏋️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏋️‍♂️">🏋️‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤼‍♀️">🤼‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤼">🤼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤼‍♂️">🤼‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤸‍♀️">🤸‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤸">🤸</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤸‍♂️">🤸‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛹️‍♀️">⛹️‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛹️">⛹️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="⛹️‍♂️">⛹️‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤺">🤺</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤾‍♀️">🤾‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤾">🤾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤾‍♂️">🤾‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏌️‍♀️">🏌️‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏌️">🏌️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🤾‍♀️">🤾‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤾">🤾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤾‍♂️">🤾‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏌️‍♀️">🏌️‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏌️">🏌️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🏌️‍♂️">🏌️‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏇">🏇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧘‍♀️">🧘‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧘">🧘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧘‍♂️">🧘‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🏄‍♀️">🏄‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏄">🏄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏄‍♂️">🏄‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏊‍♀️">🏊‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏊">🏊</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🏊‍♂️">🏊‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤽‍♀️">🤽‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤽">🤽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤽‍♂️">🤽‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚣‍♀️">🚣‍♀️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🚣">🚣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚣‍♂️">🚣‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧗‍♀️">🧗‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧗">🧗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧗‍♂️">🧗‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🚵‍♀️">🚵‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚵">🚵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚵‍♂️">🚵‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚴‍♀️">🚴‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🚴">🚴</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🚴‍♂️">🚴‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏆">🏆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥇">🥇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥈">🥈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥉">🥉</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🏅">🏅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎖">🎖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏵">🏵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎗">🎗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎫">🎫</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎟">🎟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎪">🎪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤹‍♀️">🤹‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤹">🤹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤹‍♂️">🤹‍♂️</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎭">🎭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🩰">🩰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎨">🎨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎬">🎬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎤">🎤</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎧">🎧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎼">🎼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎹">🎹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥁">🥁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪘">🪘</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎷">🎷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎺">🎺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪗">🪗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎸">🎸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪕">🪕</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎻">🎻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎲">🎲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="♟">♟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎯">🎯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎳">🎳</div>
+                                    </div>
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="🎮">🎮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎰">🎰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧩">🧩</div>
+                                    </div>
+                                </div>
+                                <div class="emo-line-lower emo-line-travel">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😀"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😃"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😄"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😁"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😆"></div>
+                                    </div>
+                                </div>
+                                <div class="emo-line-lower emo-line-object">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😀"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😃"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😄"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😁"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😆"></div>
+                                    </div>
+                                </div>
+                                <div class="emo-line-lower emo-line-symbol">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😀"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😃"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😄"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😁"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😆"></div>
+                                    </div>
+                                </div>
+                                <div class="emo-line-lower emo-line-flag">
+                                    <div class="key-line emo-line">
+                                        <div class="keypad-emo-key key-put emo" data-val="😀"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😃"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😄"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😁"></div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😆"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="key-line key-line-select">
+                                <div class="keypad-text-key key-select emo-select" data-emo="face">😀</div>
+                                <div class="keypad-text-key key-select emo-select" data-emo="nature">🐻‍❄️</div>
+                                <div class="keypad-text-key key-select emo-select" data-emo="food">🍏</div>
+                                <div class="keypad-text-key key-select emo-select" data-emo="activity">⚽️</div>
+                                <div class="keypad-text-key key-select emo-select" data-emo="travel">🚗</div>
+                                <div class="keypad-text-key key-select emo-select" data-emo="object">💡</div>
+                                <div class="keypad-text-key key-select emo-select" data-emo="symbol">❤️</div>
+                                <div class="keypad-text-key key-select emo-select" data-emo="flags">🏳️</div>
+                                <div class="keypad-text-key key-put special-key backspace-key"><i class="material-icons-round">backspace</i></div>
                             </div>
                         </div>
                     </div>
