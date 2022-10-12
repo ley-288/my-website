@@ -181,7 +181,13 @@ input[type="number"] {
 
 .emoji-bar {
     display: flex;
-    text-align: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.feature-emoji {
+    margin: 0 !important;
+    font-size: 45px !important;
 }
 
 .emo-scroll {
@@ -276,4 +282,23 @@ input[type="number"] {
 
 .registerPinModal p {
     font-size: 8px;
+}
+
+.statement {
+    color: orange;
+}
+
+.tt-overlay {
+    pointer-events: none;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+    white-space: pre;
+    display: inline-block;
+    height: 100px !important;
+    background-color: #00000070 !important;
+    box-shadow: 0px 0px 7px 0px #8582827d;
+    color: #fff !important;
+    border-radius: 15px !important;
 }

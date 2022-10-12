@@ -25,6 +25,7 @@ const emoSelectKey = document.querySelectorAll(".emo-select");
 
 //KEYS
 const keyPressed = document.querySelectorAll(".key-put");
+const delClass = document.querySelectorAll(".del-class");
 
 //INTERNATIONAL LINES
 const intLine = document.querySelectorAll(".key-line-lower");
@@ -114,9 +115,7 @@ function focusOnInput() {
     let activeInput = null;
     inputFocused.forEach((field) => {
         field.addEventListener("focus", function () {
-            tempInput.placeholder = field.placeholder;
-            tempInput.value = field.value;
-            console.log("clicked twice");
+            $(".temp-input").html(field.value);
             $("#keyPadModal").modal("show");
             keyPadWindow.classList.add("keyPadModal-bottom");
             activeInput = field;
@@ -144,18 +143,28 @@ function focusOnInput() {
                         activeInput.value + singleKey.getAttribute("data-val");
                     activeInput.focus();
                 }
-                tempInput.value = activeInput.value;
+                $(".temp-input").html(activeInput.value);
+                highlightWord();
             } else {
                 console.log("null value");
             }
         });
+    });
+    $(document).on("click", ".del-class", function () {
+        if (activeInput) {
+            activeInput.value =
+                activeInput.value + " " + this.getAttribute("data-val") + " ";
+            activeInput.focus();
+            $(".temp-input").value = activeInput.value + " ";
+        } else {
+            console.log("null value");
+        }
     });
 }
 
 inputClick.forEach(function (el) {
     el.addEventListener("click", function (e) {
         e.stopPropagation();
-        console.log("clicked once");
         if (!el.classList.contains("temp-input")) {
             focusOnInput();
         }
@@ -171,7 +180,7 @@ function toggleIntlLine(line) {
 }
 
 selectKey.forEach(function (keyPressed) {
-    keyPressed.addEventListener("click", function (e) {
+    $(keyPressed).on("click", function () {
         flashKey(keyPressed);
         const selected = keyPressed.getAttribute("data-sel");
         intLine.forEach(function (el) {
@@ -184,7 +193,7 @@ selectKey.forEach(function (keyPressed) {
 
 // EMOJI SELECT
 emoSelectKey.forEach(function (keyPressed) {
-    keyPressed.addEventListener("click", function (e) {
+    $(keyPressed).on("click", function () {
         flashKey(keyPressed);
         const selected = keyPressed.getAttribute("data-emo");
         emoLine.forEach(function (el) {
@@ -198,27 +207,57 @@ emoSelectKey.forEach(function (keyPressed) {
 //CANCEL AND DISMISS
 $(dismissKeyModal).click(function () {
     flashKey(dismissKeyModal);
-    tempInput.value = "";
+    $(".temp-input").html("");
     setTimeout(function () {
         changeKeyWindow(keyWinUpper);
         keyPadWindow.classList.remove("keyPadModal-bottom");
+        emojiBar.replaceChildren();
     }, 500);
 });
 
-spaceKey.addEventListener("click", function (e) {
-    let temp = [...tempInput.value.toLowerCase().split(" ")];
-    for (var i in emojiVal)
-        if (emojiVal.hasOwnProperty(i)) {
-            let box = [...emojiVal[i].getAttribute("data-filter").split(" ")];
-            const found = box.some((r) => temp.includes(r));
-            if (found) {
-                if (emojiBar.children[0]) {
-                    emojiBar.children[0].remove();
-                }
-                emojiBar.appendChild(emojiVal[i].cloneNode(true));
-                return;
+// EMOJI DATA VALUES
+let box = [];
+for (var i in emojiVal) {
+    if (emojiVal.hasOwnProperty(i)) {
+        let val = emojiVal[i].getAttribute("data-filter");
+        box.push(val);
+    }
+}
+
+function highlightWord() {
+    let temp = [...tempInput.innerHTML.toLowerCase().split(" ")];
+    const last = temp.slice(-1)[0];
+    if (box.includes(last)) {
+        const node = document.querySelectorAll("[data-filter=" + last + "]");
+        node.forEach(function (el) {
+            const clone = el.cloneNode(true);
+            clone.classList.add("del-class");
+            emojiBar.appendChild(clone);
+        });
+    }
+    var newHTML = "";
+    $(".temp-input")
+        .text()
+        .replace(/[\s]+/g, " ")
+        .trim()
+        .split(" ")
+        //.pop();
+        .forEach(function (val) {
+            if (box.indexOf(val.trim().toLowerCase()) > -1) {
+                newHTML += `<span class='statement'>${val}&nbsp;</span>`;
+            } else {
+                newHTML += `<span class='other'>${val}&nbsp;</span>`;
             }
-        }
+        });
+    $(".temp-input").html(newHTML);
+}
+
+$(document).on("click", ".statement", function () {
+    console.log("statement");
+});
+
+spaceKey.addEventListener("click", function (e) {
+    emojiBar.replaceChildren();
 });
 
 /////////////////////////////////////////
@@ -255,7 +294,6 @@ function handleMouseUp(e) {
         e.preventDefault(); // and ignore this event
         return;
     }
-
     if (isDown) {
         // if we came from down status:
         clearTimeout(longTID); // clear timer to avoid false longpress
