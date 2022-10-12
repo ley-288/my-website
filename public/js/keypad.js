@@ -8,6 +8,7 @@ const keyPadWindow = document.querySelector("#keyPadModal");
 //INPUT
 const inputClick = document.querySelectorAll("input");
 const tempInput = document.querySelector(".temp-input");
+const inputPlaceholder = document.querySelector(".temp-input-ph-center");
 
 //SPECIAL KEYS
 const spaceKey = document.querySelector(".space-key");
@@ -110,11 +111,15 @@ capKey.forEach(function (keyPressed) {
     });
 });
 
+//BUTTON PRESS TO INPUT FIELD
 function focusOnInput() {
     let inputFocused = document.querySelectorAll(".focus-input");
     let activeInput = null;
     inputFocused.forEach((field) => {
         field.addEventListener("focus", function () {
+            field.classList.add("view-input");
+            const placeholder = field.getAttribute("placeholder");
+            inputPlaceholder.innerHTML = placeholder;
             $(".temp-input").html(field.value);
             $("#keyPadModal").modal("show");
             keyPadWindow.classList.add("keyPadModal-bottom");
@@ -159,6 +164,19 @@ function focusOnInput() {
         } else {
             console.log("null value");
         }
+    });
+    // ON CLICK OF HIGHLIGHTED WORD
+    $(document).on("click", ".link-emoji", function () {
+        const emoji = this.innerHTML.toLowerCase().split("&")[0];
+        const node = document.querySelectorAll("[data-filter=" + emoji + "]");
+        node.forEach(function (el) {
+            const children = $(emojiBar).children().data("filter");
+            console.log("child", children, "el", $(el).data("filter"));
+            emojiBar.replaceChildren();
+            const clone = el.cloneNode(true);
+            clone.classList.add("del-class");
+            emojiBar.appendChild(clone);
+        });
     });
 }
 
@@ -212,6 +230,7 @@ $(dismissKeyModal).click(function () {
         changeKeyWindow(keyWinUpper);
         keyPadWindow.classList.remove("keyPadModal-bottom");
         emojiBar.replaceChildren();
+        inputPlaceholder.innerHTML = "";
     }, 500);
 });
 
@@ -224,15 +243,20 @@ for (var i in emojiVal) {
     }
 }
 
+// EMOJI VALUE MATCH
 function highlightWord() {
     let temp = [...tempInput.innerHTML.toLowerCase().split(" ")];
     const last = temp.slice(-1)[0];
     if (box.includes(last)) {
         const node = document.querySelectorAll("[data-filter=" + last + "]");
+        emojiBar.classList.add("fly-in-class");
         node.forEach(function (el) {
             const clone = el.cloneNode(true);
             clone.classList.add("del-class");
             emojiBar.appendChild(clone);
+            setTimeout(function () {
+                emojiBar.classList.remove("fly-in-class");
+            }, 200);
         });
     }
     var newHTML = "";
@@ -241,10 +265,9 @@ function highlightWord() {
         .replace(/[\s]+/g, " ")
         .trim()
         .split(" ")
-        //.pop();
         .forEach(function (val) {
             if (box.indexOf(val.trim().toLowerCase()) > -1) {
-                newHTML += `<span class='statement'>${val}&nbsp;</span>`;
+                newHTML += `<span class='link-emoji'>${val}&nbsp;</span>`;
             } else {
                 newHTML += `<span class='other'>${val}&nbsp;</span>`;
             }
@@ -252,12 +275,13 @@ function highlightWord() {
     $(".temp-input").html(newHTML);
 }
 
-$(document).on("click", ".statement", function () {
-    console.log("statement");
-});
-
+// REMOVE EMOJI SELECT ON SPACE CLICK
 spaceKey.addEventListener("click", function (e) {
-    emojiBar.replaceChildren();
+    emojiBar.classList.add("fly-away-class");
+    setTimeout(function () {
+        emojiBar.replaceChildren();
+        emojiBar.classList.remove("fly-away-class");
+    }, 300);
 });
 
 /////////////////////////////////////////
