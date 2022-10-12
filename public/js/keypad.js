@@ -13,6 +13,7 @@ const inputPlaceholder = document.querySelector(".temp-input-ph-center");
 //SPECIAL KEYS
 const spaceKey = document.querySelector(".space-key");
 const returnKey = document.querySelector(".return-key");
+const backSpaceKey = document.querySelector(".backspace-key");
 const numKey = document.querySelectorAll(".num-key");
 const letterKey = document.querySelector(".letter-key");
 const emojiKey = document.querySelector(".emoji-key");
@@ -112,6 +113,22 @@ capKey.forEach(function (keyPressed) {
 });
 
 //BUTTON PRESS TO INPUT FIELD
+// function cursor_position() {
+//     var sel = document.getSelection();
+//     sel.modify("extend", "backward", "paragraphboundary");
+//     var pos = sel.toString().length;
+//     if (sel.anchorNode != undefined) sel.collapseToEnd();
+
+//     return pos;
+// }
+// // Demo:
+// tempInput.addEventListener("click", printCaretPosition);
+// tempInput.addEventListener("keydown", printCaretPosition);
+
+// function printCaretPosition() {
+//     console.log(cursor_position(), "length:", this.textContent.trim().length);
+// }
+
 function focusOnInput() {
     let inputFocused = document.querySelectorAll(".focus-input");
     let activeInput = null;
@@ -134,9 +151,16 @@ function focusOnInput() {
                 if (singleKey.classList.contains("special-key")) {
                     if (singleKey.classList.contains("space-key")) {
                         activeInput.value = activeInput.value + " ";
+                        emojiBar.classList.add("fly-away-class");
+                        setTimeout(function () {
+                            emojiBar.replaceChildren();
+                            emojiBar.classList.remove("fly-away-class");
+                        }, 300);
                     }
                     if (singleKey.classList.contains("backspace-key")) {
                         activeInput.value = activeInput.value.slice(0, -1);
+                        $(".temp-input").html(activeInput.value.slice(0, -1));
+                        emojiBar.replaceChildren();
                     }
                     if (singleKey.classList.contains("return-key")) {
                         console.log("return key needs testing");
@@ -161,6 +185,7 @@ function focusOnInput() {
                 activeInput.value + " " + this.getAttribute("data-val") + " ";
             activeInput.focus();
             $(".temp-input").value = activeInput.value + " ";
+            highlightWord();
         } else {
             console.log("null value");
         }
@@ -170,8 +195,6 @@ function focusOnInput() {
         const emoji = this.innerHTML.toLowerCase().split("&")[0];
         const node = document.querySelectorAll("[data-filter=" + emoji + "]");
         node.forEach(function (el) {
-            const children = $(emojiBar).children().data("filter");
-            console.log("child", children, "el", $(el).data("filter"));
             emojiBar.replaceChildren();
             const clone = el.cloneNode(true);
             clone.classList.add("del-class");
@@ -262,7 +285,6 @@ function highlightWord() {
     var newHTML = "";
     $(".temp-input")
         .text()
-        .replace(/[\s]+/g, " ")
         .trim()
         .split(" ")
         .forEach(function (val) {
@@ -276,13 +298,13 @@ function highlightWord() {
 }
 
 // REMOVE EMOJI SELECT ON SPACE CLICK
-spaceKey.addEventListener("click", function (e) {
-    emojiBar.classList.add("fly-away-class");
-    setTimeout(function () {
-        emojiBar.replaceChildren();
-        emojiBar.classList.remove("fly-away-class");
-    }, 300);
-});
+// spaceKey.addEventListener("click", function (e) {
+//     emojiBar.classList.add("fly-away-class");
+//     setTimeout(function () {
+//         emojiBar.replaceChildren();
+//         emojiBar.classList.remove("fly-away-class");
+//     }, 300);
+// });
 
 /////////////////////////////////////////
 
