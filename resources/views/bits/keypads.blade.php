@@ -366,40 +366,40 @@
                                         <div class="keypad-emo-key key-put emo" data-val="🥹" data-filter="aww">🥹</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😅">😅</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😂" data-filter="@lang('emoji.haha')">😂</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤣" data-filter="lmao">🤣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤣" data-filter="@lang('emoji.laugh')">🤣</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🥲">🥲</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="☺️">☺️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😊" data-filter="@lang('emoji.smile')">😊</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😇" data-filter="saint">😇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😇" data-filter="@lang('emoji.innocent')">😇</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙂">🙂</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙃">🙃</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="😉" data-filter="wink">😉</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😌" data-filter="smug">😌</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😍" data-filter="love">😍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😉" data-filter="@lang('emoji.wink')">😉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😌" data-filter="@lang('emoji.smug')">😌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😍" data-filter="@lang('emoji.love')">😍</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🥰">🥰</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😘">😘</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😘" data-filter="@lang('emoji.kiss')">😘</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="😗">😗</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😙">😙</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😚" data-filter="kiss">😚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😗" data-filter="@lang('emoji.blow')">😗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😙" data-filter="@lang('emoji.kiss')">😙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😚" data-filter="@lang('emoji.kiss')">😚</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😋">😋</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😛" data-filter="lol">😛</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="😝">😝</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😜" data-filter="joking">😜</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤪" data-filter="silly">🤪</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤨" data-filter="hmm">🤨</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧐" data-filter="sure">🧐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😜" data-filter="@lang('emoji.joking')">😜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤪" data-filter="@lang('emoji.silly')">🤪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤨" data-filter="@lang('emoji.sure')">🤨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧐" data-filter="@lang('emoji.sure')">🧐</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🤓" data-filter="nerd">🤓</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😎" data-filter="cool">😎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤓" data-filter="@lang('emoji.nerd')">🤓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😎" data-filter="@lang('emoji.cool')">😎</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🥸" data-filter="marx">🥸</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤩" data-filter="wow">🤩</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🥳" data-filter="woo">🥳</div>
@@ -407,113 +407,113 @@
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="😏" data-filter="hehe">😏</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😒">😒</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😞" data-filter="sad">😞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😞" data-filter="@lang('emoji.sad')">😞</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😔">😔</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😟">😟</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="😕" data-filter="sorry">😕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😕" data-filter="@lang('emoji.sorry')">😕</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙁" data-filter="aww">🙁</div>
                                         <div class="keypad-emo-key key-put emo" data-val="☹️">☹️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😣" data-filter="upset">😣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😣" data-filter="@lang('emoji.love')">😣</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😖" data-filter="eww">😖</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="😫" data-filter="ahh">😫</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😩">😩</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥺" data-filter="cute">🥺</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😢" data-filter="tear">😢</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😭" data-filter="cry">😭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥺" data-filter="@lang('emoji.cute')">🥺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😢" data-filter="@lang('emoji.tear')">😢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😭" data-filter="@lang('emoji.cry')">😭</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="😤" data-filter="no">😤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😤" data-filter="@lang('emoji.no')">😤</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😠">😠</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😡" data-filter="angry">😡</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤬" data-filter="fuck">🤬</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤯" data-filter="mindblown">🤯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😡" data-filter="@lang('emoji.angry')">😡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤬" data-filter="@lang('emoji.fuck')">🤬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤯" data-filter="@lang('emoji.mindblown')">🤯</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="😳" data-filter="embarassed">😳</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥵">🥵</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥶" data-filter="ice">🥶</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😶‍🌫️">😶‍🌫️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😱" data-filter="hhh">😱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😳" data-filter="@lang('emoji.embarrassed')">😳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥵" data-filter="@lang('emoji.hot')">🥵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥶" data-filter="@lang('emoji.cold')">🥶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😶‍🌫️" data-filter="@lang('emoji.clean')">😶‍🌫️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😱" data-filter="@lang('emoji.scared')">😱</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="😨" data-filter="whaat">😨</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😰">😰</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😥" data-filter="sorry">😥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😥" data-filter="@lang('emoji.sorry')">😥</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😓">😓</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤗" data-filter="hug">🤗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤗" data-filter="@lang('emoji.hug')">🤗</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🤔">🤔</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫣" data-filter="peak">🫣</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤭" data-filter="bashful">🤭</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫢">🫢</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫡" data-filter="sir">🫡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤔" data-filter="@lang('emoji.think')">🤔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫣" data-filter="@lang('emoji.peak')">🫣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤭" data-filter="@lang('emoji.bashful')">🤭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫢" data-filter="@lang('emoji.speecheless')">🫢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫡" data-filter="@lang('emoji.sir')">🫡</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🤫" data-filter="shh">🤫</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫠" data-filter="melt">🫠</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤥" data-filter="lie">🤥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫠" data-filter="@lang('emoji.melt')">🫠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤥" data-filter="@lang('emoji.lie')">🤥</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😶">😶</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🫥">🫥</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="😐">😐</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫤" data-filter="rubbish">🫤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫤" data-filter="@lang('emoji.rubbish')">🫤</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😑">😑</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😬" data-filter="eee">😬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😬" data-filter="@lang('emoji.unsure')">😬</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙄">🙄</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="😯" data-filter="ooo">😯</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😦">😦</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😧" data-filter="whah">😧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😧" data-filter="@lang('emoji.what')">😧</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😮">😮</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😲">😲</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🥱" data-filter="yawn">🥱</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😴" data-filter="sleepy">😴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥱" data-filter="@lang('emoji.yawn')">🥱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😴" data-filter="@lang('emoji.sleepy')">😴</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤤" data-filter="yum">🤤</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😪" data-filter="sigh">😪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😪" data-filter="@lang('emoji.sigh')">😪</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😮‍💨">😮‍💨</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="😵">😵</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😵‍💫" data-filter="weird">😵‍💫</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤐" data-filter="zip">🤐</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥴" data-filter="drunk">🥴</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤢" data-filter="eww">🤢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😵‍💫" data-filter="@lang('emoji.weird')">😵‍💫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤐" data-filter="shut">🤐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥴" data-filter="@lang('emoji.drunk')">🥴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤢" data-filter="@lang('emoji.gross')">🤢</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🤮" data-filter="blugh">🤮</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤧" data-filter="sneeze">🤧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤮" data-filter="@lang('emoji.disgusting')">🤮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤧" data-filter="@lang('emoji.sneeze')">🤧</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😷" data-filter="covid">😷</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤒" data-filter="sick">🤒</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤕" data-filter="ouch">🤕</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤒" data-filter="@lang('emoji.sick')">🤒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤕" data-filter="@lang('emoji.hurt')">🤕</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🤑" data-filter="rich">🤑</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤠" data-filter="cowboy">🤠</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😈" data-filter="evil">😈</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👿">👿</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👹" data-filter="demon">👹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤑" data-filter="@lang('emoji.rich')">🤑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤠" data-filter="@lang('emoji.cowboy')">🤠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😈" data-filter="@lang('emoji.evil')">😈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👿" data-filter="@lang('emoji.evil')">👿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👹" data-filter="@lang('emoji.demon')">👹</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👺">👺</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤡" data-filter="clown">🤡</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💩" data-filter="shit">💩</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👻" data-filter="ghost">👻</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💀" data-filter="skull">💀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👺" data-filter="devil">👺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤡" data-filter="@lang('emoji.clown')">🤡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💩" data-filter="@lang('emoji.poo')">💩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👻" data-filter="@lang('emoji.ghost')">👻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💀" data-filter="@lang('emoji.skull')">💀</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="☠️" data-filter="dead">☠️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👽" data-filter="alien">👽</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👾" data-filter="invader">👾</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤖" data-filter="robot">🤖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="☠️" data-filter="@lang('emoji.dead')">☠️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👽" data-filter="@lang('emoji.alien')">👽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👾" data-filter="@lang('emoji.invader')">👾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤖" data-filter="@lang('emoji.robot')">🤖</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🎃" data-filter="halloween">🎃</div>
                                     </div>
                                     <div class="key-line emo-line">
@@ -532,91 +532,91 @@
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🤲">🤲</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👐" data-filter="jazz hands">👐</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🙌" data-filter="high">🙌</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👏" data-filter="clap">👏</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤝" data-filter="shake">🤝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👐" data-filter="jazzhands">👐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙌" data-filter="@lang('emoji.clap')">🙌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👏" data-filter="@lang('emoji.clap')">👏</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤝" data-filter="@lang('emoji.shake')">🤝</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="👍" data-filter="ok">👍</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👎" data-filter="no">👎</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👊" data-filter="fist">👊</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="✊" data-filter="solidarity">✊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👎" data-filter="@lang('emoji.no')">👎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👊" data-filter="@lang('emoji.fist')">👊</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="✊" data-filter="@lang('emoji.solidarity')">✊</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤛">🤛</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🤜" data-filter="bump">🤜</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤞" data-filter="hope">🤞</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="✌️" data-filter="peace">✌️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤜" data-filter="@lang('emoji.bump')">🤜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤞" data-filter="@lang('emoji.hope')">🤞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="✌️" data-filter="@lang('emoji.peace')">✌️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🫰" data-filter="jobs">🫰</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤟">🤟</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🤘" data-filter="rock">🤘</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👌" data-filter="nice">👌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👌" data-filter="@lang('emoji.nice')">👌</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤌">🤌</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤏">🤏</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🫳">🫳</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🫴">🫴</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👈">👈</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👉">👉</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👆">👆</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👇">👇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👈" data-filter="@lang('emoji.left')">👈</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👉" data-filter="@lang('emoji.right')">👉</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👆" data-filter="@lang('emoji.up')">👆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👇" data-filter="@lang('emoji.down')">👇</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="☝️">☝️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="✋">✋</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤚">🤚</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🖐">🖐</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="✋" data-filter="@lang('emoji.hand')">✋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤚" data-filter="@lang('emoji.hand')">🤚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🖐" data-filter="@lang('emoji.greet')">🖐</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🖖" data-filter="spock">🖖</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👋" data-filter="wave">👋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👋" data-filter="@lang('emoji.wave')">👋</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤙" data-filter="shakabra">🤙</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫲">🫲</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫱">🫱</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💪" data-filter="muscle">💪</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫲" data-filter="@lang('emoji.shake')">🫲</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫱" data-filter="@lang('emoji.shake')">🫱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💪" data-filter="@lang('emoji.muscle')">💪</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🦾">🦾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦾" data-filter="@lang('emoji.arm')">🦾</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🖕">🖕</div>
                                         <div class="keypad-emo-key key-put emo" data-val="✍️">✍️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙏">🙏</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🫵" data-filter="sam">🫵</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🦶" data-filter="foot">🦶</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🦵" data-filter="leg">🦵</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🦿">🦿</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💄" data-filter="lipstick">💄</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💋">💋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦶" data-filter="@lang('emoji.foot')">🦶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦵" data-filter="@lang('emoji.leg')">🦵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦿" data-filter="@lang('emoji.leg')">🦿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💄" data-filter="@lang('emoji.lipstick')">💄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💋" data-filter="@lang('emoji.lips')">💋</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👄">👄</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫦" data-filter="lips">🫦</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🦷" data-filter="tooth">🦷</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👅" data-filter="tongue">👅</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👂" data-filter="ear">👂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👄" data-filter="@lang('emoji.lips')">👄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫦" data-filter="@lang('emoji.lips')">🫦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦷" data-filter="@lang('emoji.tooth')">🦷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👅" data-filter="@lang('emoji.tongue')">👅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👂" data-filter="@lang('emoji.ear')">👂</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🦻">🦻</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👃" data-filter="nose">👃</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👣" data-filter="feet">👣</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👁" data-filter="eye">👁</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👀" data-filter="eyes">👀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦻" data-filter="@lang('emoji.ear')">🦻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👃" data-filter="@lang('emoji.nose')">👃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👣" data-filter="@lang('emoji.feet')">👣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👁" data-filter="@lang('emoji.eye')">👁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👀" data-filter="@lang('emoji.eyes')">👀</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🫀" data-filter="heart">🫀</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫁" data-filter="lungs">🫁</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧠" data-filter="brain">🧠</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🗣" data-filter="shout">🗣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫀" data-filter="@lang('emoji.heart')">🫀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫁" data-filter="@lang('emoji.lungs')">🫁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧠" data-filter="@lang('emoji.brain')">🧠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🗣" data-filter="@lang('emoji.shout')">🗣</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👤">👤</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="👥">👥</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫂">🫂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫂" data-filter="@lang('emoji.hug')">🫂</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👶">👶</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👧">👧</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧒">🧒</div>
@@ -664,178 +664,178 @@
                                         <div class="keypad-emo-key key-put emo" data-val="🧕">🧕</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👮‍♀️" data-filter="police">👮‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👮" data-filter="police">👮</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👮‍♂️" data-filter="police">👮‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👷‍♀️" data-filter="engineer">👷‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👷" data-filter="engineer">👷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👮‍♀️" data-filter="@lang('emoji.police')">👮‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👮" data-filter="@lang('emoji.police')">👮</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👮‍♂️" data-filter="@lang('emoji.police')">👮‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👷‍♀️" data-filter="@lang('emoji.engineer')">👷‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👷" data-filter="@lang('emoji.engineer')">👷</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👷‍♂️" data-filter="engineer">👷‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💂‍♀️" data-filter="guard">💂‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💂" data-filter="guard">💂</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💂‍♂️" data-filter="guard">💂‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🕵️‍♀️" data-filter="inspector">🕵️‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👷‍♂️" data-filter="@lang('emoji.engineer')">👷‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💂‍♀️" data-filter="@lang('emoji.guard')">💂‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💂" data-filter="@lang('emoji.guard')">💂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💂‍♂️" data-filter="@lang('emoji.guard')">💂‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕵️‍♀️" data-filter="@lang('emoji.inspector')">🕵️‍♀️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🕵️" data-filter="inspector">🕵️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🕵️‍♂️" data-filter="inspector">🕵️‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍⚕️" data-filter="doctor">👩‍⚕️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍⚕️" data-filter="doctor">🧑‍⚕️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍⚕️" data-filter="doctor">👨‍⚕️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕵️" data-filter="@lang('emoji.inspector')">🕵️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕵️‍♂️" data-filter="@lang('emoji.inspector')">🕵️‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍⚕️" data-filter="@lang('emoji.doctor')">👩‍⚕️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍⚕️" data-filter="@lang('emoji.doctor')">🧑‍⚕️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍⚕️" data-filter="@lang('emoji.doctor')">👨‍⚕️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🌾" data-filter="farmer">👩‍🌾</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🌾" data-filter="farmer">🧑‍🌾</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🌾" data-filter="farmer">👨‍🌾</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🍳" data-filter="chef">👩‍🍳</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🍳" data-filter="chef">🧑‍🍳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🌾" data-filter="@lang('emoji.farmer')">👩‍🌾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🌾" data-filter="farm@lang('emoji.farmer')er">🧑‍🌾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🌾" data-filter="@lang('emoji.farmer')">👨‍🌾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🍳" data-filter="@lang('emoji.chef')">👩‍🍳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🍳" data-filter="@lang('emoji.chef')">🧑‍🍳</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🍳" data-filter="chef">👨‍🍳</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🎓" data-filter="graduate">👩‍🎓</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎓" data-filter="graduate">🧑‍🎓</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🎓" data-filter="graduate">👨‍🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🍳" data-filter="@lang('emoji.chef')">👨‍🍳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🎓" data-filter="@lang('emoji.graduate')">👩‍🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎓" data-filter="@lang('emoji.graduate')">🧑‍🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🎓" data-filter="@lang('emoji.graduate')">👨‍🎓</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👩‍🎤" data-filter="bowie">👩‍🎤</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🧑‍🎤" data-filter="bowie">🧑‍🎤</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👨‍🎤" data-filter="bowie">👨‍🎤</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🏫" data-filter="teacher">👩‍🏫</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🏫" data-filter="teacher">🧑‍🏫</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🏫" data-filter="teacher">👨‍🏫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🏫" data-filter="@lang('emoji.teacher')">👩‍🏫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🏫" data-filter="@lang('emoji.teacher')">🧑‍🏫</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🏫" data-filter="@lang('emoji.teacher')">👨‍🏫</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🏭" data-filter="welder">👩‍🏭</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🏭" data-filter="welder">🧑‍🏭</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🏭" data-filter="welder">👨‍🏭</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍💻" data-filter="student">👩‍💻</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍💻" data-filter="student">🧑‍💻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🏭" data-filter="@lang('emoji.welder')">👩‍🏭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🏭" data-filter="@lang('emoji.welder')">🧑‍🏭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🏭" data-filter="@lang('emoji.welder')">👨‍🏭</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍💻" data-filter="@lang('emoji.student')">👩‍💻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍💻" data-filter="@lang('emoji.student')">🧑‍💻</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👨🏻‍💻" data-filter="student">👨🏻‍💻</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨🏻‍💻" data-filter="@lang('emoji.student')">👨🏻‍💻</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👩‍💼">👩‍💼</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧑‍💼">🧑‍💼</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👨‍💼">👨‍💼</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🔧" data-filter="mechanic">👩‍🔧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🔧" data-filter="@lang('emoji.mechanic')">👩‍🔧</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🔧" data-filter="mechanic">🧑‍🔧</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🔧" data-filter="mechanic">👨‍🔧</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🔬" data-filter="scientist">👩‍🔬</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🔬" data-filter="scientist">🧑‍🔬</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🔬" data-filter="scientist">👨‍🔬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🔧" data-filter="@lang('emoji.mechanic')">🧑‍🔧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🔧" data-filter="@lang('emoji.mechanic')">👨‍🔧</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🔬" data-filter="@lang('emoji.scientist')">👩‍🔬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🔬" data-filter="@lang('emoji.scientist')">🧑‍🔬</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🔬" data-filter="@lang('emoji.scientist')">👨‍🔬</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🎨" data-filter="artist">👩‍🎨</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎨" data-filter="artist">🧑‍🎨</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🎨" data-filter="artist">👨‍🎨</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🚒" data-filter="firefighter">👩‍🚒</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🚒" data-filter="firefighter">🧑‍🚒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🎨" data-filter="@lang('emoji.artist')">👩‍🎨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🎨" data-filter="@lang('emoji.artist')">🧑‍🎨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🎨" data-filter="@lang('emoji.artist')">👨‍🎨</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🚒" data-filter="@lang('emoji.firefighter')">👩‍🚒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🚒" data-filter="@lang('emoji.firefighter')">🧑‍🚒</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🚒" data-filter="firefighter">👨‍🚒</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍✈️" data-filter="chauffeur">👩‍✈️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍✈️" data-filter="chauffeur">🧑‍✈️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍✈️" data-filter="chauffeur">👨‍✈️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🚀" data-filter="astronaut">👩‍🚀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🚒" data-filter="@lang('emoji.firefighter')">👨‍🚒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍✈️" data-filter="@lang('emoji.chauffeur')">👩‍✈️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍✈️" data-filter="@lang('emoji.chauffeur')">🧑‍✈️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍✈️" data-filter="@lang('emoji.chauffeur')">👨‍✈️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🚀" data-filter="@lang('emoji.astronaut')">👩‍🚀</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🚀" data-filter="astronaut">🧑‍🚀</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🚀" data-filter="astronaut">👨‍🚀</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍⚖️" data-filter="musician">👩‍⚖️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍⚖️" data-filter="musician">🧑‍⚖️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍⚖️" data-filter="musician">👨‍⚖️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🚀" data-filter="@lang('emoji.astronaut')">🧑‍🚀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🚀" data-filter="@lang('emoji.astronaut')">👨‍🚀</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍⚖️" data-filter="@lang('emoji.musician')">👩‍⚖️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍⚖️" data-filter="@lang('emoji.musician')">🧑‍⚖️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍⚖️" data-filter="@lang('emoji.musician')">👨‍⚖️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👰‍♀️" data-filter="bride">👰‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👰" data-filter="bride">👰</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👰‍♂️" data-filter="bride">👰‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤵‍♀️" data-filter="groom">🤵‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤵" data-filter="groom">🤵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👰‍♀️" data-filter="@lang('emoji.bride')">👰‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👰" data-filter="@lang('emoji.bride')">👰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👰‍♂️" data-filter="@lang('emoji.bride')">👰‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤵‍♀️" data-filter="@lang('emoji.groom')">🤵‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤵" data-filter="@lang('emoji.groom')">🤵</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🤵‍♂️" data-filter="groom">🤵‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👸" data-filter="queen">👸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤵‍♂️" data-filter="@lang('emoji.groom')">🤵‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👸" data-filter="@lang('emoji.queen')">👸</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🫅">🫅</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤴" data-filter="king">🤴</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥷" data-filter="ninja">🥷</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤴" data-filter="@lang('emoji.king')">🤴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥷" data-filter="@lang('emoji.ninja')">🥷</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🦸‍♀️" data-filter="superhero">🦸‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🦸" data-filter="superhero">🦸</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🦸‍♂️" data-filter="superhero">🦸‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🦹‍♀️" data-filter="villain">🦹‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🦹" data-filter="villain">🦹</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦸‍♀️" data-filter="@lang('emoji.superhero')">🦸‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦸" data-filter="@lang('emoji.superhero')">🦸</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦸‍♂️" data-filter="@lang('emoji.superhero')">🦸‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦹‍♀️" data-filter="@lang('emoji.villain')">🦹‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦹" data-filter="@lang('emoji.villain')">🦹</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🦹‍♂️" data-filter="villain">🦹‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦹‍♂️" data-filter="@lang('emoji.villain')">🦹‍♂️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤶">🤶</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧑‍🎄">🧑‍🎄</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🎅" data-filter="santa">🎅</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧙‍♀️" data-filter="wizard">🧙‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎅" data-filter="@lang('emoji.santa')">🎅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧙‍♀️" data-filter="@lang('emoji.wizard')">🧙‍♀️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧙" data-filter="wizard">🧙</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧙" data-filter="@lang('emoji.wizard')">🧙</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧙‍♂️" data-filter="gandalf">🧙‍♂️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧝‍♀️" data-filter="galadriel">🧝‍♀️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧝" data-filter="elf">🧝</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧝‍♂️" data-filter="legolas">🧝‍♂️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧌" data-filter="goblin">🧌</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧛‍♀️" data-filter="vampire">🧛‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧛" data-filter="vampire">🧛</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧛‍♂️" data-filter="dracula">🧛‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧟‍♀️" data-filter="zombie">🧟‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧌" data-filter="@lang('emoji.goblin')">🧌</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧛‍♀️" data-filter="@lang('emoji.vampire')">🧛‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧛" data-filter="@lang('emoji.vampire')">🧛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧛‍♂️" data-filter="@lang('emoji.vampire')">🧛‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧟‍♀️" data-filter="@lang('emoji.zombie')">🧟‍♀️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧟" data-filter="zombie">🧟</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧟‍♂️" data-filter="zombie">🧟‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧞‍♀️" data-filter="genie">🧞‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧞" data-filter="genie">🧞</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧞‍♂️" data-filter="genie">🧞‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧟" data-filter="@lang('emoji.zombie')">🧟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧟‍♂️" data-filter="@lang('emoji.zombie')">🧟‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧞‍♀️" data-filter="@lang('emoji.genie')">🧞‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧞" data-filter="@lang('emoji.genie')">🧞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧞‍♂️" data-filter="@lang('emoji.genie')">🧞‍♂️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧜‍♀️" data-filter="mermaid">🧜‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧜" data-filter="mermaid">🧜</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧜‍♂️" data-filter="mermaid">🧜‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧜‍♀️" data-filter="@lang('emoji.mermaid')">🧜‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧜" data-filter="@lang('emoji.mermaid')">🧜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧜‍♂️" data-filter="@lang('emoji.mermaid')">🧜‍♂️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧚‍♀️" data-filter="tinkerbell">🧚‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧚" data-filter="fairy">🧚</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧚" data-filter="@lang('emoji.fairy')">🧚</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧚‍♂️" data-filter="fairy">🧚‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👼" data-filter="cupid">👼</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🤰" data-filter="pregnant">🤰</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫄" data-filter="pregnant">🫄</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🫃" data-filter="pregnant">🫃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧚‍♂️" data-filter="@lang('emoji.fairy')">🧚‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👼" data-filter="@lang('emoji.cupid')">👼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤰" data-filter="@lang('emoji.pregnant')">🤰</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫄" data-filter="@lang('emoji.pregnant')">🫄</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🫃" data-filter="@lang('emoji.pregnant')">🫃</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🤱" data-filter="newborn">🤱</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🍼" data-filter="newborn">👩‍🍼</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🍼" data-filter="newborn">🧑‍🍼</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🍼" data-filter="newborn">👨‍🍼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🤱" data-filter="@lang('emoji.newborn')">🤱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🍼" data-filter="@lang('emoji.newborn')">👩‍🍼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🍼" data-filter="@lang('emoji.newborn')">🧑‍🍼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🍼" data-filter="@lang('emoji.newborn')">👨‍🍼</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙇‍♀️">🙇‍♀️</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🙇">🙇</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙇‍♂️">🙇‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💁‍♀️">💁‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💁">💁</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💁‍♂️">💁‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💁‍♀️" data-filter="@lang('emoji.sassy')">💁‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💁" data-filter="@lang('emoji.sassy')">💁</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💁‍♂️" data-filter="@lang('emoji.sassy')">💁‍♂️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🙅‍♀️">🙅‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🙅">🙅</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🙅‍♂️">🙅‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙅‍♀️" data-filter="@lang('emoji.no')">🙅‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙅" data-filter="@lang('emoji.no')">🙅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙅‍♂️" data-filter="@lang('emoji.no')">🙅‍♂️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙆‍♀️">🙆‍♀️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙆">🙆</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🙆‍♂️">🙆‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🙋‍♀️" data-filter="me">🙋‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🙋" data-filter="me">🙋</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🙋‍♂️" data-filter="me">🙋‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙋‍♀️" data-filter="@lang('emoji.me')">🙋‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙋" data-filter="@lang('emoji.me')">🙋</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🙋‍♂️" data-filter="@lang('emoji.me')">🙋‍♂️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🧏‍♀️">🧏‍♀️</div>
                                     </div>
                                     <div class="key-line emo-line">
@@ -857,25 +857,25 @@
                                         <div class="keypad-emo-key key-put emo" data-val="🙍‍♀️">🙍‍♀️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙍">🙍</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙍‍♂️">🙍‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💇‍♀️" data-filter="haircut">💇‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💇‍♀️" data-filter="@lang('emoji.haircut')">💇‍♀️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="💇" data-filter="haircut">💇</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💇‍♂️" data-filter="haircut">💇‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💆‍♀️" data-filter="massage">💆‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💆" data-filter="massage">💆</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💆‍♂️" data-filter="massage">💆‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💇" data-filter="@lang('emoji.haircut')">💇</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💇‍♂️" data-filter="@lang('emoji.haircut')">💇‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💆‍♀️" data-filter="@lang('emoji.massage')">💆‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💆" data-filter="@lang('emoji.massage')">💆</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💆‍♂️" data-filter="@lang('emoji.massage')">💆‍♂️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧖‍♀️" data-filter="shower">🧖‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧖" data-filter="shower">🧖</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧖‍♂️" data-filter="shower">🧖‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💅" data-filter="nails">💅</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧖‍♀️" data-filter="@lang('emoji.shower')">🧖‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧖" data-filter="@lang('emoji.shower')">🧖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧖‍♂️" data-filter="@lang('emoji.shower')">🧖‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💅" data-filter="@lang('emoji.nails')">💅</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🤳" data-filter="selfie">🤳</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🧖‍♀️">🧖‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💃" data-filter="flamengo">💃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💃" data-filter="flamenco">💃</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🕺" data-filter="travolta">🕺</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👯‍♀️" data-filter="playboy">👯‍♀️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👯">👯</div>
@@ -883,30 +883,30 @@
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="👯‍♂️">👯‍♂️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🕴">🕴</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦽">👩‍🦽</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦽">🧑‍🦽</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦽">👨‍🦽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦽" data-filter="@lang('emoji.wheelchair')">👩‍🦽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦽" data-filter="@lang('emoji.wheelchair')">🧑‍🦽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦽" data-filter="@lang('emoji.wheelchair')">👨‍🦽</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦼">👩‍🦼</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦼">🧑‍🦼</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦼">👨‍🦼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦼" data-filter="@lang('emoji.wheelchair')">👩‍🦼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦼" data-filter="@lang('emoji.wheelchair')">🧑‍🦼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦼" data-filter="@lang('emoji.wheelchair')">👨‍🦼</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🚶‍♀️">🚶‍♀️</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🚶">🚶</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🚶‍♂️">🚶‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦯">👩‍🦯</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦯">🧑‍🦯</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦯">👨‍🦯</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧎‍♀️" data-filter="pray">🧎‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👩‍🦯" data-filter="@lang('emoji.blind')">👩‍🦯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧑‍🦯" data-filter="@lang('emoji.blind')">🧑‍🦯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👨‍🦯" data-filter="@lang('emoji.blind')">👨‍🦯</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧎‍♀️" data-filter="@lang('emoji.pray')">🧎‍♀️</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧎" data-filter="pray">🧎</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧎‍♂️" data-filter="pray">🧎‍♂️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🏃‍♀️" data-filter="run">🏃‍♀️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🏃" data-filter="run">🏃</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🏃‍♂️" data-filter="run">🏃‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧎" data-filter="@lang('emoji.pray')">🧎</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧎‍♂️" data-filter="@lang('emoji.pray')">🧎‍♂️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏃‍♀️" data-filter="@lang('emoji.run')">🏃‍♀️</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏃" data-filter="@lang('emoji.run')">🏃</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🏃‍♂️" data-filter="@lang('emoji.run')">🏃‍♂️</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="🧍‍♀️">🧍‍♀️</div>
@@ -962,73 +962,73 @@
                                         <div class="keypad-emo-key key-put emo" data-val="👨‍👧‍👦">👨‍👧‍👦</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👨‍👦‍👦">👨‍👦‍👦</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👨‍👧‍👧">👨‍👧‍👧</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🪢" data-filter="knot">🪢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪢" data-filter="@lang('emoji.knot')">🪢</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧶" data-filter="cotton">🧶</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧵" data-filter="spool">🧵</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🪡" data-filter="stitch">🪡</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧥" data-filter="trench">🧥</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥼" data-filter="labcoat">🥼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧶" data-filter="@lang('emoji.cotton')">🧶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧵" data-filter="@lang('emoji.spool')">🧵</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪡" data-filter="@lang('emoji.stitch')">🪡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧥" data-filter="@lang('emoji.trench')">🧥</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥼" data-filter="@lang('emoji.labcoat')">🥼</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🦺" data-filter="hivis">🦺</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🦺" data-filter="@lang('emoji.construction')">🦺</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👚" data-filter="tshirt">👚</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👕" data-filter="thisrt">👕</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👖" data-filter="jeans">👖</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🩲">🩲</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🩳" data-filter="shorts">🩳</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👔" data-filter="shirt">👔</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👗" data-filter="dress">👗</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🩳" data-filter="@lang('emoji.shorts')">🩳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👔" data-filter="@lang('emoji.shirt')">👔</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👗" data-filter="@lang('emoji.dress')">👗</div>
                                         <div class="keypad-emo-key key-put emo" data-val="👙" data-filter="bikini">👙</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🩱" data-filter="costume">🩱</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🩱" data-filter="@lang('emoji.costume')">🩱</div>
                                     </div>
                                     <div class="key-line emo-line">
                                         <div class="keypad-emo-key key-put emo" data-val="👘" data-filter="kimono">👘</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🥻">🥻</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🩴" data-filter="flipf">🩴</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥿" >🥿</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👠" data-filter="heels">👠</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🩴" data-filter="@lang('emoji.sandal')">🩴</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥿">🥿</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👠" data-filter="@lang('emoji.heel')">👠</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👡" data-filter="flats">👡</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👢" data-filter="boot">👢</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👞" data-filter="shoe">👞</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👟" data-filter="trainer">👟</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥾">🥾</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👡" data-filter="@lang('emoji.flat')">👡</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👢" data-filter="@lang('emoji.boot')">👢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👞" data-filter="@lang('emoji.shoe')">👞</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👟" data-filter="@lang('emoji.trainer')" >👟</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥾" data-filter="@lang('emoji.boot')">🥾</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🧦" data-filter="sock">🧦</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧤" data-filter="glove">🧤</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧣" data-filter="scarf">🧣</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🎩" data-filter="tophat">🎩</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧢" data-filter="cap">🧢</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧦" data-filter="@lang('emoji.sock')">🧦</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧤" data-filter="@lang('emoji.glove')">🧤</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧣" data-filter="@lang('emoji.scarf')">🧣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎩" data-filter="@lang('emoji.tophat')">🎩</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧢" data-filter="@lang('emoji.cap')">🧢</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="👒" data-filter="hat">👒</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🎓" data-filter="graduation">🎓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👒" data-filter="@lang('emoji.hat')">👒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎓" data-filter="@lang('emoji.graduation')">🎓</div>
                                         <div class="keypad-emo-key key-put emo" data-val="⛑">⛑</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🪖" data-filter="helmet">🪖</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👑" data-filter="crown">👑</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🪖" data-filter="@lang('emoji.hemlet')">🪖</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👑" data-filter="@lang('emoji.crown')">👑</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="💍" data-filter="ring">💍</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👝" data-filter="bag">👝</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👛" data-filter="purse">👛</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👜" data-filter="birkin">👜</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="💼" data-filter="briefcase">💼</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💍" data-filter="@lang('emoji.ring')">💍</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👝" data-filter="@lang('emoji.bag')">👝</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👛" data-filter="@lang('emoji.purse')">👛</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👜" data-filter="@lang('emoji.bag')">👜</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="💼" data-filter="@lang('emoji.briefcase')">💼</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🎒" data-filter="backpack">🎒</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🧳" data-filter="suitcase">🧳</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="👓" data-filter="glasses">👓</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🕶" data-filter="sunglasses">🕶</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="🥽" data-filter="goggles">🥽</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🎒" data-filter="@lang('emoji.backpack')">🎒</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🧳" data-filter="@lang('emoji.suitcase')">🧳</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="👓" data-filter="@lang('emoji.glasses')">👓</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🕶" data-filter="@lang('emoji.sunglasses')">🕶</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🥽" data-filter="@lang('emoji.goggles')">🥽</div>
                                     </div>
                                     <div class="key-line emo-line">
-                                        <div class="keypad-emo-key key-put emo" data-val="🌂" data-filter="umbrella">🌂</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="🌂" data-filter="@lang('emoji.umbrella')">🌂</div>
                                     </div>
                                 </div>
                                 <div class="emo-line-lower emo-line-nature">

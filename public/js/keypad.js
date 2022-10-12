@@ -74,6 +74,8 @@ function changeKeyWindow(window) {
             el.classList.remove("hide");
         }
     });
+    //RESET EMOJI BAR
+    emojiBar.replaceChildren();
 }
 
 shiftKey.addEventListener("click", function (e) {
@@ -113,22 +115,6 @@ capKey.forEach(function (keyPressed) {
 });
 
 //BUTTON PRESS TO INPUT FIELD
-// function cursor_position() {
-//     var sel = document.getSelection();
-//     sel.modify("extend", "backward", "paragraphboundary");
-//     var pos = sel.toString().length;
-//     if (sel.anchorNode != undefined) sel.collapseToEnd();
-
-//     return pos;
-// }
-// // Demo:
-// tempInput.addEventListener("click", printCaretPosition);
-// tempInput.addEventListener("keydown", printCaretPosition);
-
-// function printCaretPosition() {
-//     console.log(cursor_position(), "length:", this.textContent.trim().length);
-// }
-
 function focusOnInput() {
     let inputFocused = document.querySelectorAll(".focus-input");
     let activeInput = null;
@@ -179,6 +165,7 @@ function focusOnInput() {
             }
         });
     });
+    //ON CLICK OF RECOMMENDED EMOJI
     $(document).on("click", ".del-class", function () {
         if (activeInput) {
             activeInput.value =
@@ -190,7 +177,7 @@ function focusOnInput() {
             console.log("null value");
         }
     });
-    // ON CLICK OF HIGHLIGHTED WORD
+    //ON CLICK OF HIGHLIGHTED WORD
     $(document).on("click", ".link-emoji", function () {
         const emoji = this.innerHTML.toLowerCase().split("&")[0];
         const node = document.querySelectorAll("[data-filter=" + emoji + "]");
@@ -297,18 +284,9 @@ function highlightWord() {
     $(".temp-input").html(newHTML);
 }
 
-// REMOVE EMOJI SELECT ON SPACE CLICK
-// spaceKey.addEventListener("click", function (e) {
-//     emojiBar.classList.add("fly-away-class");
-//     setTimeout(function () {
-//         emojiBar.replaceChildren();
-//         emojiBar.classList.remove("fly-away-class");
-//     }, 300);
-// });
+///////////////////////////////////////// TO DO!!
 
-/////////////////////////////////////////
-
-//LONG PRESS TO DO
+//LONG PRESS
 // click
 var d = document.querySelector(".shift-key"),
     isDown = false,
