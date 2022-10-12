@@ -415,7 +415,7 @@
                                         <div class="keypad-emo-key key-put emo" data-val="😕" data-filter="@lang('emoji.sorry')">😕</div>
                                         <div class="keypad-emo-key key-put emo" data-val="🙁" data-filter="aww">🙁</div>
                                         <div class="keypad-emo-key key-put emo" data-val="☹️">☹️</div>
-                                        <div class="keypad-emo-key key-put emo" data-val="😣" data-filter="@lang('emoji.love')">😣</div>
+                                        <div class="keypad-emo-key key-put emo" data-val="😣" data-filter="@lang('emoji.sad')">😣</div>
                                         <div class="keypad-emo-key key-put emo" data-val="😖" data-filter="eww">😖</div>
                                     </div>
                                     <div class="key-line emo-line">
