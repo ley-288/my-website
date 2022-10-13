@@ -144,8 +144,8 @@ function focusOnInput() {
                         }, 300);
                     }
                     if (singleKey.classList.contains("backspace-key")) {
-                        activeInput.value = activeInput.value.slice(0, -1);
-                        $(".temp-input").html(activeInput.value.slice(0, -1));
+                        activeInput.value = activeInput.value.slice(0, -3);
+                        $(".temp-input").html(activeInput.value.slice(0, -3));
                         emojiBar.replaceChildren();
                     }
                     if (singleKey.classList.contains("return-key")) {
