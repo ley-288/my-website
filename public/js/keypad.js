@@ -160,6 +160,7 @@ function focusOnInput() {
                 }
                 $(".temp-input").html(activeInput.value);
                 highlightWord();
+                setCaretPosition();
             } else {
                 console.log("null value");
             }
@@ -243,6 +244,29 @@ $(dismissKeyModal).click(function () {
         inputPlaceholder.innerHTML = "";
     }, 500);
 });
+
+// SET CARET
+function setCaretPosition() {
+    var editableDiv = $(".temp-input");
+
+    const lastLine = editableDiv.input.nativeElement.innerHTML.replace(
+        /.*?(<br>)/g,
+        ""
+    );
+    const selection = window.getSelection();
+    selection.collapse(
+        editableDiv.childNodes[editableDiv.childNodes.length - 1],
+        lastLine.length
+    );
+    // var range = document.createRange();
+    // var sel = window.getSelection();
+
+    // range.setStart(el.childNodes[0], 0);
+    // range.collapse(true);
+
+    // sel.removeAllRanges();
+    // sel.addRange(range);
+}
 
 // EMOJI DATA VALUES
 let box = [];
